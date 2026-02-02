@@ -1,0 +1,29 @@
+Musts:
+- 65% layout from keyboard-layout.png
+
+Wants:
+- Bluetooth LE (5.1?)
+- ~1200MaH battery
+- Hotswap switch mounts
+
+Antenna:
+- Tiny patch antenna
+- TI inverted F intenna schematic
+
+SOC:
+- https://www.nordicsemi.com/Products/nRF52840
+- https://www.digikey.com/en/products/detail/nordic-semiconductor-asa/NRF52840-QFAA-F-R/15929812
+  - 4823-NRF52840-QFAA-F-RCT-ND
+
+misc:
+- Phil's Lab:
+  - https://www.youtube.com/watch?v=nkHFoxe0mrU
+  - https://www.youtube.com/watch?v=PlXd3lLZ4vc
+- REMEMBER PCB GUIDELINES FROM NRF DATASHEET PAGE 967
+- Look at crystal datasheet for cap values
+- Use shielded inductors to prevent RF interference
+
+BOM:
+- 1x SOC    https://www.digikey.com/en/products/detail/nordic-semiconductor-asa/NRF52840-QFAA-F-R/15929812
+- 1x XTAL   https://www.digikey.com/en/products/detail/txc-corporation/8Y-32-000MAAV-T/4175758
+- 1x CH224K https://www.lcsc.com/product-detail/C970725.html
