@@ -2,7 +2,7 @@ Musts:
 - 65% layout from keyboard-layout.png
 
 Wants:
-- Bluetooth LE (5.1?)
+- Bluetooth LE (5?)
 - ~1200MaH battery
 - Hotswap switch mounts
 
@@ -12,8 +12,8 @@ Antenna:
 
 SOC:
 - https://www.nordicsemi.com/Products/nRF52840
-- https://www.digikey.com/en/products/detail/nordic-semiconductor-asa/NRF52840-QFAA-F-R/15929812
-  - 4823-NRF52840-QFAA-F-RCT-ND
+- https://www.digikey.co.uk/en/products/detail/nordic-semiconductor-asa/NRF52840-QIAA-F-R/15929794
+  - NRF52840-QIAA-F-R
 
 misc:
 - Phil's Lab:
@@ -24,6 +24,6 @@ misc:
 - Use shielded inductors to prevent RF interference
 
 BOM:
-- 1x SOC    https://www.digikey.com/en/products/detail/nordic-semiconductor-asa/NRF52840-QFAA-F-R/15929812
+- 1x SOC    https://www.digikey.co.uk/en/products/detail/nordic-semiconductor-asa/NRF52840-QIAA-F-R/15929794
 - 1x XTAL   https://www.digikey.com/en/products/detail/txc-corporation/8Y-32-000MAAV-T/4175758
 - 1x CH224K https://www.lcsc.com/product-detail/C970725.html
