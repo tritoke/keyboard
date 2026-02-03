@@ -1,0 +1,12 @@
+[submodule "pcb/kicad_submodules/kicad_lib_tmk"]
+	path = pcb/kicad_submodules/kicad_lib_tmk
+	url = https://github.com/tmk/kicad_lib_tmk
+[submodule "pcb/kicad_submodules/keyboard_parts.pretty"]
+	path = pcb/kicad_submodules/keyboard_parts.pretty
+	url = https://github.com/tmk/keyboard_parts.pretty
+[submodule "pcb/kicad_submodules/keebs.pretty"]
+	path = pcb/kicad_submodules/keebs.pretty
+	url = https://github.com/egladman/keebs.pretty
+[submodule "pcb/kicad_submodules/nordic-lib-kicad"]
+	path = pcb/kicad_submodules/nordic-lib-kicad
+	url = https://github.com/hlord2000/nordic-lib-kicad
