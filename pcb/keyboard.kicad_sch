@@ -7266,7 +7266,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "10482084-a545-4aa4-8b75-11043176cfae")
-		(property "Sheetname" "usb"
+		(property "Sheetname" "charging"
 			(at 252.73 61.5184 0)
 			(effects
 				(font

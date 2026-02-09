@@ -6,6 +6,9 @@ Wants:
 - ~1200MaH battery
 - Hotswap switch mounts
 
+Could be funny:
+- This MCU supports NFC, could make it point to the github repo 😂
+
 Antenna:
 - Tiny patch antenna
 - TI inverted F intenna schematic
@@ -22,8 +25,10 @@ misc:
 - REMEMBER PCB GUIDELINES FROM NRF DATASHEET PAGE 967
 - Look at crystal datasheet for cap values
 - Use shielded inductors to prevent RF interference
+- Ferrite beads on USB GND and VBUS lines?
+- Pull up on the reset line afer all?
 
 BOM:
-- 1x SOC    https://www.digikey.co.uk/en/products/detail/nordic-semiconductor-asa/NRF52840-QIAA-F-R/15929794
-- 1x XTAL   https://www.digikey.com/en/products/detail/txc-corporation/8Y-32-000MAAV-T/4175758
-- 1x CH224K https://www.lcsc.com/product-detail/C970725.html
+- 1x SOC           https://www.digikey.co.uk/en/products/detail/nordic-semiconductor-asa/NRF52840-QIAA-F-R/15929794
+- 1x XTAL          https://www.digikey.com/en/products/detail/txc-corporation/8Y-32-000MAAV-T/4175758
+- 1x CH224K        https://www.lcsc.com/product-detail/C970725.html
