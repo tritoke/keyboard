@@ -7251,8 +7251,8 @@
 		)
 	)
 	(sheet
-		(at 252.73 62.23)
-		(size 12.7 3.81)
+		(at 251.46 63.5)
+		(size 22.86 7.62)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -7267,7 +7267,7 @@
 		)
 		(uuid "10482084-a545-4aa4-8b75-11043176cfae")
 		(property "Sheetname" "charging"
-			(at 252.73 61.5184 0)
+			(at 251.46 62.7884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7276,7 +7276,7 @@
 			)
 		)
 		(property "Sheetfile" "usb.kicad_sch"
-			(at 252.73 66.6246 0)
+			(at 251.46 71.7046 0)
 			(effects
 				(font
 					(size 1.27 1.27)

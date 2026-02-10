@@ -27,6 +27,8 @@ misc:
 - Use shielded inductors to prevent RF interference
 - Ferrite beads on USB GND and VBUS lines?
 - Pull up on the reset line afer all?
+- USB differential pair routing:
+  - https://www.digikey.com/en/maker/projects/how-to-route-differential-pairs-in-kicad-for-usb/45b99011f5d34879ae1831dce1f13e93
 
 BOM:
 - 1x SOC           https://www.digikey.co.uk/en/products/detail/nordic-semiconductor-asa/NRF52840-QIAA-F-R/15929794
