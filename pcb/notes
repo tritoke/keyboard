@@ -33,4 +33,9 @@ misc:
 BOM:
 - 1x SOC           https://www.digikey.co.uk/en/products/detail/nordic-semiconductor-asa/NRF52840-QIAA-F-R/15929794
 - 1x XTAL          https://www.digikey.com/en/products/detail/txc-corporation/8Y-32-000MAAV-T/4175758
-- 1x CH224K        https://www.lcsc.com/product-detail/C970725.html
+- 1x MSS1P4-M3/89A https://www.digikey.com/en/products/detail/vishay-general-semiconductor-diodes-division/MSS1P4-M3-89A/2071753
+
+Reminders:
+- REMEMBER PCB GUIDELINES FROM NRF DATASHEET PAGE 967
+- Update resistor values once specific LEDs are chosen for the battery charging status LEDs
+
