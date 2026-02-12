@@ -2766,6 +2766,182 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Switch:SW_SPDT"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_SPDT"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Switch, single pole double throw"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch single-pole double-throw spdt ON-ON"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_SPDT_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.651 0.254) (xy 1.651 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 -2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_SPDT_1_1"
+				(rectangle
+					(start -3.175 3.81)
+					(end 3.175 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Transistor_FET:FDN340P"
 			(pin_names
 				(hide yes)
@@ -3441,6 +3617,18 @@
 		(uuid 22d62fff-e153-4748-8d48-35840ca657e3)
 	)
 	(rectangle
+		(start 191.77 127)
+		(end 218.44 156.21)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 7051a04b-eb82-4620-93dd-4e0589273ef9)
+	)
+	(rectangle
 		(start 107.95 30.48)
 		(end 222.25 99.06)
 		(stroke
@@ -3491,6 +3679,16 @@
 			)
 		)
 		(uuid "6bda6d90-d96e-435e-9c8e-403222d62acd")
+	)
+	(text "On/Off switch"
+		(exclude_from_sim no)
+		(at 199.644 129.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b682dea6-b549-44a3-aa01-5517c6cade8b")
 	)
 	(text "Battery Bypass"
 		(exclude_from_sim no)
@@ -3595,6 +3793,10 @@
 	(no_connect
 		(at 62.23 77.47)
 		(uuid "53c36e91-247c-4c7c-930a-079d5e26f1d3")
+	)
+	(no_connect
+		(at 205.74 147.32)
+		(uuid "5c7ae0d4-5dd4-40b9-a820-7c4b4a00adf0")
 	)
 	(no_connect
 		(at 62.23 85.09)
@@ -3902,6 +4104,16 @@
 	)
 	(wire
 		(pts
+			(xy 210.82 142.24) (xy 205.74 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94d38b6c-5ea8-4306-bc74-4b796055a862")
+	)
+	(wire
+		(pts
 			(xy 82.55 36.83) (xy 85.09 36.83)
 		)
 		(stroke
@@ -4002,7 +4214,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 144.78) (xy 176.53 144.78)
+			(xy 166.37 144.78) (xy 195.58 144.78)
 		)
 		(stroke
 			(width 0)
@@ -4481,26 +4693,25 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VDD")
-		(at 176.53 144.78 0)
+		(lib_id "Switch:SW_SPDT")
+		(at 200.66 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "15f71628-26f1-4c77-9e9e-e965e09a04bd")
-		(property "Reference" "#PWR032"
-			(at 176.53 148.59 0)
+		(uuid "177301d3-8b4f-4c18-9d92-9ce2c8df714d")
+		(property "Reference" "SW2"
+			(at 200.66 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Value" "VDDH"
-			(at 176.53 139.7 0)
+		(property "Value" "SW_SPDT"
+			(at 200.66 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4508,7 +4719,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 176.53 144.78 0)
+			(at 200.66 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4516,8 +4727,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 176.53 144.78 0)
+		(property "Datasheet" "~"
+			(at 200.66 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4525,22 +4736,28 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 176.53 144.78 0)
+		(property "Description" "Switch, single pole double throw"
+			(at 200.66 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(pin "3"
+			(uuid "6bc9569f-f335-42cb-ad8d-348661c51e98")
 		)
 		(pin "1"
-			(uuid "d9c46a9b-21e1-4628-b640-27bad5278aa1")
+			(uuid "6c5eb1e1-4a47-4772-9470-fd88d1da38cb")
+		)
+		(pin "2"
+			(uuid "1341e926-2c59-42e8-a681-0f2fcb9dfec5")
 		)
 		(instances
 			(project ""
 				(path "/39e5e398-89ad-4475-a3bf-05d3324a2c58/10482084-a545-4aa4-8b75-11043176cfae"
-					(reference "#PWR032")
+					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -6309,6 +6526,71 @@
 			(project ""
 				(path "/39e5e398-89ad-4475-a3bf-05d3324a2c58/10482084-a545-4aa4-8b75-11043176cfae"
 					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 210.82 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f61ddc3d-38ee-43d0-82d5-7c1f04d7ce06")
+		(property "Reference" "#PWR032"
+			(at 210.82 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDDH"
+			(at 210.82 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 210.82 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 210.82 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fe723474-f3ac-4bb5-8d43-0653e947360b")
+		)
+		(instances
+			(project ""
+				(path "/39e5e398-89ad-4475-a3bf-05d3324a2c58/10482084-a545-4aa4-8b75-11043176cfae"
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
