@@ -10,3 +10,6 @@
 [submodule "pcb/kicad_submodules/nordic-lib-kicad"]
 	path = pcb/kicad_submodules/nordic-lib-kicad
 	url = https://github.com/hlord2000/nordic-lib-kicad
+[submodule "pcb/kicad_submodules/kiswitch"]
+	path = pcb/kicad_submodules/kiswitch
+	url = https://github.com/kiswitch/kiswitch.git
