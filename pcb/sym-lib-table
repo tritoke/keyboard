@@ -12,4 +12,5 @@
   (lib (name "nordic-lib-kicad-npm")(type "KiCad")(uri "${KIPRJMOD}/kicad_submodules/nordic-lib-kicad/symbols/nordic-lib-kicad-npm.kicad_sym")(options "")(descr ""))
   (lib (name "keyboard_parts")(type "Legacy")(uri "${KIPRJMOD}/kicad_submodules/kicad_lib_tmk/keyboard_parts.lib")(options "")(descr ""))
   (lib (name "USB4215-03-A")(type "KiCad")(uri "${KIPRJMOD}/kicad_submodules/USB4215_03_A/KiCADv6/2026-02-08_14-53-34.kicad_sym")(options "")(descr ""))
+  (lib (name "my_symbols")(type "KiCad")(uri "${KIPRJMOD}/my_symbols.kicad_sym")(options "")(descr ""))
 )
