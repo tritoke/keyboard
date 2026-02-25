@@ -49,20 +49,18 @@
 				(hide yes)
 			)
 		)
-		(symbol "FS8025A_0_1"
+		(symbol "FS8025A_1_1"
 			(rectangle
 				(start -10.16 -2.286)
 				(end 10.16 -15.24)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
-		)
-		(symbol "FS8025A_1_1"
 			(pin passive line
 				(at -10.16 -5.08 0)
 				(length 2.54)
