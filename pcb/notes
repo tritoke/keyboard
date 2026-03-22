@@ -35,6 +35,7 @@ BOM:
 - 1x XTAL          https://www.digikey.com/en/products/detail/txc-corporation/8Y-32-000MAAV-T/4175758
 - 1x MSS1P4-M3/89A https://www.digikey.com/en/products/detail/vishay-general-semiconductor-diodes-division/MSS1P4-M3-89A/2071753
 - 1x Fuse          https://www.digikey.com/en/products/detail/bel-fuse-inc/0ABA-0315-TN/11658193
+- 1x 18650         https://www.digikey.com/en/products/detail/jauch-quartz/LIINR18650JD-26E-2-6AH/26408508
 
 Reminders:
 - REMEMBER PCB GUIDELINES FROM NRF DATASHEET PAGE 967
