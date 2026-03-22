@@ -4668,7 +4668,7 @@
 			(uuid "cbc1014e-c061-45de-ace3-5a1e91362c87")
 		)
 		(instances
-			(project ""
+			(project "keyboard"
 				(path "/39e5e398-89ad-4475-a3bf-05d3324a2c58"
 					(reference "#PWR01")
 					(unit 1)
@@ -4738,7 +4738,7 @@
 			(uuid "2e8c55a4-3119-459c-99bf-0d23f203fe6b")
 		)
 		(instances
-			(project ""
+			(project "keyboard"
 				(path "/39e5e398-89ad-4475-a3bf-05d3324a2c58"
 					(reference "C20")
 					(unit 1)
@@ -4938,7 +4938,7 @@
 			(uuid "3a9e2a96-e883-47a0-9da4-56f2236678c7")
 		)
 		(instances
-			(project ""
+			(project "keyboard"
 				(path "/39e5e398-89ad-4475-a3bf-05d3324a2c58"
 					(reference "SW1")
 					(unit 1)
@@ -5168,7 +5168,7 @@
 			(uuid "f996874b-6ed6-413f-95ac-38139f2e965d")
 		)
 		(instances
-			(project ""
+			(project "keyboard"
 				(path "/39e5e398-89ad-4475-a3bf-05d3324a2c58"
 					(reference "J1")
 					(unit 1)
@@ -5300,7 +5300,7 @@
 			(uuid "ba0950e9-ee3c-48cc-bed0-788efba2efd5")
 		)
 		(instances
-			(project ""
+			(project "keyboard"
 				(path "/39e5e398-89ad-4475-a3bf-05d3324a2c58"
 					(reference "#PWR07")
 					(unit 1)
@@ -5366,7 +5366,7 @@
 			(uuid "ee40ad97-fdd2-44ab-8459-588cfe038d21")
 		)
 		(instances
-			(project ""
+			(project "keyboard"
 				(path "/39e5e398-89ad-4475-a3bf-05d3324a2c58"
 					(reference "#PWR04")
 					(unit 1)
@@ -5787,7 +5787,7 @@
 			(uuid "c20085da-3191-48fd-a261-858023c2c50a")
 		)
 		(instances
-			(project ""
+			(project "keyboard"
 				(path "/39e5e398-89ad-4475-a3bf-05d3324a2c58"
 					(reference "U1")
 					(unit 1)
@@ -6373,7 +6373,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 60.452 151.13 90)
 			(effects
 				(font
@@ -6407,7 +6407,7 @@
 			(uuid "ae7803cd-5c44-443f-944c-11f61880bf07")
 		)
 		(instances
-			(project ""
+			(project "keyboard"
 				(path "/39e5e398-89ad-4475-a3bf-05d3324a2c58"
 					(reference "R10")
 					(unit 1)
@@ -6473,7 +6473,7 @@
 			(uuid "563a58c5-c952-41ce-bc14-88a3dae30d22")
 		)
 		(instances
-			(project ""
+			(project "keyboard"
 				(path "/39e5e398-89ad-4475-a3bf-05d3324a2c58"
 					(reference "#PWR08")
 					(unit 1)
@@ -6541,7 +6541,7 @@
 			(uuid "61874bc1-ff83-4a26-b196-21ae5ee51e76")
 		)
 		(instances
-			(project ""
+			(project "keyboard"
 				(path "/39e5e398-89ad-4475-a3bf-05d3324a2c58"
 					(reference "L1")
 					(unit 1)
@@ -6673,7 +6673,7 @@
 			(uuid "4fa4c88a-1dab-4580-933c-2ec485d68e35")
 		)
 		(instances
-			(project ""
+			(project "keyboard"
 				(path "/39e5e398-89ad-4475-a3bf-05d3324a2c58"
 					(reference "#PWR09")
 					(unit 1)
@@ -6739,7 +6739,7 @@
 			(uuid "641100df-9378-435d-a433-ef208f703401")
 		)
 		(instances
-			(project ""
+			(project "keyboard"
 				(path "/39e5e398-89ad-4475-a3bf-05d3324a2c58"
 					(reference "#PWR02")
 					(unit 1)
@@ -7016,7 +7016,7 @@
 			(uuid "f83117ef-166b-4617-ab7d-70004ffb3eaa")
 		)
 		(instances
-			(project ""
+			(project "keyboard"
 				(path "/39e5e398-89ad-4475-a3bf-05d3324a2c58"
 					(reference "C3")
 					(unit 1)
@@ -7558,7 +7558,7 @@
 			(uuid "b746364f-e9da-4e40-8ebf-af9f1d165c5f")
 		)
 		(instances
-			(project ""
+			(project "keyboard"
 				(path "/39e5e398-89ad-4475-a3bf-05d3324a2c58"
 					(reference "#PWR014")
 					(unit 1)
@@ -7661,7 +7661,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Crystal:Crystal_SMD_2016-4Pin_2.0x1.6mm"
 			(at 39.37 116.84 0)
 			(effects
 				(font
@@ -7903,7 +7903,7 @@
 			(uuid "a64d04a7-8369-4287-b7e7-013f6d23fd0c")
 		)
 		(instances
-			(project ""
+			(project "keyboard"
 				(path "/39e5e398-89ad-4475-a3bf-05d3324a2c58"
 					(reference "C6")
 					(unit 1)

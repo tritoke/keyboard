@@ -5035,7 +5035,7 @@
 			(uuid "6a6b8332-6a90-4c7e-83c0-2cc73c147fdb")
 		)
 		(instances
-			(project ""
+			(project "keyboard"
 				(path "/39e5e398-89ad-4475-a3bf-05d3324a2c58/56736464-eab6-4548-8392-dbeb66d93f8c"
 					(reference "K1")
 					(unit 1)
@@ -9139,7 +9139,7 @@
 			(uuid "68e0bd17-444c-4436-8369-65433248e174")
 		)
 		(instances
-			(project ""
+			(project "keyboard"
 				(path "/39e5e398-89ad-4475-a3bf-05d3324a2c58/56736464-eab6-4548-8392-dbeb66d93f8c"
 					(reference "D1")
 					(unit 1)
