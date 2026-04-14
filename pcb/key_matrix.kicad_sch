@@ -15844,7 +15844,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_6.25u"
+		(property "Footprint" "My_Footprints:SW_Hotswap_Kailh_MX_6.25u_Stabilised"
 			(at 191.77 173.99 0)
 			(hide yes)
 			(show_name no)
