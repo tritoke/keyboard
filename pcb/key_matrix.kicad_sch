@@ -16028,7 +16028,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_2.00u"
+		(property "Footprint" "My_Footprints:SW_Hotswap_Kailh_MX_2.00u_Stabilised"
 			(at 342.9 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -17628,7 +17628,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_ISOEnter"
+		(property "Footprint" "My_Footprints:SW_Hotswap_Kailh_MX_ISOEnter_Stabilised"
 			(at 342.9 109.22 0)
 			(hide yes)
 			(show_name no)
