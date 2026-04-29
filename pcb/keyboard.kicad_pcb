@@ -113,7 +113,6 @@
 		)
 		(capping no)
 		(filling no)
-		(zone_defaults)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
@@ -154,13 +153,13 @@
 	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.25u"
 		(layer "F.Cu")
 		(uuid "01577daa-28a3-44e6-981e-62de3a3607ca")
-		(at 94.33 229)
+		(at 83.3435 185.737)
 		(descr "Kailh keyswitch Hotswap Socket Keycap 1.25u")
 		(tags "Kailh Keyboard Keyswitch Switch Hotswap Socket Relief Cutout Keycap 1.25u")
 		(property "Reference" "K62"
 			(at 0 -8 0)
 			(layer "F.SilkS")
-			(uuid "df3fc29a-5c37-4cd4-9d46-a4a98a26dc44")
+			(uuid "ad56c5cf-e31e-4c69-9ce2-5bd25f82f5c7")
 			(effects
 				(font
 					(size 1 1)
@@ -171,7 +170,7 @@
 		(property "Value" "KEYSW"
 			(at 0 8 0)
 			(layer "F.Fab")
-			(uuid "6e2264a0-b0a0-419c-8352-67b62e1ff5ff")
+			(uuid "c6d4e38a-cb8a-4dfd-bcf7-9b90eae7395c")
 			(effects
 				(font
 					(size 1 1)
@@ -183,7 +182,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "64d2e688-be2e-44db-82c9-f449c4fe79b5")
+			(uuid "e825f0f5-8422-4788-ab5d-1cc233dfc351")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -194,7 +193,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "bc3022bf-929c-4322-8583-e3d3df1591ad")
+			(uuid "6db0975b-d6e6-4a3c-a6bd-22b337c01f42")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -996,7 +995,7 @@
 	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
 		(layer "F.Cu")
 		(uuid "02e6f89e-a273-4dc3-9f48-8dc2a7c27224")
-		(at 120.42 165.675)
+		(at 261.9375 147.6375)
 		(descr "Kailh keyswitch Hotswap Socket Keycap 1.00u")
 		(tags "Kailh Keyboard Keyswitch Switch Hotswap Socket Relief Cutout Keycap 1.00u")
 		(property "Reference" "K41"
@@ -1840,13 +1839,13 @@
 	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
 		(layer "F.Cu")
 		(uuid "0a0e88b6-1a39-48b8-b97a-2c96422a39ca")
-		(at 296.58 229)
+		(at 285.75 185.737)
 		(descr "Kailh keyswitch Hotswap Socket Keycap 1.00u")
 		(tags "Kailh Keyboard Keyswitch Switch Hotswap Socket Relief Cutout Keycap 1.00u")
 		(property "Reference" "K72"
 			(at 0 -8 0)
 			(layer "F.SilkS")
-			(uuid "eec0d08b-5b11-4c4a-a2dc-88b4f321503e")
+			(uuid "bad540df-1c82-4858-8c99-b5d4c1b5bf6d")
 			(effects
 				(font
 					(size 1 1)
@@ -1857,7 +1856,7 @@
 		(property "Value" "KEYSW"
 			(at 0 8 0)
 			(layer "F.Fab")
-			(uuid "af498a57-fe5d-4458-ad3c-59049ad92f8b")
+			(uuid "c8e34374-b219-4217-a176-b4eb74f4397d")
 			(effects
 				(font
 					(size 1 1)
@@ -1869,7 +1868,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "59918b6a-2fb0-4896-b1e3-15588ee02357")
+			(uuid "85d3c95d-edbc-4dae-a2a3-32a28194aaf0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1880,7 +1879,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "430f9497-ec68-40dd-89c6-8638495e7e36")
+			(uuid "cacf8314-06a7-4766-a810-8f788b11ce5a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2917,13 +2916,13 @@
 	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
 		(layer "F.Cu")
 		(uuid "10d180ab-450a-486a-acc6-960c2112a9a6")
-		(at 92 210)
+		(at 80.96225 166.687)
 		(descr "Kailh keyswitch Hotswap Socket Keycap 1.00u")
 		(tags "Kailh Keyboard Keyswitch Switch Hotswap Socket Relief Cutout Keycap 1.00u")
 		(property "Reference" "K47"
 			(at 0 -8 0)
 			(layer "F.SilkS")
-			(uuid "f9369bbd-d38e-4dfe-8801-3f577d7b35c3")
+			(uuid "99bea106-d8b0-4830-8a2e-cbd3b99caf3d")
 			(effects
 				(font
 					(size 1 1)
@@ -2934,7 +2933,7 @@
 		(property "Value" "KEYSW"
 			(at 0 8 0)
 			(layer "F.Fab")
-			(uuid "ee82021f-dd34-403a-9e9e-e59bd767f4d9")
+			(uuid "f769e137-ad4a-486a-9771-21bbfcfd34c4")
 			(effects
 				(font
 					(size 1 1)
@@ -2946,7 +2945,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d413c99b-fc6d-44d8-8e94-7da4f10bbffe")
+			(uuid "385f53aa-b23c-4b8b-9863-7d1d39989776")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2957,7 +2956,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c566e1d5-a216-4a37-bf9e-a081038d8741")
+			(uuid "d2b26876-5486-4eb3-89ba-3d4fb66b622b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4547,7 +4546,7 @@
 	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
 		(layer "F.Cu")
 		(uuid "1b87f101-ef64-4be5-873f-b3cacdf64d08")
-		(at 43.95 151.09)
+		(at 142.875 128.5875)
 		(descr "Kailh keyswitch Hotswap Socket Keycap 1.00u")
 		(tags "Kailh Keyboard Keyswitch Switch Hotswap Socket Relief Cutout Keycap 1.00u")
 		(property "Reference" "K20"
@@ -6063,13 +6062,13 @@
 	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
 		(layer "F.Cu")
 		(uuid "1fafc759-4241-4f84-9bc0-eac3684eaabd")
-		(at 111 210)
+		(at 100.012 166.687)
 		(descr "Kailh keyswitch Hotswap Socket Keycap 1.00u")
 		(tags "Kailh Keyboard Keyswitch Switch Hotswap Socket Relief Cutout Keycap 1.00u")
 		(property "Reference" "K48"
 			(at 0 -8 0)
 			(layer "F.SilkS")
-			(uuid "4455a04b-6498-40f0-bc1c-89050ba410be")
+			(uuid "68265822-fc72-46a3-a7c3-0a7acbb3c57c")
 			(effects
 				(font
 					(size 1 1)
@@ -6080,7 +6079,7 @@
 		(property "Value" "KEYSW"
 			(at 0 8 0)
 			(layer "F.Fab")
-			(uuid "599c1844-f5f5-4b84-93b9-928a97341c77")
+			(uuid "776ff99d-b4ea-4b47-9bc8-0136f467f242")
 			(effects
 				(font
 					(size 1 1)
@@ -6092,7 +6091,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c9fffde0-329a-40ac-954d-ef890f15dd64")
+			(uuid "60a66e4f-91eb-40a0-9441-2f61c7629c73")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6103,7 +6102,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4c7f53e3-0d6f-4fc7-ba18-fdcda0865abf")
+			(uuid "0de9be6d-7d19-4f48-aa25-f88c24cd3f05")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7298,7 +7297,7 @@
 	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
 		(layer "F.Cu")
 		(uuid "25984e3c-5d2f-42d6-81a5-4ad63f7a88ee")
-		(at 137.055 41.275)
+		(at 300.038 147.6375)
 		(descr "Kailh keyswitch Hotswap Socket Keycap 1.00u")
 		(tags "Kailh Keyboard Keyswitch Switch Hotswap Socket Relief Cutout Keycap 1.00u")
 		(property "Reference" "K43"
@@ -7982,7 +7981,7 @@
 	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
 		(layer "F.Cu")
 		(uuid "2687803d-b397-40ea-8a43-c73a7add5e6d")
-		(at 27.315 88.89)
+		(at 133.35 109.5375)
 		(descr "Kailh keyswitch Hotswap Socket Keycap 1.00u")
 		(tags "Kailh Keyboard Keyswitch Switch Hotswap Socket Relief Cutout Keycap 1.00u")
 		(property "Reference" "K5"
@@ -8666,13 +8665,13 @@
 	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.25u"
 		(layer "F.Cu")
 		(uuid "28293bea-59ff-47b1-9d5a-44fb52aa0be6")
-		(at 118.16 229)
+		(at 107.156 185.737)
 		(descr "Kailh keyswitch Hotswap Socket Keycap 1.25u")
 		(tags "Kailh Keyboard Keyswitch Switch Hotswap Socket Relief Cutout Keycap 1.25u")
 		(property "Reference" "K63"
 			(at 0 -8 0)
 			(layer "F.SilkS")
-			(uuid "7a77eb59-522a-4685-864b-3321a1bbb714")
+			(uuid "8a7a497a-aca7-4eec-9b89-652f48d0e137")
 			(effects
 				(font
 					(size 1 1)
@@ -8683,7 +8682,7 @@
 		(property "Value" "KEYSW"
 			(at 0 8 0)
 			(layer "F.Fab")
-			(uuid "aedd2ec5-5081-4ae6-a87f-eb47e26d6755")
+			(uuid "9bd50e74-3ab8-448b-8f81-fcdea7a96800")
 			(effects
 				(font
 					(size 1 1)
@@ -8695,7 +8694,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "30824654-d544-4a4b-9db1-d328e9a98e91")
+			(uuid "d03be97c-8ef5-482f-8316-b86cd5a51d07")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8706,7 +8705,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "63ffe9e4-a3b8-4247-b89d-472eefaeb004")
+			(uuid "bb7f8158-a710-4617-870d-8d7e2a9cd9e2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10042,13 +10041,13 @@
 	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
 		(layer "F.Cu")
 		(uuid "2d2a1f28-5f58-422c-a4b6-ce33181098a1")
-		(at 168.17 210)
+		(at 157.162 166.687)
 		(descr "Kailh keyswitch Hotswap Socket Keycap 1.00u")
 		(tags "Kailh Keyboard Keyswitch Switch Hotswap Socket Relief Cutout Keycap 1.00u")
 		(property "Reference" "K51"
 			(at 0 -8 0)
 			(layer "F.SilkS")
-			(uuid "a5cfb400-56cb-49b2-99db-6de588c94a08")
+			(uuid "b5b6d129-d759-421a-8df7-926c779b2095")
 			(effects
 				(font
 					(size 1 1)
@@ -10059,7 +10058,7 @@
 		(property "Value" "KEYSW"
 			(at 0 8 0)
 			(layer "F.Fab")
-			(uuid "0f2c7ae9-00c6-476c-beb8-5561eb297592")
+			(uuid "8afb8ac0-f0af-409b-b622-e12e4263ba89")
 			(effects
 				(font
 					(size 1 1)
@@ -10071,7 +10070,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "de7222b8-64f4-4774-b436-3d3d871768dc")
+			(uuid "c3124829-d629-4c4c-815c-df3cc48c6596")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10082,7 +10081,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6f4cee27-4a61-4aaf-8b1f-262c41bf9f77")
+			(uuid "fbbe14c7-3aaf-4827-9831-8b8369672df6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11666,7 +11665,7 @@
 	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
 		(layer "F.Cu")
 		(uuid "3281ce17-ac11-4caa-85da-4842d431d289")
-		(at 27.315 42.24)
+		(at 76.2 109.5375)
 		(descr "Kailh keyswitch Hotswap Socket Keycap 1.00u")
 		(tags "Kailh Keyboard Keyswitch Switch Hotswap Socket Relief Cutout Keycap 1.00u")
 		(property "Reference" "K2"
@@ -12743,7 +12742,7 @@
 	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
 		(layer "F.Cu")
 		(uuid "342f5684-0721-4c78-b0fb-f11c9591eab7")
-		(at 120.42 119.025)
+		(at 204.7875 147.6375)
 		(descr "Kailh keyswitch Hotswap Socket Keycap 1.00u")
 		(tags "Kailh Keyboard Keyswitch Switch Hotswap Socket Relief Cutout Keycap 1.00u")
 		(property "Reference" "K38"
@@ -13820,7 +13819,7 @@
 	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
 		(layer "F.Cu")
 		(uuid "37b6fa5b-f8fa-47fa-9f0b-78fd3c6c4afd")
-		(at 120.42 103.475)
+		(at 185.7375 147.6375)
 		(descr "Kailh keyswitch Hotswap Socket Keycap 1.00u")
 		(tags "Kailh Keyboard Keyswitch Switch Hotswap Socket Relief Cutout Keycap 1.00u")
 		(property "Reference" "K37"
@@ -14739,7 +14738,7 @@
 	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
 		(layer "F.Cu")
 		(uuid "3b4d584e-284d-4b2c-bf2d-c9b1c84b7aeb")
-		(at 60.585 26.69)
+		(at 180.975 128.5875)
 		(descr "Kailh keyswitch Hotswap Socket Keycap 1.00u")
 		(tags "Kailh Keyboard Keyswitch Switch Hotswap Socket Relief Cutout Keycap 1.00u")
 		(property "Reference" "K22"
@@ -15818,13 +15817,13 @@
 	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
 		(layer "F.Cu")
 		(uuid "3ca1ce70-f8e4-4446-8994-d98be7b02f3d")
-		(at 353.58 229)
+		(at 342.9 185.737)
 		(descr "Kailh keyswitch Hotswap Socket Keycap 1.00u")
 		(tags "Kailh Keyboard Keyswitch Switch Hotswap Socket Relief Cutout Keycap 1.00u")
 		(property "Reference" "K75"
 			(at 0 -8 0)
 			(layer "F.SilkS")
-			(uuid "2393dc84-3fd8-49b2-9321-91615d2753af")
+			(uuid "1f185e9a-d654-4d16-b912-cc2b4b1e73bc")
 			(effects
 				(font
 					(size 1 1)
@@ -15835,7 +15834,7 @@
 		(property "Value" "KEYSW"
 			(at 0 8 0)
 			(layer "F.Fab")
-			(uuid "e2a9379e-4332-49ee-9c24-ea53e11b3bbd")
+			(uuid "0b8845ce-b027-4683-980a-125882b8abb2")
 			(effects
 				(font
 					(size 1 1)
@@ -15847,7 +15846,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "97240491-67b7-4c0b-ae00-b147dd7af6ec")
+			(uuid "d38b541a-4f0c-41ba-b9f5-b88777227a09")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15858,7 +15857,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "cda7dd1f-30e1-4737-b8bc-7e8ba1b0c3c8")
+			(uuid "9c13c153-3354-40ba-97df-7a8c11d5a702")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17207,7 +17206,7 @@
 	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
 		(layer "F.Cu")
 		(uuid "3e1dc5eb-8e9e-4bb6-8495-23e789a2cc2d")
-		(at 43.95 166.64)
+		(at 161.925 128.5875)
 		(descr "Kailh keyswitch Hotswap Socket Keycap 1.00u")
 		(tags "Kailh Keyboard Keyswitch Switch Hotswap Socket Relief Cutout Keycap 1.00u")
 		(property "Reference" "K21"
@@ -18365,7 +18364,7 @@
 	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
 		(layer "F.Cu")
 		(uuid "3f384658-bc15-47f7-8bfc-c78addc455fc")
-		(at 60.585 42.24)
+		(at 200.025 128.5875)
 		(descr "Kailh keyswitch Hotswap Socket Keycap 1.00u")
 		(tags "Kailh Keyboard Keyswitch Switch Hotswap Socket Relief Cutout Keycap 1.00u")
 		(property "Reference" "K23"
@@ -20107,13 +20106,13 @@
 	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
 		(layer "F.Cu")
 		(uuid "46fa5381-af93-4bd9-849d-d0f97aac8340")
-		(at 149.17 210)
+		(at 138.112 166.687)
 		(descr "Kailh keyswitch Hotswap Socket Keycap 1.00u")
 		(tags "Kailh Keyboard Keyswitch Switch Hotswap Socket Relief Cutout Keycap 1.00u")
 		(property "Reference" "K50"
 			(at 0 -8 0)
 			(layer "F.SilkS")
-			(uuid "0d0e8744-30de-4274-aa43-5dd165e82090")
+			(uuid "361f7f25-64d6-44b9-b540-bfcb87d1bb8b")
 			(effects
 				(font
 					(size 1 1)
@@ -20124,7 +20123,7 @@
 		(property "Value" "KEYSW"
 			(at 0 8 0)
 			(layer "F.Fab")
-			(uuid "f21f9754-5d6c-4775-9125-b1366a7f017d")
+			(uuid "fd2ca269-c739-4271-9871-ef89053efa1d")
 			(effects
 				(font
 					(size 1 1)
@@ -20136,7 +20135,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5a1044bb-672b-4e91-b80e-9e74f6d44020")
+			(uuid "ccf7d4cc-593b-4afa-8106-7b962eb5d3f4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20147,7 +20146,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a6eeb3a8-1da2-4ad8-97ac-4ed6b3021894")
+			(uuid "0b49ee99-534d-4640-a4b0-7c64462d953f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21812,13 +21811,13 @@
 	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.25u"
 		(layer "F.Cu")
 		(uuid "4e7798a4-b999-4e1f-b9c6-8ffb80fa9639")
-		(at 70.5 210)
+		(at 59.531 166.687)
 		(descr "Kailh keyswitch Hotswap Socket Keycap 1.25u")
 		(tags "Kailh Keyboard Keyswitch Switch Hotswap Socket Relief Cutout Keycap 1.25u")
 		(property "Reference" "K46"
 			(at 0 -8 0)
 			(layer "F.SilkS")
-			(uuid "68a18409-51d1-4bb7-85eb-76e7dd04d2d0")
+			(uuid "558e9af4-a4a0-49c6-a6d1-0a3bf30a8af0")
 			(effects
 				(font
 					(size 1 1)
@@ -21829,7 +21828,7 @@
 		(property "Value" "KEYSW"
 			(at 0 8 0)
 			(layer "F.Fab")
-			(uuid "4c740674-ab3a-4892-891a-618bc78d2676")
+			(uuid "02d5f0d9-a16a-4f87-a029-2ffd6a54a1a9")
 			(effects
 				(font
 					(size 1 1)
@@ -21841,7 +21840,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ba3057d3-eca4-4122-8376-98d924753fc8")
+			(uuid "27cb04dc-7140-4a06-a565-04c8c434bbe5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21852,7 +21851,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7a78b019-7efa-4d82-89b1-338a1dd452b7")
+			(uuid "d56ab0c7-44cc-4dae-9ade-cfc70ef20622")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23124,7 +23123,7 @@
 	(footprint "My_Footprints:SW_Hotswap_Kailh_MX_2.00u_Stabilised"
 		(layer "F.Cu")
 		(uuid "522a9338-a84c-4848-a13e-dcd5500ac33b")
-		(at 302.92 79)
+		(at 314.325 109.5375)
 		(property "Reference" "K14"
 			(at 0 -10.5 0)
 			(unlocked yes)
@@ -24087,7 +24086,7 @@
 	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
 		(layer "F.Cu")
 		(uuid "52846769-7952-4a1e-8b6c-2ba192be309c")
-		(at 43.95 104.44)
+		(at 85.725 128.5875)
 		(descr "Kailh keyswitch Hotswap Socket Keycap 1.00u")
 		(tags "Kailh Keyboard Keyswitch Switch Hotswap Socket Relief Cutout Keycap 1.00u")
 		(property "Reference" "K17"
@@ -24771,7 +24770,7 @@
 	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.50u"
 		(layer "F.Cu")
 		(uuid "54010306-46ba-4796-902b-bb646f9cb6c0")
-		(at 43.95 88.89)
+		(at 61.9125 128.5875)
 		(descr "Kailh keyswitch Hotswap Socket Keycap 1.50u")
 		(tags "Kailh Keyboard Keyswitch Switch Hotswap Socket Relief Cutout Keycap 1.50u")
 		(property "Reference" "K16"
@@ -26335,7 +26334,7 @@
 	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
 		(layer "F.Cu")
 		(uuid "633adeea-7389-43f2-b03b-bb572e7cdd4c")
-		(at 27.315 135.54)
+		(at 190.5 109.5375)
 		(descr "Kailh keyswitch Hotswap Socket Keycap 1.00u")
 		(tags "Kailh Keyboard Keyswitch Switch Hotswap Socket Relief Cutout Keycap 1.00u")
 		(property "Reference" "K8"
@@ -27254,13 +27253,13 @@
 	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
 		(layer "F.Cu")
 		(uuid "65b98187-c51c-4d2c-afb4-738d072f7997")
-		(at 206.17 210)
+		(at 195.262 166.687)
 		(descr "Kailh keyswitch Hotswap Socket Keycap 1.00u")
 		(tags "Kailh Keyboard Keyswitch Switch Hotswap Socket Relief Cutout Keycap 1.00u")
 		(property "Reference" "K53"
 			(at 0 -8 0)
 			(layer "F.SilkS")
-			(uuid "6057a5c0-157e-4559-b884-5342e8bec3f7")
+			(uuid "0ca7d40c-e7bf-4a93-ad12-84fe35afff39")
 			(effects
 				(font
 					(size 1 1)
@@ -27271,7 +27270,7 @@
 		(property "Value" "KEYSW"
 			(at 0 8 0)
 			(layer "F.Fab")
-			(uuid "9a36e52d-8965-491b-9d6c-24260a17f475")
+			(uuid "8fe48f26-af19-43e2-baff-7e1030821f7c")
 			(effects
 				(font
 					(size 1 1)
@@ -27283,7 +27282,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "824756b4-0a62-48bc-90d7-e6b1cfdac49e")
+			(uuid "0ff71628-df13-4832-9dd2-dc35bdc2105a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27294,7 +27293,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "26c29bec-81b6-4751-8a6f-bb97e647001b")
+			(uuid "f8bccc11-91f2-4e45-a0f9-196e3d6b53ab")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27938,7 +27937,7 @@
 	(footprint "My_Footprints:SW_Hotswap_Kailh_MX_ISOEnter_Stabilised"
 		(layer "F.Cu")
 		(uuid "65d3e24f-4214-482c-83bb-aeed58a61f4f")
-		(at 326.5 168)
+		(at 321.469 138.1125)
 		(property "Reference" "K29"
 			(at 214.73 5.32 0)
 			(unlocked yes)
@@ -28763,7 +28762,7 @@
 	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
 		(layer "F.Cu")
 		(uuid "67bd855f-cace-4d81-8ecf-51afd9c410cd")
-		(at 120.42 56.825)
+		(at 128.5875 147.6375)
 		(descr "Kailh keyswitch Hotswap Socket Keycap 1.00u")
 		(tags "Kailh Keyboard Keyswitch Switch Hotswap Socket Relief Cutout Keycap 1.00u")
 		(property "Reference" "K34"
@@ -29682,13 +29681,13 @@
 	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
 		(layer "F.Cu")
 		(uuid "6ac19259-9ccf-4b62-a476-da50203c9da9")
-		(at 258.58 229)
+		(at 247.65 185.737)
 		(descr "Kailh keyswitch Hotswap Socket Keycap 1.00u")
 		(tags "Kailh Keyboard Keyswitch Switch Hotswap Socket Relief Cutout Keycap 1.00u")
 		(property "Reference" "K70"
 			(at 0 -8 0)
 			(layer "F.SilkS")
-			(uuid "cd36eb30-346f-4759-abde-07928f3e1347")
+			(uuid "adb2f1d3-3b25-4386-b60e-d8776177711e")
 			(effects
 				(font
 					(size 1 1)
@@ -29699,7 +29698,7 @@
 		(property "Value" "KEYSW"
 			(at 0 8 0)
 			(layer "F.Fab")
-			(uuid "9fe5cbdf-2264-4aa5-a3a3-6d61dd6dc55b")
+			(uuid "ad6856e2-7fe2-482c-bc21-5f6f673b1a42")
 			(effects
 				(font
 					(size 1 1)
@@ -29711,7 +29710,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "cb98a3bc-0665-4d5f-9d25-dbd74f0c7c21")
+			(uuid "84730af2-15c2-45a6-8c42-be807f019f04")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29722,7 +29721,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1a05bf31-9d4f-467e-a545-fa6b5f6bd6d7")
+			(uuid "5f975924-e325-4a14-abd8-ea791ab8fc11")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30601,7 +30600,7 @@
 	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
 		(layer "F.Cu")
 		(uuid "6df5f530-b590-4e31-bf2e-2ce275aee686")
-		(at 103.785 181.225)
+		(at 90.4875 147.6375)
 		(descr "Kailh keyswitch Hotswap Socket Keycap 1.00u")
 		(tags "Kailh Keyboard Keyswitch Switch Hotswap Socket Relief Cutout Keycap 1.00u")
 		(property "Reference" "K32"
@@ -31678,7 +31677,7 @@
 	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
 		(layer "F.Cu")
 		(uuid "710274fe-afcb-47df-8ede-a6ccf294d407")
-		(at 43.95 57.79)
+		(at 285.75 109.5375)
 		(descr "Kailh keyswitch Hotswap Socket Keycap 1.00u")
 		(tags "Kailh Keyboard Keyswitch Switch Hotswap Socket Relief Cutout Keycap 1.00u")
 		(property "Reference" "K13"
@@ -32362,13 +32361,13 @@
 	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
 		(layer "F.Cu")
 		(uuid "715e1d1f-84fa-4dbf-a89f-28f2f1ee7404")
-		(at 277.58 229)
+		(at 266.7 185.737)
 		(descr "Kailh keyswitch Hotswap Socket Keycap 1.00u")
 		(tags "Kailh Keyboard Keyswitch Switch Hotswap Socket Relief Cutout Keycap 1.00u")
 		(property "Reference" "K71"
 			(at 0 -8 0)
 			(layer "F.SilkS")
-			(uuid "e0657f67-f409-4dd8-a74e-a238f267ef44")
+			(uuid "16244dfc-4a64-4ff3-8a05-3653ee81ae2f")
 			(effects
 				(font
 					(size 1 1)
@@ -32379,7 +32378,7 @@
 		(property "Value" "KEYSW"
 			(at 0 8 0)
 			(layer "F.Fab")
-			(uuid "ca7c63c1-df2b-497c-8bbb-9e027bef3944")
+			(uuid "2ee727df-e24a-417c-a4d2-0bb092c23ea3")
 			(effects
 				(font
 					(size 1 1)
@@ -32391,7 +32390,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7d77f28b-223d-4710-8809-e93c705f7f38")
+			(uuid "55d70ab5-c108-4770-9fe5-5e8141eb76aa")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32402,7 +32401,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "830baf6b-37ba-4b7f-9212-0ab51a52217e")
+			(uuid "910300ee-c73f-42fc-b321-45ce33ea1236")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33281,7 +33280,7 @@
 	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
 		(layer "F.Cu")
 		(uuid "71dc503a-af09-4437-b86f-cb4aeb6cf1bf")
-		(at 120.42 181.225)
+		(at 280.9875 147.6375)
 		(descr "Kailh keyswitch Hotswap Socket Keycap 1.00u")
 		(tags "Kailh Keyboard Keyswitch Switch Hotswap Socket Relief Cutout Keycap 1.00u")
 		(property "Reference" "K42"
@@ -34469,7 +34468,7 @@
 	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
 		(layer "F.Cu")
 		(uuid "762fad0c-0270-4337-b1f6-2ff67223e01b")
-		(at 27.315 26.69)
+		(at 57.15 109.5375)
 		(descr "Kailh keyswitch Hotswap Socket Keycap 1.00u")
 		(tags "Kailh Keyboard Keyswitch Switch Hotswap Socket Relief Cutout Keycap 1.00u")
 		(property "Reference" "K1"
@@ -35153,7 +35152,7 @@
 	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
 		(layer "F.Cu")
 		(uuid "774c2aae-1e62-4ed1-952a-b8b4c17c8797")
-		(at 27.315 151.09)
+		(at 209.55 109.5375)
 		(descr "Kailh keyswitch Hotswap Socket Keycap 1.00u")
 		(tags "Kailh Keyboard Keyswitch Switch Hotswap Socket Relief Cutout Keycap 1.00u")
 		(property "Reference" "K9"
@@ -36109,13 +36108,13 @@
 	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
 		(layer "F.Cu")
 		(uuid "78e84f8d-921f-48f8-a181-04960c578a30")
-		(at 187.17 210)
+		(at 176.212 166.687)
 		(descr "Kailh keyswitch Hotswap Socket Keycap 1.00u")
 		(tags "Kailh Keyboard Keyswitch Switch Hotswap Socket Relief Cutout Keycap 1.00u")
 		(property "Reference" "K52"
 			(at 0 -8 0)
 			(layer "F.SilkS")
-			(uuid "8b3a5bc6-1bf3-4d8e-b241-c932a91c8380")
+			(uuid "9463af09-de3a-444e-9f76-da89867b8c16")
 			(effects
 				(font
 					(size 1 1)
@@ -36126,7 +36125,7 @@
 		(property "Value" "KEYSW"
 			(at 0 8 0)
 			(layer "F.Fab")
-			(uuid "55173e24-3d63-435e-8c06-65342ad0400f")
+			(uuid "68bfeff3-17d2-4dcc-a6c6-85e94351d151")
 			(effects
 				(font
 					(size 1 1)
@@ -36138,7 +36137,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a7612165-3bfb-4f21-8c60-f2b5fb5a6992")
+			(uuid "754c2663-360e-489b-8736-99570136fe02")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36149,7 +36148,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "11c947b6-30af-41a4-a1b6-6fdfe249248a")
+			(uuid "a02bfe6e-93ca-4ce1-8849-fc6d5fc286b5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37263,13 +37262,13 @@
 	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
 		(layer "F.Cu")
 		(uuid "7fc1f07e-15f1-437c-8683-ac1d36c15693")
-		(at 263.17 210)
+		(at 252.412 166.687)
 		(descr "Kailh keyswitch Hotswap Socket Keycap 1.00u")
 		(tags "Kailh Keyboard Keyswitch Switch Hotswap Socket Relief Cutout Keycap 1.00u")
 		(property "Reference" "K56"
 			(at 0 -8 0)
 			(layer "F.SilkS")
-			(uuid "7d5b91e9-487f-4f8d-937c-f3d8dd266c95")
+			(uuid "bb16c971-a132-4dbf-b292-c32523fc6e88")
 			(effects
 				(font
 					(size 1 1)
@@ -37280,7 +37279,7 @@
 		(property "Value" "KEYSW"
 			(at 0 8 0)
 			(layer "F.Fab")
-			(uuid "9024bb64-234a-40f5-9820-dca113b2dbd9")
+			(uuid "a516274e-7dec-4538-89e4-37b61d938553")
 			(effects
 				(font
 					(size 1 1)
@@ -37292,7 +37291,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c6563b9f-6cd9-4e7b-9be9-fec36403e9d5")
+			(uuid "07c9fee8-4e12-4bfe-b883-b8ffe1ae12f2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37303,7 +37302,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0213da6c-7310-4f41-802c-3b04ca99673b")
+			(uuid "bda4b1f7-a90a-4b36-a104-484724b97754")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38417,7 +38416,7 @@
 	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
 		(layer "F.Cu")
 		(uuid "8081ebce-26a9-4fd5-8edd-9eb7b478f76f")
-		(at 60.585 73.34)
+		(at 238.125 128.5875)
 		(descr "Kailh keyswitch Hotswap Socket Keycap 1.00u")
 		(tags "Kailh Keyboard Keyswitch Switch Hotswap Socket Relief Cutout Keycap 1.00u")
 		(property "Reference" "K25"
@@ -40058,7 +40057,7 @@
 	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
 		(layer "F.Cu")
 		(uuid "8df3d052-75e3-4b78-8599-c2d48dce85f7")
-		(at 60.585 119.99)
+		(at 295.275 128.5875)
 		(descr "Kailh keyswitch Hotswap Socket Keycap 1.00u")
 		(tags "Kailh Keyboard Keyswitch Switch Hotswap Socket Relief Cutout Keycap 1.00u")
 		(property "Reference" "K28"
@@ -41199,13 +41198,13 @@
 	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
 		(layer "F.Cu")
 		(uuid "91e3607d-ab65-4495-8028-c35e4d02fa90")
-		(at 334.67 210)
+		(at 323.85 166.687)
 		(descr "Kailh keyswitch Hotswap Socket Keycap 1.00u")
 		(tags "Kailh Keyboard Keyswitch Switch Hotswap Socket Relief Cutout Keycap 1.00u")
 		(property "Reference" "K59"
 			(at 0 -8 0)
 			(layer "F.SilkS")
-			(uuid "788210b6-2ecd-4da8-bb0f-2ecc963b161f")
+			(uuid "66d06ad3-ede4-485c-9e87-d8e07779f526")
 			(effects
 				(font
 					(size 1 1)
@@ -41216,7 +41215,7 @@
 		(property "Value" "KEYSW"
 			(at 0 8 0)
 			(layer "F.Fab")
-			(uuid "a292b10f-aa74-426b-9f3c-b1ac74c8f136")
+			(uuid "f9177682-e08b-49ca-92ce-92a700d083dd")
 			(effects
 				(font
 					(size 1 1)
@@ -41228,7 +41227,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6005c489-7ca7-40e6-a27c-d601a3d45dba")
+			(uuid "d37c2c61-3166-4e26-8383-33e4142ac795")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41239,7 +41238,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0268312b-709c-4e18-af2f-fcf7881f4310")
+			(uuid "8eaded98-7b71-453e-b63a-b7f5f9f70c48")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41883,13 +41882,13 @@
 	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
 		(layer "F.Cu")
 		(uuid "92a355ff-6d73-4d42-bc61-0c159b51c146")
-		(at 315.58 229)
+		(at 304.8 185.737)
 		(descr "Kailh keyswitch Hotswap Socket Keycap 1.00u")
 		(tags "Kailh Keyboard Keyswitch Switch Hotswap Socket Relief Cutout Keycap 1.00u")
 		(property "Reference" "K73"
 			(at 0 -8 0)
 			(layer "F.SilkS")
-			(uuid "8ce340b1-164c-497a-8fcc-2df821a5171c")
+			(uuid "f4f7faba-8576-449b-b9e0-a2b40caac3bb")
 			(effects
 				(font
 					(size 1 1)
@@ -41900,7 +41899,7 @@
 		(property "Value" "KEYSW"
 			(at 0 8 0)
 			(layer "F.Fab")
-			(uuid "5dc4920e-ce2c-487b-be1a-81f191f06ba1")
+			(uuid "42596e76-dc7c-468e-a3bc-b7eb27ec464e")
 			(effects
 				(font
 					(size 1 1)
@@ -41912,7 +41911,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "aa346ba5-dddc-4012-8894-6ea994e897c5")
+			(uuid "5a6871a3-4213-4309-9971-7e3cfa71df04")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41923,7 +41922,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f0f840e2-7007-4ab7-8f63-8dcdb6de5e6f")
+			(uuid "a471e8e7-2fff-49e4-afef-9e7688d8336a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42960,7 +42959,7 @@
 	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
 		(layer "F.Cu")
 		(uuid "981c3953-62c6-4e22-a6be-9192ea998553")
-		(at 43.95 42.24)
+		(at 266.7 109.5375)
 		(descr "Kailh keyswitch Hotswap Socket Keycap 1.00u")
 		(tags "Kailh Keyboard Keyswitch Switch Hotswap Socket Relief Cutout Keycap 1.00u")
 		(property "Reference" "K12"
@@ -43644,7 +43643,7 @@
 	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
 		(layer "F.Cu")
 		(uuid "9aad97e9-0619-47fa-976a-bf89ddad85c9")
-		(at 120.42 87.925)
+		(at 166.6875 147.6375)
 		(descr "Kailh keyswitch Hotswap Socket Keycap 1.00u")
 		(tags "Kailh Keyboard Keyswitch Switch Hotswap Socket Relief Cutout Keycap 1.00u")
 		(property "Reference" "K36"
@@ -44328,7 +44327,7 @@
 	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
 		(layer "F.Cu")
 		(uuid "9bfaa075-2315-44dc-a4d2-16d6c78b0b80")
-		(at 27.315 119.99)
+		(at 171.45 109.5375)
 		(descr "Kailh keyswitch Hotswap Socket Keycap 1.00u")
 		(tags "Kailh Keyboard Keyswitch Switch Hotswap Socket Relief Cutout Keycap 1.00u")
 		(property "Reference" "K7"
@@ -45405,7 +45404,7 @@
 	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
 		(layer "F.Cu")
 		(uuid "9e9978e8-6737-4b54-a704-852545e9a206")
-		(at 120.42 41.275)
+		(at 109.5375 147.6375)
 		(descr "Kailh keyswitch Hotswap Socket Keycap 1.00u")
 		(tags "Kailh Keyboard Keyswitch Switch Hotswap Socket Relief Cutout Keycap 1.00u")
 		(property "Reference" "K33"
@@ -46482,13 +46481,13 @@
 	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.25u"
 		(layer "F.Cu")
 		(uuid "a5ebd90c-b7c3-40db-9f04-f4b9473e4e35")
-		(at 70.5 229)
+		(at 59.5315 185.737)
 		(descr "Kailh keyswitch Hotswap Socket Keycap 1.25u")
 		(tags "Kailh Keyboard Keyswitch Switch Hotswap Socket Relief Cutout Keycap 1.25u")
 		(property "Reference" "K61"
 			(at 0 -8 0)
 			(layer "F.SilkS")
-			(uuid "d92c3a63-18cf-47fc-9b03-71d32ecaa8f6")
+			(uuid "bc772876-1570-4959-b495-8e694799d28e")
 			(effects
 				(font
 					(size 1 1)
@@ -46499,7 +46498,7 @@
 		(property "Value" "KEYSW"
 			(at 0 8 0)
 			(layer "F.Fab")
-			(uuid "63a6a99d-c00c-4e5b-9485-6c0f47de3026")
+			(uuid "9c3ba0af-1f0b-428a-80ee-330ee6a807b6")
 			(effects
 				(font
 					(size 1 1)
@@ -46511,7 +46510,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8dfa7c0e-871b-404f-aed5-2920cc934644")
+			(uuid "ca72e2ca-5978-42cf-8f03-068d2989a4ac")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46522,7 +46521,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5cb6be0d-45f7-417a-9515-f37be14a343a")
+			(uuid "8403aa8f-f376-4b02-8358-679aea417beb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47166,13 +47165,13 @@
 	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
 		(layer "F.Cu")
 		(uuid "a7f142b8-f30c-41f1-b764-bb18e9a6455f")
-		(at 334.58 229)
+		(at 323.85 185.737)
 		(descr "Kailh keyswitch Hotswap Socket Keycap 1.00u")
 		(tags "Kailh Keyboard Keyswitch Switch Hotswap Socket Relief Cutout Keycap 1.00u")
 		(property "Reference" "K74"
 			(at 0 -8 0)
 			(layer "F.SilkS")
-			(uuid "62eca367-1173-4f31-8287-a063a0b537c0")
+			(uuid "6120320a-135e-4a6f-83fd-25b43035e8be")
 			(effects
 				(font
 					(size 1 1)
@@ -47183,7 +47182,7 @@
 		(property "Value" "KEYSW"
 			(at 0 8 0)
 			(layer "F.Fab")
-			(uuid "bac55d11-e224-4460-ad22-642909e652e5")
+			(uuid "335e69a4-4e0c-44a4-a3fa-61596268c6b0")
 			(effects
 				(font
 					(size 1 1)
@@ -47195,7 +47194,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1fc5bbd1-795b-4d22-b991-2dedfe0b13db")
+			(uuid "ae3e0353-86b2-4d88-9ff6-dc9864f9f82a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47206,7 +47205,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "eb834d61-d6a6-47f7-bcea-4e2c95ddeeaa")
+			(uuid "9a48ae8d-5f03-4c70-bb25-e0c3c1a994bd")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47850,7 +47849,7 @@
 	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
 		(layer "F.Cu")
 		(uuid "ab2822a6-3001-434a-b971-461a0f02da68")
-		(at 27.315 73.34)
+		(at 114.3 109.5375)
 		(descr "Kailh keyswitch Hotswap Socket Keycap 1.00u")
 		(tags "Kailh Keyboard Keyswitch Switch Hotswap Socket Relief Cutout Keycap 1.00u")
 		(property "Reference" "K4"
@@ -48769,7 +48768,7 @@
 	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
 		(layer "F.Cu")
 		(uuid "ac3d93f4-74a5-46d9-a96e-b26188610c34")
-		(at 60.585 57.79)
+		(at 219.075 128.5875)
 		(descr "Kailh keyswitch Hotswap Socket Keycap 1.00u")
 		(tags "Kailh Keyboard Keyswitch Switch Hotswap Socket Relief Cutout Keycap 1.00u")
 		(property "Reference" "K24"
@@ -49688,7 +49687,7 @@
 	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
 		(layer "F.Cu")
 		(uuid "ad29278f-bcc4-4a00-9a38-4645c4abfa2c")
-		(at 27.315 57.79)
+		(at 95.25 109.5375)
 		(descr "Kailh keyswitch Hotswap Socket Keycap 1.00u")
 		(tags "Kailh Keyboard Keyswitch Switch Hotswap Socket Relief Cutout Keycap 1.00u")
 		(property "Reference" "K3"
@@ -51973,12 +51972,12 @@
 	(footprint "My_Footprints:SW_Hotswap_Kailh_MX_6.25u_Stabilised"
 		(layer "F.Cu")
 		(uuid "b9aa4888-13ad-4945-b034-436c6cf11326")
-		(at 189.5 229)
+		(at 178.594 185.737)
 		(property "Reference" "K67"
-			(at 0 -11 0)
+			(at 6.1 -7.75 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "dbbba986-59fa-49d7-8764-41083f8c6744")
+			(uuid "21b669ab-7a1f-457b-afdb-1e825849714e")
 			(effects
 				(font
 					(size 1 1)
@@ -51990,7 +51989,7 @@
 			(at 0 11.5 0)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "4e982afc-dc4d-4252-a2d1-2386cef05a6c")
+			(uuid "2231d8f6-fdd7-4212-a0fe-f83def91dccc")
 			(effects
 				(font
 					(size 1 1)
@@ -52003,7 +52002,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "792c61d3-c51e-451e-a1d8-592b68b5ea22")
+			(uuid "c18cdbf5-8566-45bd-b349-90f62e19506f")
 			(effects
 				(font
 					(size 1 1)
@@ -52016,7 +52015,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "973443e4-de29-478a-b484-3b5c51c75a8a")
+			(uuid "1e2fb0de-1274-4632-b175-e5e3314615b7")
 			(effects
 				(font
 					(size 1 1)
@@ -52778,13 +52777,13 @@
 	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.75u"
 		(layer "F.Cu")
 		(uuid "bd5f443a-74b7-4005-9130-5ec53d760151")
-		(at 308.42 210)
+		(at 297.65625 166.687)
 		(descr "Kailh keyswitch Hotswap Socket Keycap 1.75u")
 		(tags "Kailh Keyboard Keyswitch Switch Hotswap Socket Relief Cutout Keycap 1.75u")
 		(property "Reference" "K58"
 			(at 0 -8 0)
 			(layer "F.SilkS")
-			(uuid "f1c2557b-43a3-49bd-82e5-83cbe6157de3")
+			(uuid "0b4b6fb6-8a2f-44f2-b8c6-82da222872e1")
 			(effects
 				(font
 					(size 1 1)
@@ -52795,7 +52794,7 @@
 		(property "Value" "KEYSW"
 			(at 0 8 0)
 			(layer "F.Fab")
-			(uuid "ce43be68-188b-4e71-90f9-6b02d5e77258")
+			(uuid "fc12b78e-69c6-4ccb-9cb2-c1abe1a51848")
 			(effects
 				(font
 					(size 1 1)
@@ -52807,7 +52806,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "44712841-f49f-4861-93b3-f8e6811c1d44")
+			(uuid "011f253a-5ac0-4359-be30-597619c11bba")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -52818,7 +52817,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "42875f05-fcfa-4b31-8641-3b6c698fba11")
+			(uuid "84afd7d4-65cd-45ce-9f82-d22f89e34a5c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -54030,7 +54029,7 @@
 	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
 		(layer "F.Cu")
 		(uuid "c33f16a2-a0c9-4ff4-a938-2b8d9ce278ec")
-		(at 120.42 72.375)
+		(at 147.6375 147.6375)
 		(descr "Kailh keyswitch Hotswap Socket Keycap 1.00u")
 		(tags "Kailh Keyboard Keyswitch Switch Hotswap Socket Relief Cutout Keycap 1.00u")
 		(property "Reference" "K35"
@@ -55781,7 +55780,7 @@
 	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
 		(layer "F.Cu")
 		(uuid "c87f72fe-7bda-4839-9501-a6631a9e26f8")
-		(at 43.95 26.69)
+		(at 247.65 109.5375)
 		(descr "Kailh keyswitch Hotswap Socket Keycap 1.00u")
 		(tags "Kailh Keyboard Keyswitch Switch Hotswap Socket Relief Cutout Keycap 1.00u")
 		(property "Reference" "K11"
@@ -56623,13 +56622,13 @@
 	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
 		(layer "F.Cu")
 		(uuid "c984569b-0100-4293-93f3-a7e650787211")
-		(at 244.17 210)
+		(at 233.362 166.687)
 		(descr "Kailh keyswitch Hotswap Socket Keycap 1.00u")
 		(tags "Kailh Keyboard Keyswitch Switch Hotswap Socket Relief Cutout Keycap 1.00u")
 		(property "Reference" "K55"
 			(at 0 -8 0)
 			(layer "F.SilkS")
-			(uuid "b8da3736-a49b-4f5e-b737-c3d2c0c7d1b5")
+			(uuid "72b72ed9-fc12-4d6a-ac2f-d2f56818b70f")
 			(effects
 				(font
 					(size 1 1)
@@ -56640,7 +56639,7 @@
 		(property "Value" "KEYSW"
 			(at 0 8 0)
 			(layer "F.Fab")
-			(uuid "80314dbc-b23b-421c-b098-fa7294b3d1f4")
+			(uuid "612fffd2-acd2-4915-a2ca-dc818f4c0383")
 			(effects
 				(font
 					(size 1 1)
@@ -56652,7 +56651,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d173f17a-05c2-4b8e-9e00-c097345a4e1d")
+			(uuid "894150db-a1a1-470a-bdb1-863dcab7c111")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56663,7 +56662,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7b43d518-1c0e-48bf-970b-dbc57021d765")
+			(uuid "11560c30-2bdd-4c55-a857-ea41f5bf207d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -57307,7 +57306,7 @@
 	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
 		(layer "F.Cu")
 		(uuid "cc090e54-1cf4-4484-9308-fbc30a1be09a")
-		(at 60.585 88.89)
+		(at 257.175 128.5875)
 		(descr "Kailh keyswitch Hotswap Socket Keycap 1.00u")
 		(tags "Kailh Keyboard Keyswitch Switch Hotswap Socket Relief Cutout Keycap 1.00u")
 		(property "Reference" "K26"
@@ -57991,7 +57990,7 @@
 	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
 		(layer "F.Cu")
 		(uuid "cc948960-3ac4-4f01-aa17-687ec54bf20b")
-		(at 60.585 135.54)
+		(at 342.9 128.5875)
 		(descr "Kailh keyswitch Hotswap Socket Keycap 1.00u")
 		(tags "Kailh Keyboard Keyswitch Switch Hotswap Socket Relief Cutout Keycap 1.00u")
 		(property "Reference" "K30"
@@ -59668,7 +59667,7 @@
 	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
 		(layer "F.Cu")
 		(uuid "d1fcd4ba-9f05-4f48-ae74-ad399d7cdee4")
-		(at 60.585 104.44)
+		(at 276.225 128.5875)
 		(descr "Kailh keyswitch Hotswap Socket Keycap 1.00u")
 		(tags "Kailh Keyboard Keyswitch Switch Hotswap Socket Relief Cutout Keycap 1.00u")
 		(property "Reference" "K27"
@@ -60352,7 +60351,7 @@
 	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
 		(layer "F.Cu")
 		(uuid "d5661283-6764-4fc3-af10-47ab304b90a2")
-		(at 27.315 104.44)
+		(at 152.4 109.5375)
 		(descr "Kailh keyswitch Hotswap Socket Keycap 1.00u")
 		(tags "Kailh Keyboard Keyswitch Switch Hotswap Socket Relief Cutout Keycap 1.00u")
 		(property "Reference" "K6"
@@ -61036,13 +61035,13 @@
 	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
 		(layer "F.Cu")
 		(uuid "d6a6bec3-f510-4632-ad9e-6991c300ad00")
-		(at 282.17 210)
+		(at 271.462 166.687)
 		(descr "Kailh keyswitch Hotswap Socket Keycap 1.00u")
 		(tags "Kailh Keyboard Keyswitch Switch Hotswap Socket Relief Cutout Keycap 1.00u")
 		(property "Reference" "K57"
 			(at 0 -8 0)
 			(layer "F.SilkS")
-			(uuid "d852041f-0d9b-486d-be07-f60c847ec54e")
+			(uuid "ce8b11f2-9590-4515-b855-d06addb765bc")
 			(effects
 				(font
 					(size 1 1)
@@ -61053,7 +61052,7 @@
 		(property "Value" "KEYSW"
 			(at 0 8 0)
 			(layer "F.Fab")
-			(uuid "853e5b5b-4d84-471e-85ef-930a80c10c1e")
+			(uuid "3a697efd-f2b4-4341-b034-cab651bc4b38")
 			(effects
 				(font
 					(size 1 1)
@@ -61065,7 +61064,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e1b3273d-8a07-4b8f-995a-94ff2ef3e5b2")
+			(uuid "a5cc71db-6bf1-47df-9107-072b2c8be226")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -61076,7 +61075,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d720b52e-f2a2-47a4-88ae-9ffe39113ae1")
+			(uuid "2c898e4a-914b-418f-a777-2956909300a5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -61720,13 +61719,13 @@
 	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
 		(layer "F.Cu")
 		(uuid "d8bb0d0d-41e5-4ef0-b433-40a22d6133e3")
-		(at 130.08 210)
+		(at 119.062 166.687)
 		(descr "Kailh keyswitch Hotswap Socket Keycap 1.00u")
 		(tags "Kailh Keyboard Keyswitch Switch Hotswap Socket Relief Cutout Keycap 1.00u")
 		(property "Reference" "K49"
 			(at 0 -8 0)
 			(layer "F.SilkS")
-			(uuid "27e80a55-9bc3-4cc7-83d0-97a6b12e5f72")
+			(uuid "695059a4-6eb4-4062-826c-e799b48217dc")
 			(effects
 				(font
 					(size 1 1)
@@ -61737,7 +61736,7 @@
 		(property "Value" "KEYSW"
 			(at 0 8 0)
 			(layer "F.Fab")
-			(uuid "7c176233-3d28-4e80-8aa2-ed18e13b69dd")
+			(uuid "5450739e-10a4-43c4-bb73-64c65d61c644")
 			(effects
 				(font
 					(size 1 1)
@@ -61749,7 +61748,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9ef40163-615a-43e4-8965-a20283cacaff")
+			(uuid "d985f68f-1491-44dd-8b91-735934aa8670")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -61760,7 +61759,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2450b121-3ea7-462a-8314-2737cd4b0471")
+			(uuid "f08b30b6-a928-48b0-a6ec-90fb32621fbb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62562,7 +62561,7 @@
 	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
 		(layer "F.Cu")
 		(uuid "db0c629e-f4eb-4a5a-be7c-7946ee9df3b4")
-		(at 43.95 135.54)
+		(at 123.825 128.5875)
 		(descr "Kailh keyswitch Hotswap Socket Keycap 1.00u")
 		(tags "Kailh Keyboard Keyswitch Switch Hotswap Socket Relief Cutout Keycap 1.00u")
 		(property "Reference" "K19"
@@ -63951,13 +63950,13 @@
 	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
 		(layer "F.Cu")
 		(uuid "dcbdbf7b-481b-47a0-a6aa-8bf1130f52e1")
-		(at 225.17 210)
+		(at 214.312 166.687)
 		(descr "Kailh keyswitch Hotswap Socket Keycap 1.00u")
 		(tags "Kailh Keyboard Keyswitch Switch Hotswap Socket Relief Cutout Keycap 1.00u")
 		(property "Reference" "K54"
 			(at 0 -8 0)
 			(layer "F.SilkS")
-			(uuid "3a3be85d-a868-4d2f-bd4c-4a37ddf81f18")
+			(uuid "9f5fdd0c-2599-49c9-8a7c-02be496ab656")
 			(effects
 				(font
 					(size 1 1)
@@ -63968,7 +63967,7 @@
 		(property "Value" "KEYSW"
 			(at 0 8 0)
 			(layer "F.Fab")
-			(uuid "905af705-216e-43e3-b689-7cd72d6be374")
+			(uuid "510b1972-80b7-461e-8af6-f61f49758d3b")
 			(effects
 				(font
 					(size 1 1)
@@ -63980,7 +63979,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "62baf69d-a6e8-471e-9d59-8eff632ec8a9")
+			(uuid "fd399f9e-03c7-4372-8ea3-88111141acaf")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -63991,7 +63990,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4a75ac1f-dcb2-4b79-8d3d-c65ec6270fdc")
+			(uuid "90d3acee-98d3-4065-b1ce-3a0e27057a2e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -64635,7 +64634,7 @@
 	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
 		(layer "F.Cu")
 		(uuid "dccb4408-0635-4eb8-a711-0132b6822901")
-		(at 120.42 134.575)
+		(at 223.8375 147.6375)
 		(descr "Kailh keyswitch Hotswap Socket Keycap 1.00u")
 		(tags "Kailh Keyboard Keyswitch Switch Hotswap Socket Relief Cutout Keycap 1.00u")
 		(property "Reference" "K39"
@@ -65319,7 +65318,7 @@
 	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
 		(layer "F.Cu")
 		(uuid "ddb90c6e-2395-4b49-8544-1ba87e8efcec")
-		(at 43.95 119.99)
+		(at 104.775 128.5875)
 		(descr "Kailh keyswitch Hotswap Socket Keycap 1.00u")
 		(tags "Kailh Keyboard Keyswitch Switch Hotswap Socket Relief Cutout Keycap 1.00u")
 		(property "Reference" "K18"
@@ -66395,7 +66394,7 @@
 	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.75u"
 		(layer "F.Cu")
 		(uuid "e2a91186-8ee0-44f7-acb9-c80fe290de47")
-		(at 103.785 165.675)
+		(at 64.29375 147.6375)
 		(descr "Kailh keyswitch Hotswap Socket Keycap 1.75u")
 		(tags "Kailh Keyboard Keyswitch Switch Hotswap Socket Relief Cutout Keycap 1.75u")
 		(property "Reference" "K31"
@@ -67079,7 +67078,7 @@
 	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
 		(layer "F.Cu")
 		(uuid "e2b585cd-0cf7-4168-bf0c-523d503933f6")
-		(at 27.315 166.64)
+		(at 228.6 109.5375)
 		(descr "Kailh keyswitch Hotswap Socket Keycap 1.00u")
 		(tags "Kailh Keyboard Keyswitch Switch Hotswap Socket Relief Cutout Keycap 1.00u")
 		(property "Reference" "K10"
@@ -67763,13 +67762,13 @@
 	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
 		(layer "F.Cu")
 		(uuid "e38ad1de-546f-4106-abe6-884456afd8f1")
-		(at 353.75 210)
+		(at 342.9 166.687)
 		(descr "Kailh keyswitch Hotswap Socket Keycap 1.00u")
 		(tags "Kailh Keyboard Keyswitch Switch Hotswap Socket Relief Cutout Keycap 1.00u")
 		(property "Reference" "K60"
 			(at 0 -8 0)
 			(layer "F.SilkS")
-			(uuid "35153ff0-00a8-4004-a5f3-146b0cc1433b")
+			(uuid "7df72bc5-2795-4c34-9b7c-d8eea322a487")
 			(effects
 				(font
 					(size 1 1)
@@ -67780,7 +67779,7 @@
 		(property "Value" "KEYSW"
 			(at 0 8 0)
 			(layer "F.Fab")
-			(uuid "93950fdf-00c2-498b-ae2d-fb6cf9c0532f")
+			(uuid "8b26af08-f813-4946-a905-3620c16bc0e6")
 			(effects
 				(font
 					(size 1 1)
@@ -67792,7 +67791,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c49c738e-81dc-4504-85f8-9a93cad0a1c1")
+			(uuid "050a47d4-3ad7-438b-993f-c29f34674fe7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -67803,7 +67802,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2db1c503-df07-4b0f-b4c8-a79e4462e5f7")
+			(uuid "148d982f-618a-4a56-8d6d-c3996d25ae5b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69857,7 +69856,7 @@
 	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
 		(layer "F.Cu")
 		(uuid "f1445af4-44ad-4b90-b622-940b70dceaac")
-		(at 120.42 150.125)
+		(at 242.8875 147.6375)
 		(descr "Kailh keyswitch Hotswap Socket Keycap 1.00u")
 		(tags "Kailh Keyboard Keyswitch Switch Hotswap Socket Relief Cutout Keycap 1.00u")
 		(property "Reference" "K40"
@@ -71797,7 +71796,7 @@
 	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
 		(layer "F.Cu")
 		(uuid "f8bb1593-f279-423d-8031-6ee563cfdb3f")
-		(at 43.95 73.34)
+		(at 342.9 109.5375)
 		(descr "Kailh keyswitch Hotswap Socket Keycap 1.00u")
 		(tags "Kailh Keyboard Keyswitch Switch Hotswap Socket Relief Cutout Keycap 1.00u")
 		(property "Reference" "K15"
@@ -73502,13 +73501,13 @@
 	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
 		(layer "F.Cu")
 		(uuid "ff7ffd24-4ae5-44c3-b0b6-19f981b1eea7")
-		(at 137.055 56.825)
+		(at 342.9 147.6375)
 		(descr "Kailh keyswitch Hotswap Socket Keycap 1.00u")
 		(tags "Kailh Keyboard Keyswitch Switch Hotswap Socket Relief Cutout Keycap 1.00u")
 		(property "Reference" "K45"
 			(at 0 -8 0)
 			(layer "F.SilkS")
-			(uuid "4846e81d-0898-4660-9ba4-612560d97d41")
+			(uuid "f393aeee-b3ae-486e-a2bd-4f043f5457d9")
 			(effects
 				(font
 					(size 1 1)
@@ -73519,7 +73518,7 @@
 		(property "Value" "KEYSW"
 			(at 0 8 0)
 			(layer "F.Fab")
-			(uuid "77e0353b-82c6-4f18-b019-dcd80eabaab2")
+			(uuid "6080d4de-772d-4aba-8d9d-93e4cb513642")
 			(effects
 				(font
 					(size 1 1)
@@ -73531,7 +73530,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a33504b1-6381-4df5-ba68-f64f1bb1b622")
+			(uuid "35f7bbc4-1ea2-4a90-bffe-74f1d9ebb703")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -73542,7 +73541,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d67d190a-d272-4935-80ac-718b072934fc")
+			(uuid "0f2be9b3-dc73-401b-8367-fc29f06921d5")
 			(effects
 				(font
 					(size 1.27 1.27)
