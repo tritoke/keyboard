@@ -4585,16 +4585,6 @@
 		)
 		(uuid "d1b30241-d39f-481f-8dac-316f776b4777")
 	)
-	(text "TBD, do some maths with your battery / NTC"
-		(exclude_from_sim no)
-		(at 192.278 59.944 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "02d7ac03-f31f-46c8-bca8-30492a18e96f")
-	)
 	(text "Rprog = 2k2 => 575mA max current"
 		(exclude_from_sim no)
 		(at 140.97 27.94 0)
@@ -6207,7 +6197,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 201.93 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -7664,7 +7654,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "420k"
 			(at 193.04 73.6599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8725,7 +8715,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "44k"
 			(at 193.04 53.3399 0)
 			(show_name no)
 			(do_not_autoplace no)
