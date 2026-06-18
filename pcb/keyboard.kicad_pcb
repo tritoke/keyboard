@@ -14832,7 +14832,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "44k"
 			(at 0 1.65 0)
 			(layer "F.Fab")
 			(uuid "335c46cf-ab13-463e-8224-08855f2f629f")
@@ -31051,7 +31051,7 @@
 	(footprint "Diode_SMD:D_SMB_Handsoldering"
 		(layer "F.Cu")
 		(uuid "89719fbe-59ae-4d54-93b7-6a8cad30d266")
-		(at 317.3 36.5)
+		(at 240.2 73)
 		(descr "Diode SMB (DO-214AA) Handsoldering")
 		(tags "Diode SMB (DO-214AA) Handsoldering")
 		(property "Reference" "D64"
@@ -41222,7 +41222,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "420k"
 			(at 0 1.65 0)
 			(layer "F.Fab")
 			(uuid "2d7142a2-1f5b-4522-96b6-5c4dae75666a")
@@ -64230,6 +64230,170 @@
 			)
 		)
 	)
+	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(layer "B.Cu")
+		(uuid "4c569100-413c-452f-a0a7-87f7094f19b9")
+		(at 153.5 81 -90)
+		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
+		(tags "resistor handsolder")
+		(property "Reference" "TH1"
+			(at 0 1.65 90)
+			(layer "B.SilkS")
+			(uuid "8584fdea-cd3e-4826-a67f-2716039404a2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "NTC"
+			(at 0 -1.65 90)
+			(layer "B.Fab")
+			(uuid "7dd08913-0613-4286-a954-d6e64ab3d00a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "d64a0c12-dc24-4565-a3fc-788d5701204f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" "Temperature dependent resistor, negative temperature coefficient"
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "8c52719c-92ac-4d58-8d8b-4c6de77c29dc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 90)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "15690c0d-7ce7-4510-ac49-b1772acbd328")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "R_* RV_*")
+		(path "/10482084-a545-4aa4-8b75-11043176cfae/0c9a9d45-0d92-45d8-8b02-c1dbcea2f2b0")
+		(sheetname "/power/")
+		(sheetfile "usb.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -0.227064 0.735)
+			(end 0.227064 0.735)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "a1e80d12-72c5-42c2-a69e-5fca246ef678")
+		)
+		(fp_line
+			(start -0.227064 -0.735)
+			(end 0.227064 -0.735)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "c39f57fe-4129-4030-9f92-f7a2bd65b375")
+		)
+		(fp_rect
+			(start -1.85 0.95)
+			(end 1.85 -0.95)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "B.CrtYd")
+			(uuid "558912f3-ad8d-46fb-b46b-fd0f23b9bb8e")
+		)
+		(fp_rect
+			(start -1 0.625)
+			(end 1 -0.625)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "B.Fab")
+			(uuid "c63b346e-9f0e-4cd2-bac3-3050290fc4da")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 90)
+			(layer "B.Fab")
+			(uuid "850b0b2f-1a9c-4e54-aad2-58cbcb0c8c35")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.08)
+				)
+				(justify mirror)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -1 0 270)
+			(size 1.2 1.4)
+			(layers "B.Cu" "B.Mask" "B.Paste")
+			(roundrect_rratio 0.208333)
+			(net "Net-(U2-TEMP)")
+			(pintype "passive")
+			(uuid "d71ac973-0fb7-4629-9668-49de961d9123")
+		)
+		(pad "2" smd roundrect
+			(at 1 0 270)
+			(size 1.2 1.4)
+			(layers "B.Cu" "B.Mask" "B.Paste")
+			(roundrect_rratio 0.208333)
+			(net "GND")
+			(pintype "passive")
+			(uuid "15115d3b-1cdb-450d-bd55-f463082e7a19")
+		)
+		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 		(layer "B.Cu")
 		(uuid "4f3ccd53-54c3-4fba-9a0d-ca8d298bb5f7")
@@ -73467,7 +73631,7 @@
 	(footprint "Battery:BatteryHolder_Keystone_1042_1x18650"
 		(layer "B.Cu")
 		(uuid "efbbeed3-8214-4e2f-921a-5ee714e9c54c")
-		(at 100.9675 89 180)
+		(at 111.38 89 180)
 		(descr "Battery holder, Keystone 1042, battery type 1x18650, http://www.keyelco.com/product.cfm/product_id/918")
 		(tags "horizontal single")
 		(property "Reference" "BT1"
