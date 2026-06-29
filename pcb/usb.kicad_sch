@@ -4331,16 +4331,6 @@
 		)
 		(uuid "3ab62ad7-da5a-40a3-b08c-52f30dd36b94")
 	)
-	(text "Update when you choose an LED"
-		(exclude_from_sim no)
-		(at 143.256 60.96 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "5915b929-fafe-463d-869a-5ae0c3706b3b")
-	)
 	(text "Battery Charger IC"
 		(exclude_from_sim no)
 		(at 131.318 24.384 0)
@@ -6149,7 +6139,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 148.59 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -7535,7 +7525,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.3mm_ThermalVias"
+		(property "Footprint" "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm"
 			(at 171.958 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -9339,7 +9329,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 138.43 49.53 0)
 			(hide yes)
 			(show_name no)

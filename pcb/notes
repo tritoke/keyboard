@@ -48,6 +48,9 @@ BOM:
 - 1x USB-C: https://www.lcsc.com/product-detail/C2988369.html
 - 1x Switch: https://www.lcsc.com/product-detail/C22379824.html
 - 1x Switch: https://www.lcsc.com/product-detail/C5186963.html
+- LEDs:
+  - Red: https://www.digikey.com/en/products/detail/broadcom-limited/HSMS-C190/637683
+  - Green: https://www.digikey.com/en/products/detail/broadcom-limited/HSMG-C190/637686
 
 ESD protection:
   - SRV05:
