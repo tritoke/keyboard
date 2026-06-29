@@ -822,7 +822,7 @@
 			(uuid "1023f399-bb97-45e0-9dfb-0f3e764fdaa8")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_MX.wrl"
+		(model "${KIPRJMOD}/kicad_submodules/kiswitch/library/3dmodels/3d-library.3dshapes/SW_Hotswap_Kailh_MX.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1665,7 +1665,7 @@
 			(uuid "bd1022a1-13be-4841-aba7-b853e06cff04")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_MX.wrl"
+		(model "${KIPRJMOD}/kicad_submodules/kiswitch/library/3dmodels/3d-library.3dshapes/SW_Hotswap_Kailh_MX.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2510,7 +2510,7 @@
 			(uuid "67be3ca5-1438-4d10-9316-16ab43dd2942")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_MX.wrl"
+		(model "${KIPRJMOD}/kicad_submodules/kiswitch/library/3dmodels/3d-library.3dshapes/SW_Hotswap_Kailh_MX.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3352,7 +3352,7 @@
 			(uuid "8eada7b3-a722-42cc-9d82-644ae7e900f7")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_MX.wrl"
+		(model "${KIPRJMOD}/kicad_submodules/kiswitch/library/3dmodels/3d-library.3dshapes/SW_Hotswap_Kailh_MX.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4640,7 +4640,7 @@
 			(uuid "0fb5ce79-a973-4fe5-ac6c-26dcd5077694")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_MX.wrl"
+		(model "${KIPRJMOD}/kicad_submodules/kiswitch/library/3dmodels/3d-library.3dshapes/SW_Hotswap_Kailh_MX.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -5922,7 +5922,7 @@
 			(uuid "af852f43-166c-4490-beed-528b5b7887de")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_MX.wrl"
+		(model "${KIPRJMOD}/kicad_submodules/kiswitch/library/3dmodels/3d-library.3dshapes/SW_Hotswap_Kailh_MX.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -6923,7 +6923,7 @@
 			(uuid "35654f05-dd9d-48e7-86fc-15de62fc0e5d")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_MX.wrl"
+		(model "${KIPRJMOD}/kicad_submodules/kiswitch/library/3dmodels/3d-library.3dshapes/SW_Hotswap_Kailh_MX.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -7607,7 +7607,7 @@
 			(uuid "767e2f07-a766-4dec-bc14-65487f3f34af")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_MX.wrl"
+		(model "${KIPRJMOD}/kicad_submodules/kiswitch/library/3dmodels/3d-library.3dshapes/SW_Hotswap_Kailh_MX.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -8291,7 +8291,7 @@
 			(uuid "7cbcb115-dbfa-474f-bdf9-ff552aa17fbd")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_MX.wrl"
+		(model "${KIPRJMOD}/kicad_submodules/kiswitch/library/3dmodels/3d-library.3dshapes/SW_Hotswap_Kailh_MX.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -9197,7 +9197,7 @@
 			(uuid "14ad1ae6-4adb-42f4-bd78-44e825d4ca3c")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_MX.wrl"
+		(model "${KIPRJMOD}/kicad_submodules/kiswitch/library/3dmodels/3d-library.3dshapes/SW_Hotswap_Kailh_MX.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -9881,7 +9881,7 @@
 			(uuid "a970c2bc-0dbb-4c07-9257-20f29f433ec5")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_MX.wrl"
+		(model "${KIPRJMOD}/kicad_submodules/kiswitch/library/3dmodels/3d-library.3dshapes/SW_Hotswap_Kailh_MX.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -10723,7 +10723,7 @@
 			(uuid "60bb24ed-bd0d-4e57-b2b2-49bd13f43e10")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_MX.wrl"
+		(model "${KIPRJMOD}/kicad_submodules/kiswitch/library/3dmodels/3d-library.3dshapes/SW_Hotswap_Kailh_MX.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -11565,7 +11565,7 @@
 			(uuid "fba7f678-1a09-4dc6-b95d-3a012f83aab4")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_MX.wrl"
+		(model "${KIPRJMOD}/kicad_submodules/kiswitch/library/3dmodels/3d-library.3dshapes/SW_Hotswap_Kailh_MX.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -12249,7 +12249,7 @@
 			(uuid "b22421ca-c415-4eb6-a90c-1d0d13777f03")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_MX.wrl"
+		(model "${KIPRJMOD}/kicad_submodules/kiswitch/library/3dmodels/3d-library.3dshapes/SW_Hotswap_Kailh_MX.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -13094,7 +13094,7 @@
 			(uuid "db227740-549a-47a1-a567-e33ad5ea4022")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_MX.wrl"
+		(model "${KIPRJMOD}/kicad_submodules/kiswitch/library/3dmodels/3d-library.3dshapes/SW_Hotswap_Kailh_MX.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -13778,7 +13778,7 @@
 			(uuid "185ee85c-3edb-4aaa-a695-95d9494bc9e1")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_MX.wrl"
+		(model "${KIPRJMOD}/kicad_submodules/kiswitch/library/3dmodels/3d-library.3dshapes/SW_Hotswap_Kailh_MX.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -14937,7 +14937,7 @@
 			(uuid "20850541-72d5-481f-8759-4e31dd960b2e")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_MX.wrl"
+		(model "${KIPRJMOD}/kicad_submodules/kiswitch/library/3dmodels/3d-library.3dshapes/SW_Hotswap_Kailh_MX.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -16209,7 +16209,7 @@
 			(uuid "bf2c2ce9-0257-4d92-8d86-68f78d0be1f8")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_MX.wrl"
+		(model "${KIPRJMOD}/kicad_submodules/kiswitch/library/3dmodels/3d-library.3dshapes/SW_Hotswap_Kailh_MX.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -17368,7 +17368,7 @@
 			(uuid "f8774d08-f3ec-4cf0-a285-d83190091f5e")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_MX.wrl"
+		(model "${KIPRJMOD}/kicad_submodules/kiswitch/library/3dmodels/3d-library.3dshapes/SW_Hotswap_Kailh_MX.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -19174,7 +19174,7 @@
 			(uuid "0770e414-7482-4324-9884-8db9674e8891")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_MX.wrl"
+		(model "${KIPRJMOD}/kicad_submodules/kiswitch/library/3dmodels/3d-library.3dshapes/SW_Hotswap_Kailh_MX.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -19858,7 +19858,7 @@
 			(uuid "4fc5df5a-79d0-4f67-ab75-88db2af65139")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_MX.wrl"
+		(model "${KIPRJMOD}/kicad_submodules/kiswitch/library/3dmodels/3d-library.3dshapes/SW_Hotswap_Kailh_MX.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -21289,7 +21289,7 @@
 			(uuid "7a1539fe-93cc-4252-b701-9e1da0df152e")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_MX.wrl"
+		(model "${KIPRJMOD}/kicad_submodules/kiswitch/library/3dmodels/3d-library.3dshapes/SW_Hotswap_Kailh_MX.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -21973,7 +21973,7 @@
 			(uuid "b651c1d3-eedf-49c6-98a6-f06d702051cc")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_MX.wrl"
+		(model "${KIPRJMOD}/kicad_submodules/kiswitch/library/3dmodels/3d-library.3dshapes/SW_Hotswap_Kailh_MX.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -23482,7 +23482,7 @@
 			(uuid "b2a2fa59-542b-409d-80e5-e0dde8de6dd6")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_MX.wrl"
+		(model "${KIPRJMOD}/kicad_submodules/kiswitch/library/3dmodels/3d-library.3dshapes/SW_Hotswap_Kailh_MX.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -24166,7 +24166,7 @@
 			(uuid "dd76d1d8-01f0-43a8-8cd5-d70f95de2476")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_MX.wrl"
+		(model "${KIPRJMOD}/kicad_submodules/kiswitch/library/3dmodels/3d-library.3dshapes/SW_Hotswap_Kailh_MX.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -24850,7 +24850,7 @@
 			(uuid "c7c7ce16-ad1f-4321-9953-f66c1459cb48")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_MX.wrl"
+		(model "${KIPRJMOD}/kicad_submodules/kiswitch/library/3dmodels/3d-library.3dshapes/SW_Hotswap_Kailh_MX.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -25692,7 +25692,7 @@
 			(uuid "05631b5d-8432-4eca-8521-8e84eeac3cf5")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_MX.wrl"
+		(model "${KIPRJMOD}/kicad_submodules/kiswitch/library/3dmodels/3d-library.3dshapes/SW_Hotswap_Kailh_MX.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -26376,7 +26376,7 @@
 			(uuid "28d3f787-db11-424e-b1cd-271eac90d011")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_MX.wrl"
+		(model "${KIPRJMOD}/kicad_submodules/kiswitch/library/3dmodels/3d-library.3dshapes/SW_Hotswap_Kailh_MX.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -27060,7 +27060,7 @@
 			(uuid "49dbb1c4-939d-4599-884a-493287d19178")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_MX.wrl"
+		(model "${KIPRJMOD}/kicad_submodules/kiswitch/library/3dmodels/3d-library.3dshapes/SW_Hotswap_Kailh_MX.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -27075,7 +27075,7 @@
 	(footprint "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.3mm_ThermalVias"
 		(layer "F.Cu")
 		(uuid "727b49eb-499c-46cf-9f28-b853a6a36ce7")
-		(at 118.975 64.535)
+		(at 104.075 66)
 		(descr "SOIC, 8 Pin (http://www.allegromicro.com/~/media/Files/Datasheets/A4950-Datasheet.ashx#page=8)")
 		(tags "SOIC SO")
 		(property "Reference" "U2"
@@ -28248,7 +28248,7 @@
 			(uuid "b4913893-e5c9-42f3-be31-b9fde0fe96ec")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_MX.wrl"
+		(model "${KIPRJMOD}/kicad_submodules/kiswitch/library/3dmodels/3d-library.3dshapes/SW_Hotswap_Kailh_MX.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -28932,7 +28932,7 @@
 			(uuid "f1225f76-2eec-47f7-9671-850f019ce92e")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_MX.wrl"
+		(model "${KIPRJMOD}/kicad_submodules/kiswitch/library/3dmodels/3d-library.3dshapes/SW_Hotswap_Kailh_MX.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -29888,7 +29888,7 @@
 			(uuid "bdfaaafa-1779-4f19-80e5-b9b8545b0e56")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_MX.wrl"
+		(model "${KIPRJMOD}/kicad_submodules/kiswitch/library/3dmodels/3d-library.3dshapes/SW_Hotswap_Kailh_MX.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -30572,7 +30572,7 @@
 			(uuid "4193b028-d7fd-4fa6-8a31-d3773a6e87e9")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_MX.wrl"
+		(model "${KIPRJMOD}/kicad_submodules/kiswitch/library/3dmodels/3d-library.3dshapes/SW_Hotswap_Kailh_MX.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -31696,7 +31696,7 @@
 			(uuid "02e5e3a3-b0ac-4ce3-9efa-eadb85177cf9")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_MX.wrl"
+		(model "${KIPRJMOD}/kicad_submodules/kiswitch/library/3dmodels/3d-library.3dshapes/SW_Hotswap_Kailh_MX.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -32867,7 +32867,7 @@
 			(uuid "a7ef8e18-e40e-4e50-b0ae-6e50305276b6")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_MX.wrl"
+		(model "${KIPRJMOD}/kicad_submodules/kiswitch/library/3dmodels/3d-library.3dshapes/SW_Hotswap_Kailh_MX.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -33773,7 +33773,7 @@
 			(uuid "2facd19f-3ce5-4c51-ab77-b97eb1902a0d")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_MX.wrl"
+		(model "${KIPRJMOD}/kicad_submodules/kiswitch/library/3dmodels/3d-library.3dshapes/SW_Hotswap_Kailh_MX.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -34457,7 +34457,7 @@
 			(uuid "2ed2006b-8afd-4acb-8a8a-ecd4820e5ced")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_MX.wrl"
+		(model "${KIPRJMOD}/kicad_submodules/kiswitch/library/3dmodels/3d-library.3dshapes/SW_Hotswap_Kailh_MX.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -35300,7 +35300,7 @@
 			(uuid "a82c4f65-26b5-41f2-94e6-45602cb6d730")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_MX.wrl"
+		(model "${KIPRJMOD}/kicad_submodules/kiswitch/library/3dmodels/3d-library.3dshapes/SW_Hotswap_Kailh_MX.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -35984,7 +35984,7 @@
 			(uuid "2386b2f0-317e-4abe-82cf-d31bdb61fc2c")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_MX.wrl"
+		(model "${KIPRJMOD}/kicad_submodules/kiswitch/library/3dmodels/3d-library.3dshapes/SW_Hotswap_Kailh_MX.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -36668,7 +36668,7 @@
 			(uuid "4669eff6-b664-49ff-970f-2f248ab340f9")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_MX.wrl"
+		(model "${KIPRJMOD}/kicad_submodules/kiswitch/library/3dmodels/3d-library.3dshapes/SW_Hotswap_Kailh_MX.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -37510,7 +37510,7 @@
 			(uuid "6dcda117-f55b-4da5-be91-414854198473")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_MX.wrl"
+		(model "${KIPRJMOD}/kicad_submodules/kiswitch/library/3dmodels/3d-library.3dshapes/SW_Hotswap_Kailh_MX.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -38676,7 +38676,7 @@
 			(uuid "bc142784-3c48-4621-90ed-ccfaff517473")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_MX.wrl"
+		(model "${KIPRJMOD}/kicad_submodules/kiswitch/library/3dmodels/3d-library.3dshapes/SW_Hotswap_Kailh_MX.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -39360,7 +39360,7 @@
 			(uuid "a70e1bcd-2d17-46ee-b5ed-5b870daaf343")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_MX.wrl"
+		(model "${KIPRJMOD}/kicad_submodules/kiswitch/library/3dmodels/3d-library.3dshapes/SW_Hotswap_Kailh_MX.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -40044,7 +40044,7 @@
 			(uuid "0e2e3781-d017-40e7-be71-208dd3ffdd36")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_MX.wrl"
+		(model "${KIPRJMOD}/kicad_submodules/kiswitch/library/3dmodels/3d-library.3dshapes/SW_Hotswap_Kailh_MX.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -40728,7 +40728,7 @@
 			(uuid "4c407bcb-907b-4e78-993f-50422bcc7560")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_MX.wrl"
+		(model "${KIPRJMOD}/kicad_submodules/kiswitch/library/3dmodels/3d-library.3dshapes/SW_Hotswap_Kailh_MX.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -41412,7 +41412,7 @@
 			(uuid "bfe0a3a4-74ad-44a0-9ed8-7ba5073841e7")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_MX.wrl"
+		(model "${KIPRJMOD}/kicad_submodules/kiswitch/library/3dmodels/3d-library.3dshapes/SW_Hotswap_Kailh_MX.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -44192,7 +44192,7 @@
 			(uuid "f67ad0fb-7273-45b8-9840-c6dd40ebff5c")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_MX.wrl"
+		(model "${KIPRJMOD}/kicad_submodules/kiswitch/library/3dmodels/3d-library.3dshapes/SW_Hotswap_Kailh_MX.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -45445,7 +45445,7 @@
 			(uuid "0954f393-a034-41e5-8f2f-30d51a4072fc")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_MX.wrl"
+		(model "${KIPRJMOD}/kicad_submodules/kiswitch/library/3dmodels/3d-library.3dshapes/SW_Hotswap_Kailh_MX.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -46491,7 +46491,7 @@
 			(uuid "961c37da-1555-4191-9502-c2fabb298176")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_MX.wrl"
+		(model "${KIPRJMOD}/kicad_submodules/kiswitch/library/3dmodels/3d-library.3dshapes/SW_Hotswap_Kailh_MX.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -47333,7 +47333,7 @@
 			(uuid "8d541dd6-2ed2-421f-aeb8-13b276a2f74d")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_MX.wrl"
+		(model "${KIPRJMOD}/kicad_submodules/kiswitch/library/3dmodels/3d-library.3dshapes/SW_Hotswap_Kailh_MX.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -48017,7 +48017,7 @@
 			(uuid "03605836-0877-4757-825e-8e7c6a3686ae")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_MX.wrl"
+		(model "${KIPRJMOD}/kicad_submodules/kiswitch/library/3dmodels/3d-library.3dshapes/SW_Hotswap_Kailh_MX.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -48701,7 +48701,7 @@
 			(uuid "9a18d441-42ff-449f-bfa0-e3468f0b74dd")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_MX.wrl"
+		(model "${KIPRJMOD}/kicad_submodules/kiswitch/library/3dmodels/3d-library.3dshapes/SW_Hotswap_Kailh_MX.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -49908,7 +49908,7 @@
 			(uuid "1ffed23b-d11a-4e94-b54a-ff35a977974b")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_MX.wrl"
+		(model "${KIPRJMOD}/kicad_submodules/kiswitch/library/3dmodels/3d-library.3dshapes/SW_Hotswap_Kailh_MX.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -50592,7 +50592,7 @@
 			(uuid "b08335eb-01b9-40ed-ad93-ea23c2475055")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_MX.wrl"
+		(model "${KIPRJMOD}/kicad_submodules/kiswitch/library/3dmodels/3d-library.3dshapes/SW_Hotswap_Kailh_MX.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -51276,7 +51276,7 @@
 			(uuid "585775ab-6f8d-4278-99be-bdefaf0008f0")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_MX.wrl"
+		(model "${KIPRJMOD}/kicad_submodules/kiswitch/library/3dmodels/3d-library.3dshapes/SW_Hotswap_Kailh_MX.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -51960,7 +51960,7 @@
 			(uuid "f5c0cbf9-b881-4629-a31f-bb628125fdf5")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_MX.wrl"
+		(model "${KIPRJMOD}/kicad_submodules/kiswitch/library/3dmodels/3d-library.3dshapes/SW_Hotswap_Kailh_MX.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -51975,7 +51975,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "dae427ce-eda0-4fc9-8194-ea1df0ba8100")
-		(at 298.1375 87.51)
+		(at 298.1375 91)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor handsolder")
 		(property "Reference" "C7"
@@ -52802,7 +52802,7 @@
 			(uuid "4c0b60a4-b435-4c67-8d3a-f726098706fb")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_MX.wrl"
+		(model "${KIPRJMOD}/kicad_submodules/kiswitch/library/3dmodels/3d-library.3dshapes/SW_Hotswap_Kailh_MX.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -53486,7 +53486,7 @@
 			(uuid "b8716834-43f6-41e2-820a-0823e3eed767")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_MX.wrl"
+		(model "${KIPRJMOD}/kicad_submodules/kiswitch/library/3dmodels/3d-library.3dshapes/SW_Hotswap_Kailh_MX.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -54170,7 +54170,7 @@
 			(uuid "a16d22f6-7cd0-4e08-8d30-8d97cb03a2d5")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_MX.wrl"
+		(model "${KIPRJMOD}/kicad_submodules/kiswitch/library/3dmodels/3d-library.3dshapes/SW_Hotswap_Kailh_MX.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -54854,7 +54854,7 @@
 			(uuid "d45d463f-3bee-4f36-9420-b7c936594df1")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_MX.wrl"
+		(model "${KIPRJMOD}/kicad_submodules/kiswitch/library/3dmodels/3d-library.3dshapes/SW_Hotswap_Kailh_MX.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -55930,7 +55930,7 @@
 			(uuid "98969430-1908-40c9-9231-b598afbb9535")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_MX.wrl"
+		(model "${KIPRJMOD}/kicad_submodules/kiswitch/library/3dmodels/3d-library.3dshapes/SW_Hotswap_Kailh_MX.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -56614,7 +56614,7 @@
 			(uuid "3881f4ab-5bca-40a3-80fd-dff6014d4b72")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_MX.wrl"
+		(model "${KIPRJMOD}/kicad_submodules/kiswitch/library/3dmodels/3d-library.3dshapes/SW_Hotswap_Kailh_MX.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -57298,7 +57298,7 @@
 			(uuid "3060266d-cbfb-4d8b-b317-53e5479f80a9")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_MX.wrl"
+		(model "${KIPRJMOD}/kicad_submodules/kiswitch/library/3dmodels/3d-library.3dshapes/SW_Hotswap_Kailh_MX.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -58373,7 +58373,7 @@
 			(uuid "ff6e69c1-29d1-4d8f-8fa6-f6f0d39d8df4")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_MX.wrl"
+		(model "${KIPRJMOD}/kicad_submodules/kiswitch/library/3dmodels/3d-library.3dshapes/SW_Hotswap_Kailh_MX.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -59373,7 +59373,7 @@
 			(uuid "f1164cfb-c074-4757-9f13-65a6d2b8591a")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_MX.wrl"
+		(model "${KIPRJMOD}/kicad_submodules/kiswitch/library/3dmodels/3d-library.3dshapes/SW_Hotswap_Kailh_MX.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -60375,7 +60375,7 @@
 			(uuid "a5cf111e-2d89-4816-9070-58c41dec3a5b")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_MX.wrl"
+		(model "${KIPRJMOD}/kicad_submodules/kiswitch/library/3dmodels/3d-library.3dshapes/SW_Hotswap_Kailh_MX.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -61362,7 +61362,7 @@
 	(footprint "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 		(layer "B.Cu")
 		(uuid "2388dac9-23bc-40d8-be0a-5df3c1e90e9f")
-		(at 152.4 133 90)
+		(at 228.6 133 90)
 		(descr "Diode SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "diode handsolder")
 		(property "Reference" "D24"
@@ -62820,7 +62820,7 @@
 	(footprint "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 		(layer "B.Cu")
 		(uuid "30601004-347a-49a1-bfda-8f5e04fe2107")
-		(at 171.45 133 90)
+		(at 152.4 133 90)
 		(descr "Diode SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "diode handsolder")
 		(property "Reference" "D20"
@@ -63549,7 +63549,7 @@
 	(footprint "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 		(layer "B.Cu")
 		(uuid "38c0a062-babe-4dc5-8b67-474663a093cd")
-		(at 76.2 133 90)
+		(at 171.45 133 90)
 		(descr "Diode SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "diode handsolder")
 		(property "Reference" "D21"
@@ -64521,7 +64521,7 @@
 	(footprint "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 		(layer "B.Cu")
 		(uuid "3ddb1fac-bfcd-4a06-b0c0-d1cdc6b70984")
-		(at 228.6 132.985 90)
+		(at 95.25 133 90)
 		(descr "Diode SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "diode handsolder")
 		(property "Reference" "D17"
@@ -66222,7 +66222,7 @@
 	(footprint "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 		(layer "B.Cu")
 		(uuid "506b14fb-bc4b-4926-ab43-e120c96975c5")
-		(at 266.7 132.975 90)
+		(at 285.75 133 90)
 		(descr "Diode SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "diode handsolder")
 		(property "Reference" "D27"
@@ -66418,7 +66418,7 @@
 			(uuid "41e19b7a-277d-4e7b-a919-d3b66363974e")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 90)
+			(at 0.1 0 90)
 			(layer "B.Fab")
 			(uuid "310ce6b8-9834-4ee4-ae4e-7b514a632f18")
 			(effects
@@ -66951,7 +66951,7 @@
 	(footprint "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 		(layer "B.Cu")
 		(uuid "5bc954f7-cc19-43af-94c0-252691368cae")
-		(at 285.75 133 90)
+		(at 266.7 133 90)
 		(descr "Diode SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "diode handsolder")
 		(property "Reference" "D26"
@@ -68409,7 +68409,7 @@
 	(footprint "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 		(layer "B.Cu")
 		(uuid "79b2b2a3-7585-4623-895b-bb9db9d0dee1")
-		(at 247.65 132.975 90)
+		(at 76.2 133 90)
 		(descr "Diode SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "diode handsolder")
 		(property "Reference" "D16"
@@ -70839,7 +70839,7 @@
 	(footprint "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 		(layer "B.Cu")
 		(uuid "aba36aee-8fdf-47d8-b866-ab2b011e1184")
-		(at 114.3 132.975 90)
+		(at 190.5 133 90)
 		(descr "Diode SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "diode handsolder")
 		(property "Reference" "D22"
@@ -73269,7 +73269,7 @@
 	(footprint "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 		(layer "B.Cu")
 		(uuid "dbca3d46-8b95-4089-b883-378d166b43de")
-		(at 95.25 132.975 90)
+		(at 209.55 133 90)
 		(descr "Diode SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "diode handsolder")
 		(property "Reference" "D23"
@@ -74484,7 +74484,7 @@
 	(footprint "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 		(layer "B.Cu")
 		(uuid "eb0db5ba-721e-4aaa-bcfe-fcc894836762")
-		(at 133.35 133 90)
+		(at 247.65 133 90)
 		(descr "Diode SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "diode handsolder")
 		(property "Reference" "D25"
@@ -74970,7 +74970,7 @@
 	(footprint "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 		(layer "B.Cu")
 		(uuid "ed6de0c9-a2b6-49df-a91d-954900b91367")
-		(at 190.5 133 90)
+		(at 133.35 133 90)
 		(descr "Diode SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "diode handsolder")
 		(property "Reference" "D19"
@@ -76428,7 +76428,7 @@
 	(footprint "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 		(layer "B.Cu")
 		(uuid "fc0c4969-9a44-4ca5-be99-7b568968b1c1")
-		(at 209.55 133 90)
+		(at 114.3 133 90)
 		(descr "Diode SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "diode handsolder")
 		(property "Reference" "D18"
