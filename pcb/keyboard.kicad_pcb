@@ -19261,15 +19261,14 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Crystal:Crystal_SMD_2016-4Pin_2.0x1.6mm"
+	(footprint "My_Footprints:Crystal_SMD_2016-4Pin_2.0x1.6mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "5e0f4e3f-2dc9-43c5-9ad0-20b19a299bba")
 		(at 238.9 83 -45)
 		(descr "SMD2016/4, Crystal, 2.0x1.6mm package, SMD, http://www.q-crystal.com/upload/5/2015552223166229.pdf")
 		(property "Reference" "X1"
-			(at 0.000001 2.199999 135)
+			(at 0 -2.000001 315)
 			(layer "F.SilkS")
-			(hide yes)
 			(uuid "39508cac-a059-4542-80d1-a774809849ee")
 			(effects
 				(font
@@ -19279,7 +19278,7 @@
 			)
 		)
 		(property "Value" "32MHz"
-			(at 0 2.000001 135)
+			(at 0 2.000001 315)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ae530998-761b-4589-9275-dcd362999ed2")
@@ -19291,7 +19290,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 135)
+			(at 0 0 315)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c2b2cbab-6dcb-4390-982f-7c035dfde5cf")
@@ -19302,7 +19301,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 135)
+			(at 0 0 315)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "fb021d6a-bd1d-4a73-98f1-79d04f19b1cf")
@@ -19313,7 +19312,7 @@
 			)
 		)
 		(property "KiLib_Generator" "crystal_resonator_oscillator"
-			(at 0 0 135)
+			(at 0 0 315)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "56460174-55de-43a9-8b09-34a2b7cea764")
@@ -19336,18 +19335,8 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start -1.41 1.21)
-			(end 1.41 1.21)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "df8d68b1-61b2-4b20-aa40-d52dbbd4044c")
-		)
-		(fp_line
-			(start -1.41 -1.21)
-			(end -1.41 1.21)
+			(start -1.478319 1.3)
+			(end 1.431681 1.3)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -19355,9 +19344,19 @@
 			(layer "F.SilkS")
 			(uuid "93efce29-5d43-447c-9756-a79186c3b7b4")
 		)
+		(fp_line
+			(start -1.478319 -1.21)
+			(end -1.478319 1.3)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "df8d68b1-61b2-4b20-aa40-d52dbbd4044c")
+		)
 		(fp_poly
 			(pts
-				(xy -1.5 -1.3) (xy 1.5 -1.3) (xy 1.5 1.3) (xy -1.5 1.3)
+				(xy -1.578319 -1.3) (xy 1.521681 -1.3) (xy 1.52168 1.4) (xy -1.57832 1.4)
 			)
 			(stroke
 				(width 0.05)
@@ -19369,7 +19368,7 @@
 		)
 		(fp_poly
 			(pts
-				(xy 1 -0.800001) (xy 1 0.8) (xy -0.6 0.799999) (xy -1 0.4) (xy -1 -0.8)
+				(xy 1.021681 -0.8) (xy 1.021681 0.8) (xy -0.578319 0.8) (xy -0.978319 0.4) (xy -0.978319 -0.799999)
 			)
 			(stroke
 				(width 0.1)
@@ -19380,7 +19379,7 @@
 			(uuid "2e9e0db6-a87c-49dd-9efd-74ba8d8c0955")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 135)
+			(at 0 0 315)
 			(layer "F.Fab")
 			(uuid "8a2c6b71-d3da-4624-b701-854f7669f6f2")
 			(effects
@@ -19391,8 +19390,8 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.7 0.55 315)
-			(size 0.9 0.8)
+			(at -0.803319 0.675 315)
+			(size 1.15 1.05)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "Net-(U1-XC2)")
@@ -19401,8 +19400,8 @@
 			(uuid "419aca0e-13d6-421d-8ace-b5dac946e40f")
 		)
 		(pad "2" smd roundrect
-			(at 0.7 0.55 315)
-			(size 0.9 0.8)
+			(at 0.846681 0.675 315)
+			(size 1.15 1.05)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "Net-(U1-XC1)")
@@ -19411,8 +19410,8 @@
 			(uuid "e162adf3-a8d6-4159-9f31-82ed794fe537")
 		)
 		(pad "3" smd roundrect
-			(at 0.7 -0.55 315)
-			(size 0.9 0.8)
+			(at 0.846681 -0.675 315)
+			(size 1.15 1.05)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "GND")
@@ -19420,8 +19419,8 @@
 			(uuid "a5145463-17ef-49a3-8563-e90a162b63e7")
 		)
 		(pad "4" smd roundrect
-			(at -0.7 -0.55 315)
-			(size 0.9 0.8)
+			(at -0.803319 -0.675 315)
+			(size 1.15 1.05)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(uuid "ead70bac-ea5c-462f-85c5-c41ae6a9d08e")
@@ -29074,16 +29073,15 @@
 			)
 		)
 	)
-	(footprint "Connector_Coaxial:SMA_Molex_73251-1153_EdgeMount_Horizontal"
+	(footprint "My_Footprints:SMA_Molex_73251-1153_EdgeMount_Horizontal_HandSolder"
 		(layer "F.Cu")
 		(uuid "7fc2f133-d2d7-451a-a1e4-b3ee42c6dafb")
 		(at 257.71 87.8 180)
 		(descr "Molex SMA RF Connectors, Edge Mount, https://tools.molex.com/pdm_docs/sd/732511150_sd.pdf")
 		(tags "sma edge")
 		(property "Reference" "J3"
-			(at -1.5 7 0)
+			(at -1.5 7 180)
 			(layer "F.SilkS")
-			(hide yes)
 			(uuid "6404e820-2102-471f-96db-4fff6d7a496d")
 			(effects
 				(font
@@ -29093,8 +29091,9 @@
 			)
 		)
 		(property "Value" "Conn_Coaxial"
-			(at -1.72 -7.11 0)
+			(at -1.72 -7.11 180)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "98a3b556-4ee7-4eb0-822f-14dcc7c16f8e")
 			(effects
 				(font
@@ -29143,7 +29142,7 @@
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
 			(pts
-				(xy 2.5 -0.25) (xy 2 0) (xy 2.5 0.25)
+				(xy 3.1 -0.25) (xy 2.6 0) (xy 3.1 0.25)
 			)
 			(stroke
 				(width 0.12)
@@ -29154,8 +29153,8 @@
 			(uuid "58d62ce9-f997-4d8b-8f2e-a49958584b31")
 		)
 		(fp_line
-			(start 2.71 -6.09)
-			(end 2.71 6.09)
+			(start 4 -6.09)
+			(end 4 6.09)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -29165,7 +29164,7 @@
 		)
 		(fp_line
 			(start -14.29 6.09)
-			(end 2.71 6.09)
+			(end 4 6.09)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -29175,7 +29174,7 @@
 		)
 		(fp_line
 			(start -14.29 -6.09)
-			(end 2.71 -6.09)
+			(end 4 -6.09)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -29194,8 +29193,8 @@
 			(uuid "ca7b7468-f568-42d0-9dea-272e303cea1d")
 		)
 		(fp_line
-			(start 2.71 -6.09)
-			(end 2.71 6.09)
+			(start 4 -6.09)
+			(end 4 6.09)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -29204,7 +29203,7 @@
 			(uuid "73f8dd35-ce0a-4493-b877-3e4f0b4d6bad")
 		)
 		(fp_line
-			(start 2.71 -6.09)
+			(start 4 -6.09)
 			(end -14.29 -6.09)
 			(stroke
 				(width 0.05)
@@ -29215,7 +29214,7 @@
 		)
 		(fp_line
 			(start -14.29 6.09)
-			(end 2.71 6.09)
+			(end 4 6.09)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -29375,7 +29374,7 @@
 		)
 		(fp_poly
 			(pts
-				(xy 2.5 -0.251561) (xy 2 -0.001561) (xy 2.5 0.248439)
+				(xy 3.1 -0.251561) (xy 2.6 -0.001561) (xy 3.1 0.248439)
 			)
 			(stroke
 				(width 0.1)
@@ -29386,7 +29385,7 @@
 			(uuid "e38f9176-d2fb-4267-a17b-b9780250e010")
 		)
 		(fp_text user "${REFERENCE}"
-			(at -1.5 7 0)
+			(at -1.5 7 180)
 			(layer "F.Fab")
 			(uuid "40aae6fd-6a0b-4bd4-a179-285065834736")
 			(effects
@@ -29397,8 +29396,8 @@
 			)
 		)
 		(pad "1" smd rect
-			(at -1.72 0 180)
-			(size 5.08 2.29)
+			(at -1.22 0 180)
+			(size 6.08 2.29)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "Net-(J3-In)")
 			(pinfunction "In_1")
@@ -29406,8 +29405,8 @@
 			(uuid "0e2f4d73-8e23-4c7e-9130-c5bad7f5948c")
 		)
 		(pad "2" smd rect
-			(at -1.72 -4.38 180)
-			(size 5.08 2.42)
+			(at -1.22 -4.38 180)
+			(size 6.08 2.42)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "GND")
 			(pinfunction "Ext_2")
@@ -29415,8 +29414,8 @@
 			(uuid "babe91ca-4779-4eaa-9419-9aa3f8065540")
 		)
 		(pad "2" smd rect
-			(at -1.72 -4.38 180)
-			(size 5.08 2.42)
+			(at -1.22 -4.38 180)
+			(size 6.08 2.42)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "GND")
 			(pinfunction "Ext_2")
@@ -29424,8 +29423,8 @@
 			(uuid "5f91147c-2476-48bf-8c59-ee5def930d60")
 		)
 		(pad "2" smd rect
-			(at -1.72 4.38 180)
-			(size 5.08 2.42)
+			(at -1.22 4.38 180)
+			(size 6.08 2.42)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "GND")
 			(pinfunction "Ext_2")
@@ -29433,8 +29432,8 @@
 			(uuid "4559dade-c7d5-46e7-a743-a49ae8251bd2")
 		)
 		(pad "2" smd rect
-			(at -1.72 4.38 180)
-			(size 5.08 2.42)
+			(at -1.22 4.38 180)
+			(size 6.08 2.42)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "GND")
 			(pinfunction "Ext_2")
@@ -29442,7 +29441,7 @@
 			(uuid "61962938-be01-40b2-a58f-ba8ef4fed4de")
 		)
 		(pad "2" smd rect
-			(at 1.27 -4.38 180)
+			(at 2.25 -4.38 180)
 			(size 0.95 0.46)
 			(layers "F.Cu")
 			(net "GND")
@@ -29451,16 +29450,16 @@
 			(uuid "f5ac9def-476f-48b9-9ece-6a79a22a27d0")
 		)
 		(pad "2" smd rect
-			(at 1.27 -4.38 180)
+			(at 2.25 -4.38 180)
 			(size 0.95 0.46)
 			(layers "B.Cu")
 			(net "GND")
 			(pinfunction "Ext_2")
 			(pintype "passive")
-			(uuid "2bad380b-6820-4f3b-9d80-582a6d377307")
+			(uuid "a4268199-eb9e-42a5-a07d-0059cfdb4e92")
 		)
 		(pad "2" smd rect
-			(at 1.27 4.38 180)
+			(at 2.25 4.38 180)
 			(size 0.95 0.46)
 			(layers "F.Cu")
 			(net "GND")
@@ -29469,16 +29468,16 @@
 			(uuid "fcc90868-15e9-4b89-b91b-7d876683af82")
 		)
 		(pad "2" smd rect
-			(at 1.27 4.38 180)
+			(at 2.25 4.38 180)
 			(size 0.95 0.46)
 			(layers "B.Cu")
 			(net "GND")
 			(pinfunction "Ext_2")
 			(pintype "passive")
-			(uuid "a4268199-eb9e-42a5-a07d-0059cfdb4e92")
+			(uuid "2bad380b-6820-4f3b-9d80-582a6d377307")
 		)
 		(pad "2" thru_hole circle
-			(at 1.72 -4.38 180)
+			(at 2.7 -4.38 180)
 			(size 0.97 0.97)
 			(drill 0.46)
 			(property pad_prop_mechanical)
@@ -29490,7 +29489,7 @@
 			(uuid "db74ed08-adbd-4f43-bd00-6a466c29173d")
 		)
 		(pad "2" thru_hole circle
-			(at 1.72 4.38 180)
+			(at 2.7 4.38 180)
 			(size 0.97 0.97)
 			(drill 0.46)
 			(property pad_prop_mechanical)

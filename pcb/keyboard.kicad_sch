@@ -8581,7 +8581,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Coaxial:SMA_Molex_73251-1153_EdgeMount_Horizontal"
+		(property "Footprint" "My_Footprints:SMA_Molex_73251-1153_EdgeMount_Horizontal_HandSolder"
 			(at 36.83 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -9700,7 +9700,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Crystal:Crystal_SMD_2016-4Pin_2.0x1.6mm"
+		(property "Footprint" "My_Footprints:Crystal_SMD_2016-4Pin_2.0x1.6mm_HandSolder"
 			(at 62.23 118.11 0)
 			(hide yes)
 			(show_name no)
