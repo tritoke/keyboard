@@ -4321,6 +4321,16 @@
 		)
 		(uuid "1ed4e06c-75ff-4de6-9c14-9bc33748a040")
 	)
+	(text "Assign everything to the Power netclass"
+		(exclude_from_sim no)
+		(at 44.196 20.574 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3209c973-8c5c-4663-a277-4f45ad593cc6")
+	)
 	(text "18650 + protection IC"
 		(exclude_from_sim no)
 		(at 254 104.14 0)
@@ -5694,6 +5704,61 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(rule_area
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(polyline
+			(pts
+				(xy 278.13 163.83) (xy 167.64 163.83) (xy 167.64 195.58) (xy 104.14 195.58) (xy 104.14 101.6) (xy 96.52 93.98)
+				(xy 22.86 93.98) (xy 22.86 17.78) (xy 222.25 17.78) (xy 278.13 73.66)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid "b626a37c-2090-469f-bd14-02d1525efcfa")
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 31.75 17.78 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cbd63d92-21a7-46ec-a0a6-0af15cd233cc")
+		(property "Netclass" "Power"
+			(at 32.4485 15.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 195.58 59.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
 			)
 		)
 	)
@@ -7118,7 +7183,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 136.652 60.96 90)
 			(hide yes)
 			(show_name no)
@@ -8033,7 +8098,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 126.6952 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -8115,7 +8180,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 146.812 60.96 90)
 			(hide yes)
 			(show_name no)
@@ -8836,7 +8901,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 220.6752 125.73 0)
 			(hide yes)
 			(show_name no)
