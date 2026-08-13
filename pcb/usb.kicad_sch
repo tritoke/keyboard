@@ -4321,16 +4321,6 @@
 		)
 		(uuid "1ed4e06c-75ff-4de6-9c14-9bc33748a040")
 	)
-	(text "Assign everything to the Power netclass"
-		(exclude_from_sim no)
-		(at 44.196 20.574 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "3209c973-8c5c-4663-a277-4f45ad593cc6")
-	)
 	(text "18650 + protection IC"
 		(exclude_from_sim no)
 		(at 254 104.14 0)
@@ -7183,7 +7173,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 136.652 60.96 90)
 			(hide yes)
 			(show_name no)
@@ -8098,7 +8088,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 126.6952 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -8180,7 +8170,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 146.812 60.96 90)
 			(hide yes)
 			(show_name no)
@@ -8901,7 +8891,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 220.6752 125.73 0)
 			(hide yes)
 			(show_name no)
