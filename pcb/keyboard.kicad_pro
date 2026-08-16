@@ -549,12 +549,24 @@
         "microvia_drill": 0.1,
         "name": "Power",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.5,
         "tuning_profile": "",
         "via_diameter": 0.8,
         "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.1,
+        "line_style": 0,
+        "name": "USB Data",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.5,
+        "tuning_profile": "",
         "wire_width": 6
       }
     ],
@@ -563,28 +575,7 @@
     },
     "net_colors": null,
     "netclass_assignments": {
-      "/DCC": [
-        "Default"
-      ],
-      "/DEC1": [
-        "Default"
-      ],
-      "/DEC2": [
-        "Default"
-      ],
-      "/DEC3": [
-        "Default"
-      ],
-      "/DEC4_6": [
-        "Default"
-      ],
-      "/DECUSB": [
-        "Default"
-      ],
       "/power/BAT_POS": [
-        "Power"
-      ],
-      "/power/USB_VBUS": [
         "Power"
       ],
       "GND": [
@@ -608,20 +599,6 @@
       "Net-(D66-K)": [
         "Power"
       ],
-      "Net-(J2-CC1)": [
-        "Default",
-        "Power"
-      ],
-      "Net-(J2-CC2)": [
-        "Default",
-        "Power"
-      ],
-      "Net-(J3-In)": [
-        "Antenna"
-      ],
-      "Net-(L2-Pad1)": [
-        "Default"
-      ],
       "Net-(Q1-D)": [
         "Power"
       ],
@@ -633,9 +610,6 @@
       ],
       "Net-(SW2-B)": [
         "Power"
-      ],
-      "Net-(U1-ANT)": [
-        "Antenna"
       ],
       "Net-(U2-PROG)": [
         "Power"
@@ -664,16 +638,7 @@
       "VBUS": [
         "Power"
       ],
-      "VDD nRF": [
-        "Default"
-      ],
       "VDDH": [
-        "Power"
-      ],
-      "unconnected-(J2-SBU1-PadA8)": [
-        "Power"
-      ],
-      "unconnected-(J2-SBU2-PadB8)": [
         "Power"
       ],
       "unconnected-(Q2-D1{slash}D2-Pad2)": [
@@ -689,10 +654,6 @@
     "netclass_patterns": [
       {
         "netclass": "Default",
-        "pattern": "Net-(J2-CC*"
-      },
-      {
-        "netclass": "Default",
         "pattern": "Net-(J3-In)"
       },
       {
@@ -706,6 +667,10 @@
       {
         "netclass": "Power",
         "pattern": "VBUS"
+      },
+      {
+        "netclass": "USB Data",
+        "pattern": "USB_D*"
       }
     ]
   },
