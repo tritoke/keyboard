@@ -4384,12 +4384,6 @@
 		(uuid "137610bb-085f-4941-bc89-22e4ad9ebd93")
 	)
 	(junction
-		(at 140.97 109.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2bd4e66c-266e-4d85-8056-5449623c7bf3")
-	)
-	(junction
 		(at 140.97 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4490,6 +4484,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d7df3c37-a9c4-4ae6-a126-9c49d79f6379")
+	)
+	(junction
+		(at 140.97 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e44a709b-37bf-4cd6-9daf-6f9441d62eaf")
 	)
 	(junction
 		(at 111.76 45.72)
@@ -4711,7 +4711,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 35.56) (xy 171.45 38.1)
+			(xy 171.45 36.83) (xy 171.45 38.1)
 		)
 		(stroke
 			(width 0)
@@ -4861,7 +4861,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 25.4) (xy 171.45 27.94)
+			(xy 171.45 27.94) (xy 171.45 29.21)
 		)
 		(stroke
 			(width 0)
@@ -5231,6 +5231,16 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 48.26) (xy 57.15 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1ea8d9d-a899-41e4-8ee7-6c9a6e655971")
+	)
+	(wire
+		(pts
 			(xy 138.43 53.34) (xy 138.43 57.15)
 		)
 		(stroke
@@ -5421,6 +5431,16 @@
 	)
 	(wire
 		(pts
+			(xy 140.97 106.68) (xy 140.97 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df9521aa-ad8f-490e-b20d-fa4b6b7bd8ba")
+	)
+	(wire
+		(pts
 			(xy 254 124.46) (xy 254 127)
 		)
 		(stroke
@@ -5491,16 +5511,6 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 109.22) (xy 152.4 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f18f9447-fb11-481d-9bda-bcedbddfd37d")
-	)
-	(wire
-		(pts
 			(xy 57.15 55.88) (xy 69.85 55.88)
 		)
 		(stroke
@@ -5549,16 +5559,6 @@
 		)
 		(uuid "07461cca-122f-4401-b1fa-63151ec51f9c")
 	)
-	(label "USB_VBUS"
-		(at 152.4 109.22 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "1b853ea5-7aee-4569-b105-976797e2de0b")
-	)
 	(label "BAT_POS"
 		(at 215.9 50.8 180)
 		(effects
@@ -5569,16 +5569,6 @@
 		)
 		(uuid "29ede2b1-628d-4b91-976e-e4a2000b4e57")
 	)
-	(label "USB_VBUS"
-		(at 171.45 25.4 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "37bb498e-3051-4d90-b8df-ff6f0ecefa0f")
-	)
 	(label "BAT_POS"
 		(at 118.11 124.46 0)
 		(effects
@@ -5588,16 +5578,6 @@
 			(justify left bottom)
 		)
 		(uuid "813627c8-abeb-40d2-8a34-f1e42bebf700")
-	)
-	(label "USB_VBUS"
-		(at 57.15 48.26 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8f36d82f-52ab-46fa-8877-62a2c7437f95")
 	)
 	(label "USB_D-"
 		(at 111.76 170.18 0)
@@ -5704,8 +5684,8 @@
 		(dnp no)
 		(polyline
 			(pts
-				(xy 278.13 163.83) (xy 167.64 163.83) (xy 167.64 195.58) (xy 104.14 195.58) (xy 104.14 101.6) (xy 96.52 93.98)
-				(xy 22.86 93.98) (xy 22.86 17.78) (xy 222.25 17.78) (xy 278.13 73.66)
+				(xy 278.13 163.83) (xy 167.64 163.83) (xy 167.64 195.58) (xy 104.14 195.58) (xy 104.14 101.6) (xy 104.14 93.98)
+				(xy 104.14 93.98) (xy 104.14 17.78) (xy 222.25 17.78) (xy 278.13 73.66)
 			)
 			(stroke
 				(width 0)
@@ -5720,7 +5700,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 31.75 17.78 0)
+		(at 109.22 17.78 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5730,7 +5710,7 @@
 		)
 		(uuid "cbd63d92-21a7-46ec-a0a6-0af15cd233cc")
 		(property "Netclass" "Power"
-			(at 32.4485 15.24 0)
+			(at 109.9185 15.24 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5741,7 +5721,7 @@
 			)
 		)
 		(property "Component Class" ""
-			(at 195.58 59.69 0)
+			(at 273.05 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7467,7 +7447,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 171.45 31.75 0)
+		(at 171.45 33.02 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7478,7 +7458,7 @@
 		(fields_autoplaced yes)
 		(uuid "8a7ea5ba-4c25-49a2-8f0e-49dbfce369ef")
 		(property "Reference" "R6"
-			(at 173.99 30.4799 0)
+			(at 173.99 31.7499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7489,7 +7469,7 @@
 			)
 		)
 		(property "Value" "0.4"
-			(at 173.99 33.0199 0)
+			(at 173.99 34.2899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7500,7 +7480,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 169.672 31.75 90)
+			(at 169.672 33.02 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7511,7 +7491,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 171.45 31.75 0)
+			(at 171.45 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7522,7 +7502,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 171.45 31.75 0)
+			(at 171.45 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7802,6 +7782,84 @@
 			(project "keyboard"
 				(path "/39e5e398-89ad-4475-a3bf-05d3324a2c58/10482084-a545-4aa4-8b75-11043176cfae"
 					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 62.23 48.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a3d234a1-660b-458d-ae2e-25108a01d5e6")
+		(property "Reference" "#PWR040"
+			(at 62.23 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 62.23 43.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.23 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 62.23 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "389beb47-2afc-4397-ad29-5d6749d7b83c")
+		)
+		(instances
+			(project "keyboard"
+				(path "/39e5e398-89ad-4475-a3bf-05d3324a2c58/10482084-a545-4aa4-8b75-11043176cfae"
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -8290,6 +8348,84 @@
 			(project "keyboard"
 				(path "/39e5e398-89ad-4475-a3bf-05d3324a2c58/10482084-a545-4aa4-8b75-11043176cfae"
 					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 171.45 27.94 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b3c7fe3f-e445-47d4-b3e2-34af96981e2e")
+		(property "Reference" "#PWR041"
+			(at 171.45 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 171.45 22.86 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 171.45 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 171.45 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 171.45 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "73fa246f-a555-4d37-a314-611af6379016")
+		)
+		(instances
+			(project "keyboard"
+				(path "/39e5e398-89ad-4475-a3bf-05d3324a2c58/10482084-a545-4aa4-8b75-11043176cfae"
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -9259,6 +9395,84 @@
 			(project "keyboard"
 				(path "/39e5e398-89ad-4475-a3bf-05d3324a2c58/10482084-a545-4aa4-8b75-11043176cfae"
 					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 140.97 106.68 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e9798704-e7fe-4ad1-bfa3-de6012d11470")
+		(property "Reference" "#PWR019"
+			(at 140.97 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 140.97 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 140.97 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 140.97 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "80881c28-4e29-432a-b342-729b4a93f460")
+		)
+		(instances
+			(project "keyboard"
+				(path "/39e5e398-89ad-4475-a3bf-05d3324a2c58/10482084-a545-4aa4-8b75-11043176cfae"
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
