@@ -5629,6 +5629,30 @@
 		)
 		(uuid "d92f5ecc-338d-4d7e-8537-69d74c2ccad2")
 	)
+	(global_label "BAT_VOLTAGE"
+		(shape input)
+		(at 242.57 68.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "117262a8-8219-43c8-96c8-dc272940470f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 257.7714 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "USB_D+"
 		(shape input)
 		(at 68.58 67.31 0)
@@ -5653,6 +5677,30 @@
 			)
 		)
 	)
+	(global_label "~{STDBY}"
+		(shape input)
+		(at 138.43 68.58 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8961801b-3418-454f-ab4c-41bb2d7b181f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 129.6391 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "USB_D-"
 		(shape input)
 		(at 68.58 62.23 0)
@@ -5674,6 +5722,30 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "~{CHRG}"
+		(shape input)
+		(at 148.59 66.04 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b22a56c7-20b4-46a8-baba-04781d9dec2e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 140.4643 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)

@@ -566,6 +566,9 @@
       "/power/BAT_POS": [
         "Power"
       ],
+      "BAT_VOLTAGE": [
+        "Power"
+      ],
       "GND": [
         "Power"
       ],
@@ -636,6 +639,12 @@
         "Power"
       ],
       "unconnected-(U3-TD-Pad4)": [
+        "Power"
+      ],
+      "~{CHRG}": [
+        "Power"
+      ],
+      "~{STDBY}": [
         "Power"
       ]
     },

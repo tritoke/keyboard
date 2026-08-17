@@ -3638,16 +3638,8 @@
 		(uuid "30028281-ade8-410e-ad44-5cb3fa1e8304")
 	)
 	(no_connect
-		(at 161.29 69.85)
-		(uuid "3109eb2f-3d21-4135-900d-32037540bc8c")
-	)
-	(no_connect
 		(at 161.29 105.41)
 		(uuid "442ec802-bfbe-4c41-a979-23759ed33a97")
-	)
-	(no_connect
-		(at 161.29 118.11)
-		(uuid "469c42de-000f-4245-b547-67b82c8f03bc")
 	)
 	(no_connect
 		(at 161.29 54.61)
@@ -3716,10 +3708,6 @@
 	(no_connect
 		(at 161.29 148.59)
 		(uuid "efcafc08-7875-4170-a347-bd466d452df5")
-	)
-	(no_connect
-		(at 161.29 64.77)
-		(uuid "f344dcde-0c4d-49f7-b228-3e0f234b7f8c")
 	)
 	(wire
 		(pts
@@ -4695,6 +4683,30 @@
 			)
 		)
 	)
+	(global_label "BAT_VOLTAGE"
+		(shape input)
+		(at 161.29 64.77 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "70f370de-9d00-4d07-a991-152c4cc90c53")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 176.4914 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "col2"
 		(shape input)
 		(at 140.97 46.99 90)
@@ -4708,6 +4720,30 @@
 		(uuid "716b8299-c25b-4bd5-a410-af01c856c7a5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 140.97 39.8925 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "~{CHRG}"
+		(shape input)
+		(at 161.29 118.11 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7646f171-2c9d-4ea4-ae55-ffa07488dc80")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 169.4157 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4948,6 +4984,30 @@
 		(uuid "bd8d448f-71ad-4260-8e28-bd9ab47d5821")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 168.3875 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "~{STDBY}"
+		(shape input)
+		(at 161.29 69.85 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c8179042-a70c-40cc-a3bc-b99f8da9d67a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 170.0809 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
