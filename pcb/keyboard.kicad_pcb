@@ -114,7 +114,6 @@
 		)
 		(capping no)
 		(filling no)
-		(zone_defaults)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
@@ -152,7 +151,7 @@
 			(outputdirectory "")
 		)
 	)
-	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.25u"
+	(footprint "My_Footprints:SW_Hotswap_Kailh_MX_1.25u"
 		(layer "F.Cu")
 		(uuid "01577daa-28a3-44e6-981e-62de3a3607ca")
 		(at 83.3435 185.737)
@@ -215,88 +214,6 @@
 		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -7.1 -7.1)
-			(end -7.1 7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "e104dd35-ae6e-4af6-bd4f-78f69bf5c61d")
-		)
-		(fp_line
-			(start -7.1 7.1)
-			(end 7.1 7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "08560461-91ba-4a93-a826-6890fe486f6f")
-		)
-		(fp_line
-			(start 7.1 -7.1)
-			(end -7.1 -7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "4d3e6fa9-821b-49aa-85fc-50eb93e3c4b3")
-		)
-		(fp_line
-			(start 7.1 7.1)
-			(end 7.1 -7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "0fe6cac4-541a-4d6e-a5bf-ba0cbb39a3e4")
-		)
-		(fp_line
-			(start -4.1 -6.9)
-			(end 1 -6.9)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "9b1f751a-3369-450d-8087-01d6a2e6ae61")
-		)
-		(fp_line
-			(start -0.2 -2.7)
-			(end 4.9 -2.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "2a05ef4d-38c2-4c60-b7d6-6c31d914063a")
-		)
-		(fp_arc
-			(start -6.1 -4.9)
-			(mid -5.514214 -6.314214)
-			(end -4.1 -6.9)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "a909ce87-14ea-4e25-9266-0d262130d15f")
-		)
-		(fp_arc
-			(start -2.2 -0.7)
-			(mid -1.614214 -2.114214)
-			(end -0.2 -2.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "4dbe03f7-8560-4a06-8386-74bebefe45d9")
-		)
 		(fp_line
 			(start -11.90625 -9.525)
 			(end -11.90625 9.525)
@@ -762,7 +679,7 @@
 			(uuid "df779af1-19ff-4928-8cae-fd24dbea8c19")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1 0 0)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "636ca61a-acf6-48a9-b97e-bc4eb0998e6c")
 			(effects
@@ -997,7 +914,7 @@
 			)
 		)
 	)
-	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+	(footprint "My_Footprints:SW_Hotswap_Kailh_MX_1.00u"
 		(layer "F.Cu")
 		(uuid "02e6f89e-a273-4dc3-9f48-8dc2a7c27224")
 		(at 261.9375 147.6375)
@@ -1060,88 +977,6 @@
 		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -7.1 -7.1)
-			(end -7.1 7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "e81a1b0c-365f-49a4-a6b9-8c4fa1ac119c")
-		)
-		(fp_line
-			(start -7.1 7.1)
-			(end 7.1 7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "a0cd9dac-b1d8-4a18-a50b-a027a93b92c8")
-		)
-		(fp_line
-			(start 7.1 -7.1)
-			(end -7.1 -7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "7514d803-afbf-4e4e-81b8-b6def6628880")
-		)
-		(fp_line
-			(start 7.1 7.1)
-			(end 7.1 -7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "4558b850-8097-4abb-9534-84076dea5d60")
-		)
-		(fp_line
-			(start -4.1 -6.9)
-			(end 1 -6.9)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "a95f1a7f-f539-4cfa-9af1-4d344c9b6215")
-		)
-		(fp_line
-			(start -0.2 -2.7)
-			(end 4.9 -2.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "5541b8a2-6c95-4fe5-b6bc-9b8256ca4f7f")
-		)
-		(fp_arc
-			(start -6.1 -4.9)
-			(mid -5.514214 -6.314214)
-			(end -4.1 -6.9)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "593411dd-132e-4190-946d-42db619b20c5")
-		)
-		(fp_arc
-			(start -2.2 -0.7)
-			(mid -1.614214 -2.114214)
-			(end -0.2 -2.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "f581598b-8aca-442d-9598-2fe693c034f5")
-		)
 		(fp_line
 			(start -9.525 -9.525)
 			(end -9.525 9.525)
@@ -1844,7 +1679,7 @@
 			)
 		)
 	)
-	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+	(footprint "My_Footprints:SW_Hotswap_Kailh_MX_1.00u"
 		(layer "F.Cu")
 		(uuid "0a0e88b6-1a39-48b8-b97a-2c96422a39ca")
 		(at 285.75 185.737)
@@ -1907,88 +1742,6 @@
 		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -7.1 -7.1)
-			(end -7.1 7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "c06370d7-8e25-4a50-b2c5-349e54cb9460")
-		)
-		(fp_line
-			(start -7.1 7.1)
-			(end 7.1 7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "df855ada-40fd-41ad-b785-30aeeaa484b9")
-		)
-		(fp_line
-			(start 7.1 -7.1)
-			(end -7.1 -7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "e01b2ad1-f06d-46e8-b0ef-bf8d0614162f")
-		)
-		(fp_line
-			(start 7.1 7.1)
-			(end 7.1 -7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "e45c5fac-8184-48fe-8909-d07f65506a45")
-		)
-		(fp_line
-			(start -4.1 -6.9)
-			(end 1 -6.9)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "9304c475-6d85-4dc3-9592-b88f88db2ff8")
-		)
-		(fp_line
-			(start -0.2 -2.7)
-			(end 4.9 -2.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "f7482e68-cd15-4e91-8412-548042b74889")
-		)
-		(fp_arc
-			(start -6.1 -4.9)
-			(mid -5.514214 -6.314214)
-			(end -4.1 -6.9)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "951323ca-6099-4156-a6f4-1033f914b6d6")
-		)
-		(fp_arc
-			(start -2.2 -0.7)
-			(mid -1.614214 -2.114214)
-			(end -0.2 -2.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "92a21f60-34c6-4d20-99a3-fb1e73026e03")
-		)
 		(fp_line
 			(start -9.525 -9.525)
 			(end -9.525 9.525)
@@ -2530,7 +2283,7 @@
 			)
 		)
 	)
-	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+	(footprint "My_Footprints:SW_Hotswap_Kailh_MX_1.00u"
 		(layer "F.Cu")
 		(uuid "10d180ab-450a-486a-acc6-960c2112a9a6")
 		(at 80.96225 166.687)
@@ -2593,88 +2346,6 @@
 		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -7.1 -7.1)
-			(end -7.1 7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "0c8b3606-36a8-46ee-9b86-6b7553cfd3b9")
-		)
-		(fp_line
-			(start -7.1 7.1)
-			(end 7.1 7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "6dce5673-ceec-4669-9263-5e52dcd71e66")
-		)
-		(fp_line
-			(start 7.1 -7.1)
-			(end -7.1 -7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "2d8c3388-f93a-4ece-989f-c6988657d489")
-		)
-		(fp_line
-			(start 7.1 7.1)
-			(end 7.1 -7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "88894c88-cdd2-4394-8d04-36676848b6d3")
-		)
-		(fp_line
-			(start -4.1 -6.9)
-			(end 1 -6.9)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "2942d0e6-6d8c-4bc5-83ce-0fa90f7f82ee")
-		)
-		(fp_line
-			(start -0.2 -2.7)
-			(end 4.9 -2.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "085f43f7-3833-475c-aa3c-fb536a994ac3")
-		)
-		(fp_arc
-			(start -6.1 -4.9)
-			(mid -5.514214 -6.314214)
-			(end -4.1 -6.9)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "9b82059b-83cb-4926-b41d-64e3b4f7acf0")
-		)
-		(fp_arc
-			(start -2.2 -0.7)
-			(mid -1.614214 -2.114214)
-			(end -0.2 -2.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "738912ba-7093-4c18-a95a-126bfdb91a08")
-		)
 		(fp_line
 			(start -9.525 -9.525)
 			(end -9.525 9.525)
@@ -3651,7 +3322,7 @@
 			)
 		)
 	)
-	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+	(footprint "My_Footprints:SW_Hotswap_Kailh_MX_1.00u"
 		(layer "F.Cu")
 		(uuid "1b87f101-ef64-4be5-873f-b3cacdf64d08")
 		(at 142.875 128.5875)
@@ -3714,88 +3385,6 @@
 		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -7.1 -7.1)
-			(end -7.1 7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "4ed028c5-ad39-4198-9779-c792296c83a4")
-		)
-		(fp_line
-			(start -7.1 7.1)
-			(end 7.1 7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "d4c45231-9312-4ff6-8e60-231506ee17da")
-		)
-		(fp_line
-			(start 7.1 -7.1)
-			(end -7.1 -7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "f5015192-8888-4c1f-ac4d-f188f5c33400")
-		)
-		(fp_line
-			(start 7.1 7.1)
-			(end 7.1 -7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "8643dabe-2077-4bf3-86a4-a5a76993dc9e")
-		)
-		(fp_line
-			(start -4.1 -6.9)
-			(end 1 -6.9)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "6fccc8a3-877c-4638-8a63-f279b46b3ce1")
-		)
-		(fp_line
-			(start -0.2 -2.7)
-			(end 4.9 -2.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "c3ba25ef-93e8-45aa-aad3-c32aa03c5ec4")
-		)
-		(fp_arc
-			(start -6.1 -4.9)
-			(mid -5.514214 -6.314214)
-			(end -4.1 -6.9)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "07f8a916-f657-4277-96e1-8f2f99780b37")
-		)
-		(fp_arc
-			(start -2.2 -0.7)
-			(mid -1.614214 -2.114214)
-			(end -0.2 -2.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "9e28b33e-3bf8-40bc-95d6-a476bcb9bc70")
-		)
 		(fp_line
 			(start -9.525 -9.525)
 			(end -9.525 9.525)
@@ -4655,7 +4244,7 @@
 			)
 		)
 	)
-	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+	(footprint "My_Footprints:SW_Hotswap_Kailh_MX_1.00u"
 		(layer "F.Cu")
 		(uuid "1fafc759-4241-4f84-9bc0-eac3684eaabd")
 		(at 100.012 166.687)
@@ -4718,88 +4307,6 @@
 		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -7.1 -7.1)
-			(end -7.1 7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "eaa7a5c1-038e-4ff6-84f4-dd3f510a087d")
-		)
-		(fp_line
-			(start -7.1 7.1)
-			(end 7.1 7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "0bbf3164-cb80-43c8-8f34-658665891a70")
-		)
-		(fp_line
-			(start 7.1 -7.1)
-			(end -7.1 -7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "e89dd417-a050-4fd5-8243-90cd7887f62a")
-		)
-		(fp_line
-			(start 7.1 7.1)
-			(end 7.1 -7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "dbb048d1-2af0-4d44-9b2b-e0f8ae233155")
-		)
-		(fp_line
-			(start -4.1 -6.9)
-			(end 1 -6.9)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "3cf38fa9-fdda-4137-9319-74a92cd7144b")
-		)
-		(fp_line
-			(start -0.2 -2.7)
-			(end 4.9 -2.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "e53b812f-cfb4-4a54-8304-ddd1e2fe7671")
-		)
-		(fp_arc
-			(start -6.1 -4.9)
-			(mid -5.514214 -6.314214)
-			(end -4.1 -6.9)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "32b1afc9-1204-40ec-a5dd-1b3058e7b0f6")
-		)
-		(fp_arc
-			(start -2.2 -0.7)
-			(mid -1.614214 -2.114214)
-			(end -0.2 -2.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "89f1c1ed-d603-41a1-b314-9583424dd4d6")
-		)
 		(fp_line
 			(start -9.525 -9.525)
 			(end -9.525 9.525)
@@ -5659,7 +5166,7 @@
 			)
 		)
 	)
-	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+	(footprint "My_Footprints:SW_Hotswap_Kailh_MX_1.00u"
 		(layer "F.Cu")
 		(uuid "25984e3c-5d2f-42d6-81a5-4ad63f7a88ee")
 		(at 300.038 147.6375)
@@ -5722,88 +5229,6 @@
 		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -7.1 -7.1)
-			(end -7.1 7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "6d8e7869-c1cc-4008-8401-edf0cf5716b8")
-		)
-		(fp_line
-			(start -7.1 7.1)
-			(end 7.1 7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "c016cf16-6d83-4500-b812-b6fc1671f60c")
-		)
-		(fp_line
-			(start 7.1 -7.1)
-			(end -7.1 -7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "4822ff73-7469-4463-b1ce-1452caeef415")
-		)
-		(fp_line
-			(start 7.1 7.1)
-			(end 7.1 -7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "ee36dd37-504c-474f-b328-7802921705f4")
-		)
-		(fp_line
-			(start -4.1 -6.9)
-			(end 1 -6.9)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "89cba816-9aca-4f33-9ded-928ed7a76621")
-		)
-		(fp_line
-			(start -0.2 -2.7)
-			(end 4.9 -2.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "89668304-4887-4781-8071-660b720fb44f")
-		)
-		(fp_arc
-			(start -6.1 -4.9)
-			(mid -5.514214 -6.314214)
-			(end -4.1 -6.9)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "e602106f-18b3-4903-88a5-ab53ead1bc1d")
-		)
-		(fp_arc
-			(start -2.2 -0.7)
-			(mid -1.614214 -2.114214)
-			(end -0.2 -2.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "89a48d87-7d3a-4d83-a02f-5a07aaeb4032")
-		)
 		(fp_line
 			(start -9.525 -9.525)
 			(end -9.525 9.525)
@@ -6345,7 +5770,7 @@
 			)
 		)
 	)
-	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+	(footprint "My_Footprints:SW_Hotswap_Kailh_MX_1.00u"
 		(layer "F.Cu")
 		(uuid "2687803d-b397-40ea-8a43-c73a7add5e6d")
 		(at 133.35 109.5375)
@@ -6408,88 +5833,6 @@
 		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -7.1 -7.1)
-			(end -7.1 7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "59144fee-1673-4367-b9ad-5d06850275f8")
-		)
-		(fp_line
-			(start -7.1 7.1)
-			(end 7.1 7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "be1372e3-64ff-41fd-a94d-e8312212149b")
-		)
-		(fp_line
-			(start 7.1 -7.1)
-			(end -7.1 -7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "4a2644e0-8c57-4ee2-ab12-72733bdcace4")
-		)
-		(fp_line
-			(start 7.1 7.1)
-			(end 7.1 -7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "ba66d4ee-98bf-45ad-a839-53580926c699")
-		)
-		(fp_line
-			(start -4.1 -6.9)
-			(end 1 -6.9)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "914f4ce0-027b-4498-82b1-0f61d0aa762c")
-		)
-		(fp_line
-			(start -0.2 -2.7)
-			(end 4.9 -2.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "e8b5b327-de4f-42f2-af0f-d52a07997a99")
-		)
-		(fp_arc
-			(start -6.1 -4.9)
-			(mid -5.514214 -6.314214)
-			(end -4.1 -6.9)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "e9d5ea92-3750-417b-bd4f-f9a516a723a6")
-		)
-		(fp_arc
-			(start -2.2 -0.7)
-			(mid -1.614214 -2.114214)
-			(end -0.2 -2.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "9811c759-e946-4e2c-b726-17622c20492b")
-		)
 		(fp_line
 			(start -9.525 -9.525)
 			(end -9.525 9.525)
@@ -7031,7 +6374,7 @@
 			)
 		)
 	)
-	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.25u"
+	(footprint "My_Footprints:SW_Hotswap_Kailh_MX_1.25u"
 		(layer "F.Cu")
 		(uuid "28293bea-59ff-47b1-9d5a-44fb52aa0be6")
 		(at 107.156 185.737)
@@ -7094,88 +6437,6 @@
 		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -7.1 -7.1)
-			(end -7.1 7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "1c969e9f-984d-4e88-b4dd-0d1111f0bc25")
-		)
-		(fp_line
-			(start -7.1 7.1)
-			(end 7.1 7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "ee22a7e4-c23a-43db-ba47-a93a45291995")
-		)
-		(fp_line
-			(start 7.1 -7.1)
-			(end -7.1 -7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "05c556de-314d-46b5-b361-7802d0e1bd88")
-		)
-		(fp_line
-			(start 7.1 7.1)
-			(end 7.1 -7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "6a14bb78-8b16-489c-ae3d-bb6f8ea5be7c")
-		)
-		(fp_line
-			(start -4.1 -6.9)
-			(end 1 -6.9)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "6175b53e-2df0-4403-9eb5-5d6ab28c46e5")
-		)
-		(fp_line
-			(start -0.2 -2.7)
-			(end 4.9 -2.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "e051a39d-9e7b-421e-933a-5cdff37f26fd")
-		)
-		(fp_arc
-			(start -6.1 -4.9)
-			(mid -5.514214 -6.314214)
-			(end -4.1 -6.9)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "541b1ae9-5931-4f54-a434-3c3a7553cc5e")
-		)
-		(fp_arc
-			(start -2.2 -0.7)
-			(mid -1.614214 -2.114214)
-			(end -0.2 -2.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "8fd24fa3-5844-4b2e-8974-bebe5e3755ec")
-		)
 		(fp_line
 			(start -11.90625 -9.525)
 			(end -11.90625 9.525)
@@ -7941,7 +7202,7 @@
 			)
 		)
 	)
-	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+	(footprint "My_Footprints:SW_Hotswap_Kailh_MX_1.00u"
 		(layer "F.Cu")
 		(uuid "2d2a1f28-5f58-422c-a4b6-ce33181098a1")
 		(at 157.162 166.687)
@@ -8004,88 +7265,6 @@
 		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -7.1 -7.1)
-			(end -7.1 7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "7703aeb4-4556-4684-b9d4-c85a54f1f71f")
-		)
-		(fp_line
-			(start -7.1 7.1)
-			(end 7.1 7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "f6364dc5-0ac6-4a56-9c25-a0a67087f8fb")
-		)
-		(fp_line
-			(start 7.1 -7.1)
-			(end -7.1 -7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "50185788-3ddb-4fb3-be67-2291e63a5ccb")
-		)
-		(fp_line
-			(start 7.1 7.1)
-			(end 7.1 -7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "7d683468-d876-46ea-8ca5-b9446fbd9fb7")
-		)
-		(fp_line
-			(start -4.1 -6.9)
-			(end 1 -6.9)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "81a72ce8-90b3-4ad0-b417-e550f717480a")
-		)
-		(fp_line
-			(start -0.2 -2.7)
-			(end 4.9 -2.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "f3842036-20f5-4133-9015-5d7512600482")
-		)
-		(fp_arc
-			(start -6.1 -4.9)
-			(mid -5.514214 -6.314214)
-			(end -4.1 -6.9)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "e0753423-ba6c-4122-8039-c4f1e0795c25")
-		)
-		(fp_arc
-			(start -2.2 -0.7)
-			(mid -1.614214 -2.114214)
-			(end -0.2 -2.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "7187014f-b43f-41bf-94a8-e25209fe19b4")
-		)
 		(fp_line
 			(start -9.525 -9.525)
 			(end -9.525 9.525)
@@ -8846,7 +8025,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+	(footprint "My_Footprints:SW_Hotswap_Kailh_MX_1.00u"
 		(layer "F.Cu")
 		(uuid "3281ce17-ac11-4caa-85da-4842d431d289")
 		(at 76.2 109.5375)
@@ -8909,88 +8088,6 @@
 		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -7.1 -7.1)
-			(end -7.1 7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "9910c49c-196e-4c53-a0dc-1ee2161927f7")
-		)
-		(fp_line
-			(start -7.1 7.1)
-			(end 7.1 7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "d1b1af4e-dd1e-45b2-b5a3-9b268446ca0e")
-		)
-		(fp_line
-			(start 7.1 -7.1)
-			(end -7.1 -7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "14b6b996-a301-40c3-a125-21a96d110648")
-		)
-		(fp_line
-			(start 7.1 7.1)
-			(end 7.1 -7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "3a7784ad-4c23-48fa-898b-573a7de4de23")
-		)
-		(fp_line
-			(start -4.1 -6.9)
-			(end 1 -6.9)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "720c9d39-6c42-41b9-933c-4bf992191ab7")
-		)
-		(fp_line
-			(start -0.2 -2.7)
-			(end 4.9 -2.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "b2b001cb-061a-4287-9ee8-01869735fea8")
-		)
-		(fp_arc
-			(start -6.1 -4.9)
-			(mid -5.514214 -6.314214)
-			(end -4.1 -6.9)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "4d503e6b-e312-49f6-a562-a85461f1c745")
-		)
-		(fp_arc
-			(start -2.2 -0.7)
-			(mid -1.614214 -2.114214)
-			(end -0.2 -2.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "0fb87333-fa27-4635-a988-77bcb1eb47c7")
-		)
 		(fp_line
 			(start -9.525 -9.525)
 			(end -9.525 9.525)
@@ -9910,7 +9007,7 @@
 			)
 		)
 	)
-	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+	(footprint "My_Footprints:SW_Hotswap_Kailh_MX_1.00u"
 		(layer "F.Cu")
 		(uuid "342f5684-0721-4c78-b0fb-f11c9591eab7")
 		(at 204.7875 147.6375)
@@ -9973,88 +9070,6 @@
 		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -7.1 -7.1)
-			(end -7.1 7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "d17f91cf-a2f8-4031-a3ab-2a3949f58c3a")
-		)
-		(fp_line
-			(start -7.1 7.1)
-			(end 7.1 7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "4caa76d0-3554-4164-a67c-28d14d7e509a")
-		)
-		(fp_line
-			(start 7.1 -7.1)
-			(end -7.1 -7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "4e544e3f-fb67-437e-a61a-b53173c91742")
-		)
-		(fp_line
-			(start 7.1 7.1)
-			(end 7.1 -7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "a1fb3589-1e53-45e3-8a4e-fd0ee2508990")
-		)
-		(fp_line
-			(start -4.1 -6.9)
-			(end 1 -6.9)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "c133d7ec-dd34-40b5-adcc-18330ac6fb77")
-		)
-		(fp_line
-			(start -0.2 -2.7)
-			(end 4.9 -2.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "a95d5186-69ad-4622-b5e7-7059cbfea3f8")
-		)
-		(fp_arc
-			(start -6.1 -4.9)
-			(mid -5.514214 -6.314214)
-			(end -4.1 -6.9)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "de7c4f28-6ba4-46a2-a400-e6b587ae9e82")
-		)
-		(fp_arc
-			(start -2.2 -0.7)
-			(mid -1.614214 -2.114214)
-			(end -0.2 -2.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "bf049fc3-503e-4be7-94d7-e778c25b17d8")
-		)
 		(fp_line
 			(start -9.525 -9.525)
 			(end -9.525 9.525)
@@ -10755,7 +9770,7 @@
 			)
 		)
 	)
-	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+	(footprint "My_Footprints:SW_Hotswap_Kailh_MX_1.00u"
 		(layer "F.Cu")
 		(uuid "37b6fa5b-f8fa-47fa-9f0b-78fd3c6c4afd")
 		(at 185.7375 147.6375)
@@ -10818,88 +9833,6 @@
 		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -7.1 -7.1)
-			(end -7.1 7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "d01e58ca-5e5a-4527-bd54-88397b5046bf")
-		)
-		(fp_line
-			(start -7.1 7.1)
-			(end 7.1 7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "7645b7fb-1bc3-4783-b527-00de01bfd470")
-		)
-		(fp_line
-			(start 7.1 -7.1)
-			(end -7.1 -7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "cfc9e787-84c1-4768-811a-9369176056a0")
-		)
-		(fp_line
-			(start 7.1 7.1)
-			(end 7.1 -7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "f2d65208-7b58-43e3-a1ac-149324316e79")
-		)
-		(fp_line
-			(start -4.1 -6.9)
-			(end 1 -6.9)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "adc49325-7f06-4841-8d32-5ecec4943e48")
-		)
-		(fp_line
-			(start -0.2 -2.7)
-			(end 4.9 -2.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "cdfa6a72-e03d-436f-9308-3942b0bc0833")
-		)
-		(fp_arc
-			(start -6.1 -4.9)
-			(mid -5.514214 -6.314214)
-			(end -4.1 -6.9)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "fa088ec9-70a6-45db-bcc3-45bb33826a6c")
-		)
-		(fp_arc
-			(start -2.2 -0.7)
-			(mid -1.614214 -2.114214)
-			(end -0.2 -2.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "8898ce3e-cf38-4b0d-a50d-7851445f27d6")
-		)
 		(fp_line
 			(start -9.525 -9.525)
 			(end -9.525 9.525)
@@ -11441,7 +10374,7 @@
 			)
 		)
 	)
-	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+	(footprint "My_Footprints:SW_Hotswap_Kailh_MX_1.00u"
 		(layer "F.Cu")
 		(uuid "3b4d584e-284d-4b2c-bf2d-c9b1c84b7aeb")
 		(at 180.975 128.5875)
@@ -11504,88 +10437,6 @@
 		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -7.1 -7.1)
-			(end -7.1 7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "75f309c5-2b91-4fb2-aff6-6e819846520d")
-		)
-		(fp_line
-			(start -7.1 7.1)
-			(end 7.1 7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "61612a5d-0558-4a9f-9aaf-2e1d954370d5")
-		)
-		(fp_line
-			(start 7.1 -7.1)
-			(end -7.1 -7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "b644f1b2-622e-41b2-9fd2-fec3638e4ab1")
-		)
-		(fp_line
-			(start 7.1 7.1)
-			(end 7.1 -7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "539aeb9c-4c71-4ce8-a761-85d5606c1579")
-		)
-		(fp_line
-			(start -4.1 -6.9)
-			(end 1 -6.9)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "48ca06f8-023a-4981-bce9-52d9926278a8")
-		)
-		(fp_line
-			(start -0.2 -2.7)
-			(end 4.9 -2.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "42413adc-ef45-48b8-ab5f-36438bbf4dc0")
-		)
-		(fp_arc
-			(start -6.1 -4.9)
-			(mid -5.514214 -6.314214)
-			(end -4.1 -6.9)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "4c1d7e99-64d5-4c64-868e-bbe67934fd2a")
-		)
-		(fp_arc
-			(start -2.2 -0.7)
-			(mid -1.614214 -2.114214)
-			(end -0.2 -2.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "f75ff2b9-fbb3-4349-aafb-05683fce8c01")
-		)
 		(fp_line
 			(start -9.525 -9.525)
 			(end -9.525 9.525)
@@ -12288,7 +11139,7 @@
 			)
 		)
 	)
-	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+	(footprint "My_Footprints:SW_Hotswap_Kailh_MX_1.00u"
 		(layer "F.Cu")
 		(uuid "3ca1ce70-f8e4-4446-8994-d98be7b02f3d")
 		(at 342.9 185.737)
@@ -12351,88 +11202,6 @@
 		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -7.1 -7.1)
-			(end -7.1 7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "866f4385-9dde-421f-9168-18d1c662fc85")
-		)
-		(fp_line
-			(start -7.1 7.1)
-			(end 7.1 7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "c27fbcad-a783-4f6b-9f19-513fc8b696e8")
-		)
-		(fp_line
-			(start 7.1 -7.1)
-			(end -7.1 -7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "57ef79b6-1cc4-4ef0-b48f-d246ea68f0fa")
-		)
-		(fp_line
-			(start 7.1 7.1)
-			(end 7.1 -7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "3bfeec65-e902-4518-a443-93d1d29b18c9")
-		)
-		(fp_line
-			(start -4.1 -6.9)
-			(end 1 -6.9)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "320aaf8c-032d-4846-9695-4255889401bc")
-		)
-		(fp_line
-			(start -0.2 -2.7)
-			(end 4.9 -2.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "e06d5789-cd80-4645-8d51-f0a65acd83f5")
-		)
-		(fp_arc
-			(start -6.1 -4.9)
-			(mid -5.514214 -6.314214)
-			(end -4.1 -6.9)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "c73e55ce-93b3-41f4-afd7-2addff1f23db")
-		)
-		(fp_arc
-			(start -2.2 -0.7)
-			(mid -1.614214 -2.114214)
-			(end -0.2 -2.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "ee3afa1d-535a-45a1-88d0-ae0db817cd95")
-		)
 		(fp_line
 			(start -9.525 -9.525)
 			(end -9.525 9.525)
@@ -12974,7 +11743,7 @@
 			)
 		)
 	)
-	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+	(footprint "My_Footprints:SW_Hotswap_Kailh_MX_1.00u"
 		(layer "F.Cu")
 		(uuid "3e1dc5eb-8e9e-4bb6-8495-23e789a2cc2d")
 		(at 161.925 128.5875)
@@ -13037,88 +11806,6 @@
 		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -7.1 -7.1)
-			(end -7.1 7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "91d50088-90f4-4b74-b5b8-822c1960c52b")
-		)
-		(fp_line
-			(start -7.1 7.1)
-			(end 7.1 7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "c783c85e-25ea-42e7-a88b-c5e827bcaa01")
-		)
-		(fp_line
-			(start 7.1 -7.1)
-			(end -7.1 -7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "17944314-5023-416e-81ab-886a4d5a02b1")
-		)
-		(fp_line
-			(start 7.1 7.1)
-			(end 7.1 -7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "600d3c42-5006-4354-b6a1-662432519813")
-		)
-		(fp_line
-			(start -4.1 -6.9)
-			(end 1 -6.9)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "b0a10258-d6e9-4d32-9c08-e0b70f77324f")
-		)
-		(fp_line
-			(start -0.2 -2.7)
-			(end 4.9 -2.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "24ba7d55-45ed-4930-b519-dc634ab55d94")
-		)
-		(fp_arc
-			(start -6.1 -4.9)
-			(mid -5.514214 -6.314214)
-			(end -4.1 -6.9)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "49e2c587-d99e-4930-b814-67c4f39bbd88")
-		)
-		(fp_arc
-			(start -2.2 -0.7)
-			(mid -1.614214 -2.114214)
-			(end -0.2 -2.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "b0c302e0-307d-40b5-9765-5829d38f6085")
-		)
 		(fp_line
 			(start -9.525 -9.525)
 			(end -9.525 9.525)
@@ -13980,7 +12667,7 @@
 			)
 		)
 	)
-	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+	(footprint "My_Footprints:SW_Hotswap_Kailh_MX_1.00u"
 		(layer "F.Cu")
 		(uuid "3f384658-bc15-47f7-8bfc-c78addc455fc")
 		(at 200.025 128.5875)
@@ -14043,88 +12730,6 @@
 		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -7.1 -7.1)
-			(end -7.1 7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "c2fa056c-13aa-4f61-a61f-88d231dd4c6d")
-		)
-		(fp_line
-			(start -7.1 7.1)
-			(end 7.1 7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "6b710ebb-ce8c-440c-85ac-06207908ec6d")
-		)
-		(fp_line
-			(start 7.1 -7.1)
-			(end -7.1 -7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "c314eed5-7d31-49ae-9ff7-de9218aefc28")
-		)
-		(fp_line
-			(start 7.1 7.1)
-			(end 7.1 -7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "71f04ae3-069d-43ad-88c1-043c9f247043")
-		)
-		(fp_line
-			(start -4.1 -6.9)
-			(end 1 -6.9)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "eab06780-6086-4437-96e7-695f678e9c40")
-		)
-		(fp_line
-			(start -0.2 -2.7)
-			(end 4.9 -2.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "9cf7fd5a-b220-402c-bfdd-07348b1f6961")
-		)
-		(fp_arc
-			(start -6.1 -4.9)
-			(mid -5.514214 -6.314214)
-			(end -4.1 -6.9)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "a45b4fdf-8a02-4b06-a122-c0e531a55505")
-		)
-		(fp_arc
-			(start -2.2 -0.7)
-			(mid -1.614214 -2.114214)
-			(end -0.2 -2.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "38fde6d1-6a5b-4027-8d33-4189ba42bbd6")
-		)
 		(fp_line
 			(start -9.525 -9.525)
 			(end -9.525 9.525)
@@ -14666,6 +13271,496 @@
 			)
 		)
 	)
+	(footprint "My_Footprints:pfp"
+		(layer "F.Cu")
+		(uuid "43870311-1fe4-417d-b2a0-6d549286eb39")
+		(at 54.5 93.5)
+		(property "Reference" "G***"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "026b7adb-1a6c-46ac-a84d-bbbd2d84ea75")
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.3)
+				)
+			)
+		)
+		(property "Value" "LOGO"
+			(at 0.75 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "6261d2a3-e463-4765-b45e-1416cf66666d")
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.3)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f653f582-c9d4-486e-8ee2-c1f9db5b7e37")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c2979362-4bf4-4bbd-854d-8fb1ad8a8c0b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(attr board_only exclude_from_pos_files exclude_from_bom)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_poly
+			(pts
+				(xy -1.354667 -2.166221) (xy -1.397 -2.123746) (xy -1.439333 -2.166221) (xy -1.397 -2.208696)
+			)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.SilkS")
+			(uuid "80110574-2566-4a7e-9b43-8e0feaea1360")
+		)
+		(fp_poly
+			(pts
+				(xy 1.185333 -2.081271) (xy 1.143 -2.038797) (xy 1.100667 -2.081271) (xy 1.143 -2.123746)
+			)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.SilkS")
+			(uuid "0f415101-4ffc-4f60-8973-b772a131faf1")
+		)
+		(fp_poly
+			(pts
+				(xy 1.354667 -2.081271) (xy 1.312333 -2.038797) (xy 1.27 -2.081271) (xy 1.312333 -2.123746)
+			)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.SilkS")
+			(uuid "151314a0-73b0-4e62-8da8-fe65331316c4")
+		)
+		(fp_poly
+			(pts
+				(xy -2.314222 0.792865) (xy -2.304089 0.89368) (xy -2.314222 0.906131) (xy -2.364557 0.89447) (xy -2.370667 0.849498)
+				(xy -2.339689 0.779574)
+			)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.SilkS")
+			(uuid "f9f38c54-2fe6-420a-a946-bf0f6bf6ecd5")
+		)
+		(fp_poly
+			(pts
+				(xy -1.693978 0.985768) (xy -1.682827 0.996744) (xy -1.615951 1.108123) (xy -1.625018 1.14907) (xy -1.688 1.123577)
+				(xy -1.730223 1.044299) (xy -1.756001 0.945053)
+			)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.SilkS")
+			(uuid "232a106c-5ef2-415e-a865-3ec3864a26f3")
+		)
+		(fp_poly
+			(pts
+				(xy -1.100667 1.107287) (xy -1.163089 1.21548) (xy -1.303822 1.216096) (xy -1.3447 1.195478) (xy -1.38861 1.132134)
+				(xy -1.277157 1.081611) (xy -1.138292 1.072861)
+			)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.SilkS")
+			(uuid "5038e4b1-e6c9-4a23-97ea-aedd45a10c54")
+		)
+		(fp_poly
+			(pts
+				(xy -2.015067 1.002407) (xy -1.973391 1.078485) (xy -2.075916 1.103727) (xy -2.116667 1.104347)
+				(xy -2.251241 1.087216) (xy -2.237715 1.023161) (xy -2.218267 1.002407) (xy -2.103053 0.944208)
+			)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.SilkS")
+			(uuid "9a372838-c740-4b04-9fdc-0d0ee645e923")
+		)
+		(fp_poly
+			(pts
+				(xy 1.160185 1.310452) (xy 1.227667 1.359197) (xy 1.259668 1.433213) (xy 1.25383 1.435679) (xy 1.162952 1.406432)
+				(xy 1.016 1.359197) (xy 0.876038 1.309483) (xy 0.892013 1.289257) (xy 0.989836 1.282715)
+			)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.SilkS")
+			(uuid "fe4cf571-6da3-47e3-81ca-c50496b68392")
+		)
+		(fp_poly
+			(pts
+				(xy 0.596778 -3.26802) (xy 0.6348 -3.172406) (xy 0.586411 -3.093107) (xy 0.441907 -2.980084) (xy 0.314007 -3.02636)
+				(xy 0.310444 -3.029878) (xy 0.254003 -3.142802) (xy 0.323193 -3.187657) (xy 0.381 -3.173864) (xy 0.489612 -3.179922)
+				(xy 0.508 -3.224019) (xy 0.559896 -3.281884)
+			)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.SilkS")
+			(uuid "2e0d05e3-3c97-48e1-881f-090f63150643")
+		)
+		(fp_poly
+			(pts
+				(xy 0.434088 0.717134) (xy 0.454636 0.785785) (xy 0.504353 1.072089) (xy 0.506362 1.337507) (xy 0.464923 1.534107)
+				(xy 0.384299 1.613955) (xy 0.381 1.614046) (xy 0.307257 1.574902) (xy 0.267664 1.436139) (xy 0.25425 1.16576)
+				(xy 0.254 1.104347) (xy 0.269535 0.806546) (xy 0.310434 0.633683) (xy 0.368138 0.599349)
+			)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.SilkS")
+			(uuid "1c67f8dd-dc2f-4f40-9cf6-c8e88b1157ef")
+		)
+		(fp_poly
+			(pts
+				(xy -0.839302 2.186742) (xy -0.815891 2.205594) (xy -0.681649 2.244793) (xy -0.609984 2.229784)
+				(xy -0.518883 2.224521) (xy -0.535635 2.32832) (xy -0.583744 2.470617) (xy -0.592667 2.512967) (xy -0.658017 2.557628)
+				(xy -0.806591 2.547496) (xy -0.967174 2.497456) (xy -1.068555 2.422395) (xy -1.073328 2.412496)
+				(xy -1.062984 2.273134) (xy -0.963522 2.180641)
+			)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.SilkS")
+			(uuid "f7e0d13f-b4d9-4449-9df7-bc4885975ed4")
+		)
+		(fp_poly
+			(pts
+				(xy 2.167707 0.954323) (xy 2.198413 0.991807) (xy 2.201333 1.056859) (xy 2.176763 1.168697) (xy 2.078328 1.23954)
+				(xy 1.868944 1.287736) (xy 1.685257 1.312162) (xy 1.312333 1.356285) (xy 1.649537 1.270011) (xy 1.884424 1.19313)
+				(xy 2.049665 1.109133) (xy 2.072871 1.089064) (xy 2.100443 1.029587) (xy 1.993494 1.053379) (xy 1.807959 1.098218)
+				(xy 1.541588 1.139807) (xy 1.443161 1.150948) (xy 1.251691 1.168143) (xy 1.200789 1.164139) (xy 1.298522 1.133467)
+				(xy 1.552956 1.070659) (xy 1.566333 1.067442) (xy 1.885932 0.991569) (xy 2.074968 0.954053)
+			)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.SilkS")
+			(uuid "bab647ea-8dd6-44d7-8ab2-7e475da3cf95")
+		)
+		(fp_poly
+			(pts
+				(xy 0.159002 3.189542) (xy 0.357728 3.341011) (xy 0.406814 3.420597) (xy 0.473522 3.729369) (xy 0.373528 4.013187)
+				(xy 0.284739 4.119563) (xy 0.08339 4.230102) (xy -0.139054 4.228766) (xy -0.312071 4.11969) (xy -0.335688 4.083176)
+				(xy -0.406715 3.848907) (xy -0.417483 3.577445) (xy -0.399466 3.486119) (xy -0.336845 3.486119)
+				(xy -0.271252 3.658871) (xy -0.115582 3.816576) (xy 0.108506 3.956451) (xy 0.268257 3.983129) (xy 0.337641 3.893393)
+				(xy 0.338667 3.872768) (xy 0.280017 3.746195) (xy 0.138149 3.589687) (xy -0.03582 3.446948) (xy -0.190772 3.361679)
+				(xy -0.261169 3.359963) (xy -0.336845 3.486119) (xy -0.399466 3.486119) (xy -0.370913 3.341389)
+				(xy -0.301453 3.232356) (xy -0.082738 3.147473)
+			)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.SilkS")
+			(uuid "c153cc8d-17d0-4203-931e-6953585ae30f")
+		)
+		(fp_poly
+			(pts
+				(xy 0.985108 -2.718358) (xy 1.136359 -2.568187) (xy 1.181943 -2.393765) (xy 1.152774 -2.341879)
+				(xy 1.071119 -2.45075) (xy 1.052239 -2.484783) (xy 0.914641 -2.650728) (xy 0.764293 -2.718395) (xy 0.599599 -2.682661)
+				(xy 0.557037 -2.606131) (xy 0.652447 -2.534815) (xy 0.697244 -2.523663) (xy 0.889 -2.486683) (xy 0.6985 -2.475114)
+				(xy 0.547299 -2.417432) (xy 0.508 -2.336121) (xy 0.57226 -2.238246) (xy 0.709315 -2.211487) (xy 0.835575 -2.2618)
+				(xy 0.866406 -2.310588) (xy 0.913829 -2.345722) (xy 0.952124 -2.276865) (xy 0.927126 -2.16252) (xy 0.778486 -2.096595)
+				(xy 0.548718 -2.094751) (xy 0.486833 -2.105457) (xy 0.368077 -2.203385) (xy 0.345965 -2.396845)
+				(xy 0.425895 -2.638246) (xy 0.426312 -2.63903) (xy 0.575629 -2.771455) (xy 0.780046 -2.792006)
+			)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.SilkS")
+			(uuid "74775191-6d78-4d55-b184-5907ba0c4d10")
+		)
+		(fp_poly
+			(pts
+				(xy -2.496854 2.493707) (xy -2.315188 2.567194) (xy -2.092505 2.679194) (xy -1.876887 2.803627)
+				(xy -1.716415 2.914411) (xy -1.659171 2.985465) (xy -1.660517 2.988694) (xy -1.624062 3.042501)
+				(xy -1.50783 3.060777) (xy -1.375887 3.070992) (xy -1.401003 3.113297) (xy -1.464933 3.152437) (xy -1.64173 3.194535)
+				(xy -1.729368 3.148388) (xy -1.902433 3.08251) (xy -2.040811 3.152517) (xy -2.095511 3.324998) (xy -2.088032 3.392981)
+				(xy -2.064477 3.63796) (xy -2.105718 3.73675) (xy -2.189503 3.688896) (xy -2.293577 3.493939) (xy -2.328357 3.397922)
+				(xy -2.408034 3.132265) (xy -2.425748 2.980076) (xy -2.384128 2.897767) (xy -2.359602 2.879635)
+				(xy -2.294953 2.819609) (xy -2.382775 2.804645) (xy -2.50778 2.74484) (xy -2.596248 2.617708) (xy -2.599814 2.498103)
+				(xy -2.589423 2.484816)
+			)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.SilkS")
+			(uuid "76c6802f-0f27-43d5-8ae2-b0bc347307a8")
+		)
+		(fp_poly
+			(pts
+				(xy -0.60311 -2.749833) (xy -0.470468 -2.614543) (xy -0.342409 -2.370317) (xy -0.360533 -2.210798)
+				(xy -0.526007 -2.132973) (xy -0.6604 -2.123746) (xy -0.897453 -2.149105) (xy -1.066526 -2.211541)
+				(xy -1.083733 -2.225686) (xy -1.173783 -2.389682) (xy -1.060278 -2.389682) (xy -1.020111 -2.33867)
+				(xy -0.939188 -2.351211) (xy -0.928759 -2.39482) (xy -0.897516 -2.432775) (xy -0.839885 -2.357358)
+				(xy -0.724837 -2.244995) (xy -0.593991 -2.209842) (xy -0.512876 -2.263954) (xy -0.508 -2.296312)
+				(xy -0.575948 -2.398611) (xy -0.642099 -2.435559) (xy -0.727511 -2.493156) (xy -0.663266 -2.559017)
+				(xy -0.616781 -2.614607) (xy -0.728206 -2.632126) (xy -0.730467 -2.632145) (xy -0.900855 -2.591453)
+				(xy -1.025215 -2.496019) (xy -1.060278 -2.389682) (xy -1.173783 -2.389682) (xy -1.178826 -2.398867)
+				(xy -1.111105 -2.578257) (xy -1.0305 -2.662754) (xy -0.806342 -2.790387)
+			)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.SilkS")
+			(uuid "0ea16cb4-6bfb-4466-8e4b-397ab421af52")
+		)
+		(fp_poly
+			(pts
+				(xy 0.155936 -1.832367) (xy 0.309445 -1.735756) (xy 0.319325 -1.598529) (xy 0.173304 -1.440154)
+				(xy 0.151058 -1.424836) (xy -0.036551 -1.299852) (xy 0.144924 -1.202405) (xy 0.361208 -1.145101)
+				(xy 0.529968 -1.201567) (xy 0.599351 -1.347049) (xy 0.619748 -1.424953) (xy 0.649688 -1.377579)
+				(xy 0.647828 -1.210457) (xy 0.490249 -1.099086) (xy 0.182081 -1.046118) (xy 0.000327 -1.041995)
+				(xy -0.284359 -1.058598) (xy -0.502738 -1.096661) (xy -0.589357 -1.135008) (xy -0.668421 -1.294963)
+				(xy -0.674759 -1.35495) (xy -0.658875 -1.433082) (xy -0.600468 -1.362678) (xy -0.585885 -1.33796)
+				(xy -0.464887 -1.236337) (xy -0.296225 -1.192645) (xy -0.147098 -1.212261) (xy -0.084667 -1.297844)
+				(xy -0.143785 -1.430183) (xy -0.257603 -1.554957) (xy -0.330326 -1.650997) (xy -0.21229 -1.650997)
+				(xy -0.163802 -1.569152) (xy -0.009287 -1.529193) (xy 0 -1.529098) (xy 0.156996 -1.564852) (xy 0.206183 -1.605146)
+				(xy 0.18955 -1.690181) (xy 0.068757 -1.743574) (xy -0.091174 -1.740943) (xy -0.126514 -1.729905)
+				(xy -0.21229 -1.650997) (xy -0.330326 -1.650997) (xy -0.376465 -1.711929) (xy -0.336272 -1.823393)
+				(xy -0.145474 -1.86873) (xy -0.128928 -1.868897)
+			)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.SilkS")
+			(uuid "bf7f82a3-d36c-4e2f-abf2-43d6854830f0")
+		)
+		(fp_poly
+			(pts
+				(xy 0.406245 -4.063611) (xy 0.381396 -3.993287) (xy 0.381 -3.992643) (xy 0.261203 -3.920482) (xy 0.169701 -3.907693)
+				(xy 0.047901 -3.856608) (xy -0.010212 -3.680373) (xy -0.015802 -3.631606) (xy -0.053452 -3.44181)
+				(xy -0.142418 -3.375994) (xy -0.244017 -3.377743) (xy -0.380869 -3.379246) (xy -0.375114 -3.317992)
+				(xy -0.336505 -3.267955) (xy -0.276585 -3.116149) (xy -0.311164 -3.051809) (xy -0.446135 -3.007915)
+				(xy -0.597106 -3.053492) (xy -0.676663 -3.159947) (xy -0.677333 -3.171588) (xy -0.723947 -3.169068)
+				(xy -0.843179 -3.05842) (xy -0.937498 -2.950125) (xy -1.151107 -2.719747) (xy -1.28906 -2.640527)
+				(xy -1.350974 -2.712636) (xy -1.354667 -2.765884) (xy -1.315523 -2.855161) (xy -1.274276 -2.848471)
+				(xy -1.177889 -2.877051) (xy -1.039724 -3.01042) (xy -1.004353 -3.055832) (xy -0.878003 -3.185619)
+				(xy -0.508 -3.185619) (xy -0.465667 -3.143144) (xy -0.423333 -3.185619) (xy -0.465667 -3.228094)
+				(xy -0.508 -3.185619) (xy -0.878003 -3.185619) (xy -0.839296 -3.225379) (xy -0.677718 -3.31065)
+				(xy -0.654057 -3.313044) (xy -0.498519 -3.392994) (xy -0.397417 -3.567894) (xy -0.297807 -3.770474)
+				(xy -0.215688 -3.806004) (xy -0.153449 -3.673881) (xy -0.144419 -3.631606) (xy -0.117668 -3.520824)
+				(xy -0.103031 -3.566652) (xy -0.096197 -3.676183) (xy -0.028134 -3.888462) (xy 0.132512 -3.994745)
+				(xy 0.33263 -4.064018)
+			)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.SilkS")
+			(uuid "44d48248-dd2b-4ccf-a09b-d7fce257194d")
+		)
+		(fp_poly
+			(pts
+				(xy -0.343315 -5.124593) (xy -0.274184 -5.083256) (xy -0.012619 -4.948566) (xy 0.245271 -4.856075)
+				(xy 0.276246 -4.848945) (xy 0.494306 -4.767444) (xy 0.632035 -4.602321) (xy 0.709839 -4.39893) (xy 0.754741 -4.310197)
+				(xy 0.844512 -4.301289) (xy 1.031046 -4.368984) (xy 1.051895 -4.377693) (xy 1.296355 -4.469552)
+				(xy 1.464523 -4.481008) (xy 1.615412 -4.396042) (xy 1.808038 -4.198635) (xy 1.839089 -4.164027)
+				(xy 2.144309 -3.894748) (xy 2.427631 -3.771909) (xy 2.719655 -3.650217) (xy 2.894747 -3.414718)
+				(xy 2.954057 -3.061644) (xy 2.898733 -2.587228) (xy 2.850686 -2.38491) (xy 2.758816 -2.126696) (xy 2.632748 -1.984985)
+				(xy 2.510567 -1.929079) (xy 2.304292 -1.895252) (xy 2.115098 -1.968069) (xy 2.028239 -2.028154)
+				(xy 1.861578 -2.137154) (xy 1.763921 -2.134495) (xy 1.699989 -1.999531) (xy 1.655253 -1.809862)
+				(xy 1.633381 -1.636583) (xy 1.681939 -1.515143) (xy 1.832847 -1.390984) (xy 1.94163 -1.320335) (xy 2.144249 -1.169258)
+				(xy 2.268029 -1.033128) (xy 2.286 -0.9842) (xy 2.351368 -0.861566) (xy 2.510566 -0.721278) (xy 2.528762 -0.709179)
+				(xy 2.989918 -0.364265) (xy 3.314224 -0.003501) (xy 3.532881 0.409832) (xy 3.572485 0.519089) (xy 3.718212 0.880477)
+				(xy 3.904709 1.251127) (xy 4.020269 1.442063) (xy 4.222768 1.780699) (xy 4.34275 2.061159) (xy 4.370794 2.256532)
+				(xy 4.330496 2.328371) (xy 4.296188 2.43179) (xy 4.28882 2.646151) (xy 4.298529 2.799818) (xy 4.283335 3.285949)
+				(xy 4.136193 3.666747) (xy 3.859282 3.939322) (xy 3.454781 4.100785) (xy 3.295827 4.128906) (xy 3.07861 4.166745)
+				(xy 2.933884 4.233496) (xy 2.835386 4.363713) (xy 2.75685 4.591951) (xy 2.672991 4.948327) (xy 2.606949 5.114002)
+				(xy 2.469993 5.176296) (xy 2.347887 5.182678) (xy 2.093443 5.188683) (xy 1.774992 5.202932) (xy 1.651 5.210151)
+				(xy 1.44008 5.216785) (xy 1.091941 5.220087) (xy 0.638664 5.22009) (xy 0.112329 5.21683) (xy -0.454983 5.21034)
+				(xy -0.63247 5.207704) (xy -1.210406 5.194991) (xy -1.714892 5.176774) (xy -2.123448 5.154356) (xy -2.413594 5.129044)
+				(xy -2.562847 5.10214) (xy -2.575944 5.094905) (xy -2.645859 4.970812) (xy -2.735579 4.742343) (xy -2.793061 4.565677)
+				(xy -2.878492 4.307625) (xy -2.963775 4.168622) (xy -3.092001 4.103451) (xy -3.262587 4.072938)
+				(xy -3.681507 3.975463) (xy -3.968681 3.80436) (xy -4.145951 3.534397) (xy -4.235158 3.140342) (xy -4.246134 3.000911)
+				(xy -4.148667 3.000911) (xy -4.131264 3.303519) (xy -4.066667 3.50031) (xy -3.958123 3.632932) (xy -3.624507 3.862146)
+				(xy -3.256551 3.979487) (xy -3.165907 3.987257) (xy -2.98748 3.992642) (xy -3.20824 3.100676) (xy -3.309447 2.704814)
+				(xy -3.387203 2.446262) (xy -3.454679 2.29645) (xy -3.47485 2.276487) (xy -2.794 2.276487) (xy -2.768892 2.376518)
+				(xy -2.702482 2.596083) (xy -2.608139 2.893912) (xy -2.499233 3.228737) (xy -2.389134 3.559291)
+				(xy -2.29121 3.844305) (xy -2.239469 3.988165) (xy -2.182727 4.032705) (xy -2.086199 3.932549) (xy -2.048315 3.874108)
+				(xy -0.622941 3.874108) (xy -0.504302 4.176243) (xy -0.395521 4.298982) (xy -0.207488 4.446804)
+				(xy -0.063532 4.492999) (xy 0.114768 4.453237) (xy 0.206607 4.419321) (xy 0.387708 4.288329) (xy 0.546869 4.075825)
+				(xy 0.564323 4.041557) (xy 0.5894 3.947708) (xy 2.991929 3.947708) (xy 3.092792 3.988193) (xy 3.210994 3.992642)
+				(xy 3.479971 3.958113) (xy 3.757563 3.874919) (xy 3.761116 3.873438) (xy 4.00274 3.698151) (xy 4.15064 3.441226)
+				(xy 4.208787 3.141579) (xy 4.181149 2.838128) (xy 4.071699 2.569788) (xy 3.884404 2.375476) (xy 3.623235 2.29411)
+				(xy 3.599957 2.293645) (xy 3.507893 2.318433) (xy 3.430999 2.41327) (xy 3.353733 2.608863) (xy 3.260549 2.93592)
+				(xy 3.245209 2.994481) (xy 3.154347 3.334852) (xy 3.072956 3.624247) (xy 3.015013 3.813437) (xy 3.004022 3.843979)
+				(xy 2.991929 3.947708) (xy 0.5894 3.947708) (xy 0.648564 3.726289) (xy 0.614553 3.435322) (xy 0.4889 3.189986)
+				(xy 0.298217 3.011605) (xy 0.069112 2.921506) (xy -0.171802 2.941017) (xy -0.397917 3.091463) (xy -0.483838 3.201522)
+				(xy -0.617564 3.531264) (xy -0.622941 3.874108) (xy -2.048315 3.874108) (xy -2.039649 3.86074) (xy -1.939216 3.630485)
+				(xy -1.965595 3.45443) (xy -2.00715 3.288209) (xy -1.929654 3.229484) (xy -1.795316 3.277583) (xy -1.586318 3.316692)
+				(xy -1.359245 3.264702) (xy -1.067489 3.166289) (xy -1.40471 2.952698) (xy -1.694804 2.778884) (xy -2.007181 2.607454)
+				(xy -2.307549 2.455101) (xy -2.377186 2.423146) (xy -1.163441 2.423146) (xy -1.070268 2.605306)
+				(xy -0.8843 2.71025) (xy -0.804333 2.718394) (xy -0.604166 2.653615) (xy -0.510979 2.554079) (xy -0.440621 2.345906)
+				(xy 0.955532 2.345906) (xy 0.989727 2.453464) (xy 1.106098 2.652512) (xy 1.277219 2.906045) (xy 1.475663 3.177054)
+				(xy 1.674004 3.428534) (xy 1.844817 3.623478) (xy 1.960676 3.724879) (xy 1.982399 3.731492) (xy 2.113309 3.694781)
+				(xy 2.325148 3.611263) (xy 2.389694 3.58283) (xy 2.705054 3.440468) (xy 2.418881 2.73069) (xy 2.282424 2.405084)
+				(xy 2.160825 2.137821) (xy 2.073191 1.969996) (xy 2.050566 1.938494) (xy 1.935246 1.925392) (xy 1.722658 1.971581)
+				(xy 1.465501 2.057455) (xy 1.216474 2.163406) (xy 1.028276 2.269827) (xy 0.955532 2.345906) (xy -0.440621 2.345906)
+				(xy -0.429532 2.313095) (xy -0.493359 2.139715) (xy -0.623282 2.045088) (xy -0.8099 1.980875) (xy -0.979938 2.036352)
+				(xy -1.004282 2.051167) (xy -1.14704 2.219767) (xy -1.163441 2.423146) (xy -2.377186 2.423146) (xy -2.561611 2.338517)
+				(xy -2.735074 2.274395) (xy -2.794 2.276487) (xy -3.47485 2.276487) (xy -3.525047 2.226809) (xy -3.61148 2.208772)
+				(xy -3.6195 2.208703) (xy -3.879952 2.282611) (xy -4.056429 2.497132) (xy -4.141689 2.841422) (xy -4.148667 3.000911)
+				(xy -4.246134 3.000911) (xy -4.251691 2.930323) (xy -4.274172 2.620464) (xy -4.304877 2.374872)
+				(xy -4.337239 2.245787) (xy -4.337877 2.244721) (xy -4.323235 2.149855) (xy -4.20702 2.149855) (xy -4.107732 2.221862)
+				(xy -4.053417 2.217252) (xy -3.886389 2.178509) (xy -3.693311 2.1423) (xy -3.489971 2.056721) (xy -3.408027 1.941676)
+				(xy -3.299147 1.793943) (xy -3.18605 1.738118) (xy -3.062591 1.728774) (xy -2.789759 1.72136) (xy -2.387504 1.715995)
+				(xy -1.875777 1.712801) (xy -1.274527 1.711898) (xy -0.603706 1.713408) (xy 0.116736 1.717451) (xy 0.165536 1.71781)
+				(xy 3.336739 1.741471) (xy 3.385068 1.946967) (xy 3.48856 2.12026) (xy 3.601239 2.16487) (xy 3.814853 2.217302)
+				(xy 3.937707 2.272645) (xy 4.109876 2.319529) (xy 4.204486 2.259566) (xy 4.182051 2.127417) (xy 4.151645 2.084871)
+				(xy 3.996276 1.994077) (xy 3.768772 1.953949) (xy 3.7573 1.953846) (xy 3.565566 1.933449) (xy 3.4729 1.883523)
+				(xy 3.471333 1.875301) (xy 3.543487 1.839528) (xy 3.716398 1.832992) (xy 3.924741 1.851799) (xy 4.103191 1.892053)
+				(xy 4.156366 1.916145) (xy 4.150015 1.87583) (xy 4.065777 1.728586) (xy 3.933799 1.524323) (xy 3.741198 1.187291)
+				(xy 3.563615 0.794712) (xy 3.482756 0.568158) (xy 3.323157 0.046524) (xy 3.260522 0.503461) (xy 3.206731 0.793716)
+				(xy 3.131093 1.080198) (xy 3.047677 1.321971) (xy 2.970555 1.478097) (xy 2.914929 1.508847) (xy 2.918383 1.413167)
+				(xy 2.975995 1.226212) (xy 2.993628 1.181103) (xy 3.075351 0.918289) (xy 3.145286 0.591317) (xy 3.16583 0.454757)
+				(xy 3.220846 0.017541) (xy 2.826169 -0.331029) (xy 2.607705 -0.514059) (xy 2.435578 -0.640293) (xy 2.356651 -0.679599)
+				(xy 2.273759 -0.609693) (xy 2.204909 -0.476662) (xy 2.0131 -0.150908) (xy 1.700577 0.179824) (xy 1.309686 0.474695)
+				(xy 1.086836 0.601653) (xy 0.837144 0.719179) (xy 0.659582 0.785688) (xy 0.59298 0.787008) (xy 0.662885 0.719568)
+				(xy 0.847308 0.600924) (xy 1.108801 0.454824) (xy 1.154821 0.43073) (xy 1.52316 0.213996) (xy 1.780702 -0.008003)
+				(xy 1.958841 -0.244263) (xy 2.139043 -0.574909) (xy 2.192942 -0.822388) (xy 2.117415 -1.020109)
+				(xy 1.90934 -1.201482) (xy 1.866815 -1.229145) (xy 1.656258 -1.354368) (xy 1.518984 -1.39357) (xy 1.387202 -1.354704)
+				(xy 1.283239 -1.297606) (xy 1.118056 -1.171351) (xy 1.032995 -0.998402) (xy 0.997093 -0.766908)
+				(xy 0.90742 -0.400389) (xy 0.728487 -0.035577) (xy 0.4956 0.26773) (xy 0.292214 0.42696) (xy 0.123423 0.491748)
+				(xy -0.043411 0.471004) (xy -0.209945 0.400206) (xy -0.510848 0.176803) (xy -0.768797 -0.158909)
+				(xy -0.945056 -0.549391) (xy -0.992577 -0.762346) (xy -0.996699 -0.778954) (xy -0.923308 -0.778954)
+				(xy -0.854399 -0.574445) (xy -0.731389 -0.328118) (xy -0.577093 -0.087717) (xy -0.464335 0.049725)
+				(xy -0.259519 0.240408) (xy -0.084163 0.32066) (xy 0.100124 0.324371) (xy 0.287519 0.279303) (xy 0.446301 0.161153)
+				(xy 0.62349 -0.067299) (xy 0.656167 -0.115788) (xy 0.822933 -0.414431) (xy 0.918696 -0.685729) (xy 0.931333 -0.787316)
+				(xy 0.923902 -0.960726) (xy 0.878179 -0.987098) (xy 0.765436 -0.895094) (xy 0.509759 -0.760823)
+				(xy 0.157603 -0.703344) (xy -0.234293 -0.727108) (xy -0.504694 -0.795442) (xy -0.732892 -0.866341)
+				(xy -0.884765 -0.897521) (xy -0.915299 -0.893903) (xy -0.923308 -0.778954) (xy -0.996699 -0.778954)
+				(xy -1.057585 -1.024285) (xy -1.188066 -1.18206) (xy -1.271266 -1.23243) (xy -1.42058 -1.296168)
+				(xy -1.540963 -1.285947) (xy -1.691471 -1.185183) (xy -1.814498 -1.079896) (xy -1.998547 -0.908693)
+				(xy -2.075071 -0.784093) (xy -2.066893 -0.644245) (xy -2.024872 -0.5097) (xy -1.81002 -0.070186)
+				(xy -1.509426 0.273417) (xy -1.258779 0.438046) (xy -0.937611 0.577223) (xy -0.668941 0.668314)
+				(xy -0.486384 0.701896) (xy -0.423333 0.672219) (xy -0.358687 0.596853) (xy -0.338667 0.594648)
+				(xy -0.2923 0.671456) (xy -0.261547 0.869589) (xy -0.254 1.061872) (xy -0.266284 1.346961) (xy -0.308223 1.492786)
+				(xy -0.376132 1.529096) (xy -0.470134 1.4523) (xy -0.52084 1.217661) (xy -0.524299 1.17649) (xy -0.549599 0.963975)
+				(xy -0.615108 0.84313) (xy -0.766107 0.76458) (xy -0.956117 0.705637) (xy -1.378675 0.506239) (xy -1.747677 0.19081)
+				(xy -2.01699 -0.195871) (xy -2.100931 -0.405551) (xy -2.179926 -0.622551) (xy -2.253853 -0.750237)
+				(xy -2.277479 -0.764549) (xy -2.373018 -0.71237) (xy -2.551793 -0.576663) (xy -2.739747 -0.41753)
+				(xy -2.961254 -0.208938) (xy -3.078983 -0.04705) (xy -3.124041 0.124143) (xy -3.128961 0.283306)
+				(xy -3.097477 0.582161) (xy -3.022297 0.925445) (xy -2.980794 1.061872) (xy -2.836333 1.486622)
+				(xy -2.328333 1.471037) (xy -2.052397 1.463389) (xy -1.935761 1.465467) (xy -1.968474 1.48177) (xy -2.140582 1.516797)
+				(xy -2.201333 1.528453) (xy -2.543539 1.574871) (xy -2.901139 1.596136) (xy -2.963333 1.596181)
+				(xy -3.146464 1.586544) (xy -3.19672 1.56769) (xy -3.153834 1.554094) (xy -3.0161 1.522205) (xy -2.974372 1.464206)
+				(xy -3.012492 1.325799) (xy -3.05356 1.217099) (xy -3.117389 0.994642) (xy -3.180586 0.689991) (xy -3.209289 0.510733)
+				(xy -3.252239 0.256286) (xy -3.291429 0.156023) (xy -3.333656 0.194558) (xy -3.34107 0.212374) (xy -3.487079 0.56559)
+				(xy -3.648288 0.922439) (xy -3.805327 1.24346) (xy -3.938827 1.48919) (xy -4.029417 1.620169) (xy -4.034227 1.624505)
+				(xy -4.141069 1.757681) (xy -4.087744 1.840818) (xy -3.882834 1.868896) (xy -3.646505 1.821085)
+				(xy -3.509836 1.721849) (xy -3.437983 1.637987) (xy -3.427232 1.690842) (xy -3.446684 1.805809)
+				(xy -3.50254 1.955924) (xy -3.571175 1.98691) (xy -3.710105 1.960482) (xy -3.903142 1.983031) (xy -4.087102 2.038367)
+				(xy -4.198805 2.110299) (xy -4.20702 2.149855) (xy -4.323235 2.149855) (xy -4.321766 2.140334) (xy -4.239539 1.91416)
+				(xy -4.10319 1.595159) (xy -3.924708 1.212289) (xy -3.832476 1.024136) (xy -3.608046 0.581116) (xy -3.416957 0.237097)
+				(xy -3.231089 -0.040233) (xy -3.02232 -0.283184) (xy -2.762532 -0.524068) (xy -2.423602 -0.795196)
+				(xy -1.977411 -1.128879) (xy -1.925169 -1.167405) (xy -1.551466 -1.442836) (xy -1.724048 -1.816267)
+				(xy -1.89663 -2.189698) (xy -2.168286 -2.05972) (xy -2.389107 -1.985871) (xy -2.565651 -1.978997)
+				(xy -2.578461 -1.983076) (xy -2.735528 -2.116292) (xy -2.852205 -2.353387) (xy -2.926629 -2.654559)
+				(xy -2.956934 -2.980006) (xy -2.954061 -3.036794) (xy -2.871466 -3.036794) (xy -2.842236 -2.778097)
+				(xy -2.775386 -2.508416) (xy -2.675193 -2.26193) (xy -2.566035 -2.089425) (xy -2.487344 -2.038797)
+				(xy -2.385856 -2.071967) (xy -2.197528 -2.153848) (xy -2.152946 -2.174797) (xy -1.957047 -2.31293)
+				(xy -1.949172 -2.321074) (xy -1.739506 -2.321074) (xy -1.737855 -2.190407) (xy -1.6754 -1.970302)
+				(xy -1.622489 -1.837989) (xy -1.422848 -1.510384) (xy -1.132901 -1.279051) (xy -1.096317 -1.258387)
+				(xy -0.840967 -1.116585) (xy -0.620357 -0.991842) (xy -0.560019 -0.956938) (xy -0.375825 -0.897528)
+				(xy -0.097605 -0.858912) (xy 0.093276 -0.850751) (xy 0.398938 -0.865027) (xy 0.609219 -0.925066)
+				(xy 0.796521 -1.053695) (xy 0.830257 -1.083111) (xy 1.064459 -1.284337) (xy 1.292927 -1.470262)
+				(xy 1.318995 -1.490489) (xy 1.523408 -1.74593) (xy 1.615492 -2.076734) (xy 1.584493 -2.422325) (xy 1.51437 -2.59097)
+				(xy 1.396361 -2.86467) (xy 1.321407 -3.143144) (xy 1.299856 -3.294884) (xy 1.313613 -3.306809) (xy 1.370593 -3.170636)
+				(xy 1.419036 -3.040981) (xy 1.595183 -2.683779) (xy 1.828503 -2.374924) (xy 2.08521 -2.149567) (xy 2.331518 -2.042861)
+				(xy 2.382279 -2.038797) (xy 2.53892 -2.050337) (xy 2.639553 -2.10878) (xy 2.708492 -2.24986) (xy 2.770053 -2.509308)
+				(xy 2.796899 -2.648113) (xy 2.842495 -3.027104) (xy 2.827247 -3.325784) (xy 2.755598 -3.514959)
+				(xy 2.6569 -3.567894) (xy 2.441583 -3.62202) (xy 2.170759 -3.758989) (xy 1.907837 -3.940688) (xy 1.716223 -4.129001)
+				(xy 1.710456 -4.136796) (xy 1.598895 -4.275592) (xy 1.49278 -4.329643) (xy 1.330077 -4.313111) (xy 1.14487 -4.265939)
+				(xy 0.845969 -4.20347) (xy 0.673468 -4.219779) (xy 0.600374 -4.321685) (xy 0.592667 -4.405415) (xy 0.518782 -4.617967)
+				(xy 0.328489 -4.742158) (xy 0.2159 -4.757509) (xy 0.029836 -4.800929) (xy -0.200396 -4.907075) (xy -0.23488 -4.927408)
+				(xy -0.455529 -5.054115) (xy -0.562708 -5.081706) (xy -0.582928 -5.006672) (xy -0.557899 -4.884616)
+				(xy -0.538707 -4.739887) (xy -0.60951 -4.682133) (xy -0.783882 -4.672241) (xy -1.074884 -4.621907)
+				(xy -1.30565 -4.491205) (xy -1.429714 -4.31059) (xy -1.439333 -4.242675) (xy -1.496636 -4.061654)
+				(xy -1.608667 -3.907693) (xy -1.718278 -3.786966) (xy -1.70738 -3.743116) (xy -1.627506 -3.737793)
+				(xy -1.447804 -3.784879) (xy -1.279418 -3.876656) (xy -1.081824 -4.015519) (xy -1.232668 -3.784531)
+				(xy -1.327365 -3.601792) (xy -1.329742 -3.430777) (xy -1.276651 -3.257035) (xy -1.219207 -3.051681)
+				(xy -1.213337 -2.921866) (xy -1.219894 -2.910252) (xy -1.264786 -2.929586) (xy -1.271393 -2.980324)
+				(xy -1.309653 -2.979957) (xy -1.406871 -2.865234) (xy -1.53907 -2.669923) (xy -1.68227 -2.427794)
+				(xy -1.739506 -2.321074) (xy -1.949172 -2.321074) (xy -1.750289 -2.526749) (xy -1.565044 -2.772033)
+				(xy -1.433684 -3.00456) (xy -1.388581 -3.180108) (xy -1.394792 -3.210477) (xy -1.432765 -3.392557)
+				(xy -1.439333 -3.499795) (xy -1.471941 -3.622906) (xy -1.600814 -3.640348) (xy -1.653021 -3.631664)
+				(xy -1.851846 -3.628633) (xy -1.910632 -3.71197) (xy -1.825065 -3.866451) (xy -1.743346 -3.950467)
+				(xy -1.595897 -4.113412) (xy -1.525091 -4.242443) (xy -1.524 -4.253321) (xy -1.578925 -4.258177)
+				(xy -1.720341 -4.165903) (xy -1.8516 -4.055255) (xy -2.109754 -3.856788) (xy -2.382798 -3.699089)
+				(xy -2.486638 -3.656495) (xy -2.720948 -3.532685) (xy -2.845262 -3.335904) (xy -2.871466 -3.036794)
+				(xy -2.954061 -3.036794) (xy -2.941257 -3.289927) (xy -2.877734 -3.544522) (xy -2.764499 -3.703987)
+				(xy -2.660648 -3.737793) (xy -2.459352 -3.786986) (xy -2.203765 -3.908855) (xy -1.960891 -4.064832)
+				(xy -1.797734 -4.216352) (xy -1.779274 -4.245104) (xy -1.64495 -4.394299) (xy -1.416543 -4.565461)
+				(xy -1.154884 -4.720804) (xy -0.920805 -4.822543) (xy -0.818062 -4.842141) (xy -0.699425 -4.911958)
+				(xy -0.677333 -4.997882) (xy -0.647047 -5.167871) (xy -0.542534 -5.208663)
+			)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.SilkS")
+			(uuid "86e9fcc8-ddf3-4994-891c-f39ad3230f09")
+		)
+		(embedded_fonts no)
+	)
 	(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "44df8f09-be51-4850-9262-69a86a70c9bc")
@@ -14825,7 +13920,7 @@
 			)
 		)
 	)
-	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+	(footprint "My_Footprints:SW_Hotswap_Kailh_MX_1.00u"
 		(layer "F.Cu")
 		(uuid "46fa5381-af93-4bd9-849d-d0f97aac8340")
 		(at 138.112 166.687)
@@ -14888,88 +13983,6 @@
 		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -7.1 -7.1)
-			(end -7.1 7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "a47baadd-1fc8-4b12-9fd2-3c9322dd759c")
-		)
-		(fp_line
-			(start -7.1 7.1)
-			(end 7.1 7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "4dbbbcd6-979e-4087-aa48-f7733798baa4")
-		)
-		(fp_line
-			(start 7.1 -7.1)
-			(end -7.1 -7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "4352da33-b6a2-407a-a764-8fe4e09e4815")
-		)
-		(fp_line
-			(start 7.1 7.1)
-			(end 7.1 -7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "5b8303e9-e2eb-482b-9fdf-f00f0abc6b0b")
-		)
-		(fp_line
-			(start -4.1 -6.9)
-			(end 1 -6.9)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "c651826b-9db6-4c40-94fd-c70193667f18")
-		)
-		(fp_line
-			(start -0.2 -2.7)
-			(end 4.9 -2.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "dad7a29d-791a-4d61-85a2-069b3d903f79")
-		)
-		(fp_arc
-			(start -6.1 -4.9)
-			(mid -5.514214 -6.314214)
-			(end -4.1 -6.9)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "a4aafd31-8852-469e-8f01-09d97ed225dd")
-		)
-		(fp_arc
-			(start -2.2 -0.7)
-			(mid -1.614214 -2.114214)
-			(end -0.2 -2.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "8a7124fb-e817-460e-af55-9c9b623fec59")
-		)
 		(fp_line
 			(start -9.525 -9.525)
 			(end -9.525 9.525)
@@ -15990,7 +15003,7 @@
 			)
 		)
 	)
-	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.25u"
+	(footprint "My_Footprints:SW_Hotswap_Kailh_MX_1.25u"
 		(layer "F.Cu")
 		(uuid "4e7798a4-b999-4e1f-b9c6-8ffb80fa9639")
 		(at 59.531 166.687)
@@ -16053,88 +15066,6 @@
 		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -7.1 -7.1)
-			(end -7.1 7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "44cdf11e-2509-4334-9342-9efa429ffe69")
-		)
-		(fp_line
-			(start -7.1 7.1)
-			(end 7.1 7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "93e7419f-7acf-489c-9fc5-7a4c362fe5cc")
-		)
-		(fp_line
-			(start 7.1 -7.1)
-			(end -7.1 -7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "5849197b-b8de-4e2e-a756-bea2c0fa0975")
-		)
-		(fp_line
-			(start 7.1 7.1)
-			(end 7.1 -7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "ae179f70-7f6d-4001-887d-671df5c6882e")
-		)
-		(fp_line
-			(start -4.1 -6.9)
-			(end 1 -6.9)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "356da645-73d0-4287-9196-1114aed5fd94")
-		)
-		(fp_line
-			(start -0.2 -2.7)
-			(end 4.9 -2.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "719e8022-f724-4415-83ae-658fcebe8dcf")
-		)
-		(fp_arc
-			(start -6.1 -4.9)
-			(mid -5.514214 -6.314214)
-			(end -4.1 -6.9)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "16f441a0-76e2-426f-a7f3-bdb34a102bd9")
-		)
-		(fp_arc
-			(start -2.2 -0.7)
-			(mid -1.614214 -2.114214)
-			(end -0.2 -2.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "821e0d78-6e42-40a5-b691-ecdb8f358203")
-		)
 		(fp_line
 			(start -11.90625 -9.525)
 			(end -11.90625 9.525)
@@ -16894,96 +15825,8 @@
 		(path "/56736464-eab6-4548-8392-dbeb66d93f8c/ea70f9e5-0928-4692-9f68-63ae6d4f12a4")
 		(sheetname "/key matrix/")
 		(sheetfile "key_matrix.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "2" "1")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -7.1 -7.1)
-			(end -7.1 7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "c469d63b-b079-415a-8e28-dd670693edb6")
-		)
-		(fp_line
-			(start -7.1 7.1)
-			(end 7.1 7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "e0095a3d-e311-4ca4-8bd0-cbd043f0a9e2")
-		)
-		(fp_line
-			(start 7.1 -7.1)
-			(end -7.1 -7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "c250fe71-4d5b-4f14-845e-42afd9d7afd5")
-		)
-		(fp_line
-			(start 7.1 7.1)
-			(end 7.1 -7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "4c2a6317-38ef-4a53-903e-92f343ddabb7")
-		)
-		(fp_line
-			(start -4.1 -6.9)
-			(end 1 -6.9)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "81fc7505-d5e1-41d4-a10d-a1ff74387c8e")
-		)
-		(fp_line
-			(start -0.2 -2.7)
-			(end 4.9 -2.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "2b6e4805-abc9-4d8b-8e60-75bb0392a0ee")
-		)
-		(fp_arc
-			(start -6.1 -4.9)
-			(mid -5.514214 -6.314214)
-			(end -4.1 -6.9)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "610db6db-ee47-4985-98c7-2838e756e5b8")
-		)
-		(fp_arc
-			(start -2.2 -0.7)
-			(mid -1.614214 -2.114214)
-			(end -0.2 -2.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "b4da4392-db4f-450c-8543-8a72a0357fa5")
-		)
 		(fp_line
 			(start -19.05 -9.525)
 			(end -19.05 9.525)
@@ -17801,7 +16644,7 @@
 			)
 		)
 	)
-	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+	(footprint "My_Footprints:SW_Hotswap_Kailh_MX_1.00u"
 		(layer "F.Cu")
 		(uuid "52846769-7952-4a1e-8b6c-2ba192be309c")
 		(at 85.725 128.5875)
@@ -17864,88 +16707,6 @@
 		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -7.1 -7.1)
-			(end -7.1 7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "feb82b6b-a0a5-43a0-b00a-c1d8a5dbeaea")
-		)
-		(fp_line
-			(start -7.1 7.1)
-			(end 7.1 7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "035debe9-bbeb-42ca-b83a-e645414a32f2")
-		)
-		(fp_line
-			(start 7.1 -7.1)
-			(end -7.1 -7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "5a007451-86e1-4184-bb97-8d6a2f0a05fb")
-		)
-		(fp_line
-			(start 7.1 7.1)
-			(end 7.1 -7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "9f9a42d8-466a-4e7a-9db2-5566582dab6d")
-		)
-		(fp_line
-			(start -4.1 -6.9)
-			(end 1 -6.9)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "9706028d-7e8b-4757-bfad-ea9199bb0c2b")
-		)
-		(fp_line
-			(start -0.2 -2.7)
-			(end 4.9 -2.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "f9664784-fbf4-4338-bc50-ae56a0eedeb8")
-		)
-		(fp_arc
-			(start -6.1 -4.9)
-			(mid -5.514214 -6.314214)
-			(end -4.1 -6.9)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "fb7b22fb-9347-456b-b24f-17acb3082a86")
-		)
-		(fp_arc
-			(start -2.2 -0.7)
-			(mid -1.614214 -2.114214)
-			(end -0.2 -2.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "99bf1c2e-ba5a-4910-b66e-6a69fb629313")
-		)
 		(fp_line
 			(start -9.525 -9.525)
 			(end -9.525 9.525)
@@ -18487,12 +17248,12 @@
 			)
 		)
 	)
-	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.50u"
+	(footprint "My_Footprints:SW_Hotswap_Kailh_MX_1.25u"
 		(layer "F.Cu")
 		(uuid "54010306-46ba-4796-902b-bb646f9cb6c0")
 		(at 61.9125 128.5875)
-		(descr "Kailh keyswitch Hotswap Socket Keycap 1.50u")
-		(tags "Kailh Keyboard Keyswitch Switch Hotswap Socket Relief Cutout Keycap 1.50u")
+		(descr "Kailh keyswitch Hotswap Socket Keycap 1.25u")
+		(tags "Kailh Keyboard Keyswitch Switch Hotswap Socket Relief Cutout Keycap 1.25u")
 		(property "Reference" "K16"
 			(at 0 -8 0)
 			(layer "F.SilkS")
@@ -18551,90 +17312,8 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start -7.1 -7.1)
-			(end -7.1 7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "71b995b1-70f1-4a46-9243-712199c7aacc")
-		)
-		(fp_line
-			(start -7.1 7.1)
-			(end 7.1 7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "2cd8f25c-573e-4ed6-bc31-0fef8773d085")
-		)
-		(fp_line
-			(start 7.1 -7.1)
-			(end -7.1 -7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "6fdcee97-e264-4ca5-9ae8-d50a2c306a67")
-		)
-		(fp_line
-			(start 7.1 7.1)
-			(end 7.1 -7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "2ad1ed61-dae8-4794-8f2c-bb08aa841105")
-		)
-		(fp_line
-			(start -4.1 -6.9)
-			(end 1 -6.9)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "a2e486d9-7cea-44ff-9d00-283efcde8f37")
-		)
-		(fp_line
-			(start -0.2 -2.7)
-			(end 4.9 -2.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "63034d93-2224-4cc9-97fe-a09f938a0fe6")
-		)
-		(fp_arc
-			(start -6.1 -4.9)
-			(mid -5.514214 -6.314214)
-			(end -4.1 -6.9)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "97474f89-b857-432c-9dab-7f31e44a14ba")
-		)
-		(fp_arc
-			(start -2.2 -0.7)
-			(mid -1.614214 -2.114214)
-			(end -0.2 -2.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "4bdd7859-3a33-4ab6-9312-c165ae2080b8")
-		)
-		(fp_line
-			(start -14.2875 -9.525)
-			(end -14.2875 9.525)
+			(start -11.90625 -9.525)
+			(end -11.90625 9.525)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -18643,8 +17322,8 @@
 			(uuid "75863688-956b-4fc6-8bfa-f3717522eb45")
 		)
 		(fp_line
-			(start -14.2875 9.525)
-			(end 14.2875 9.525)
+			(start -11.90625 9.525)
+			(end 11.90625 9.525)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -18653,8 +17332,8 @@
 			(uuid "21617b49-1571-4213-992d-b651b7662b56")
 		)
 		(fp_line
-			(start 14.2875 -9.525)
-			(end -14.2875 -9.525)
+			(start 11.90625 -9.525)
+			(end -11.90625 -9.525)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -18663,8 +17342,8 @@
 			(uuid "6eaa683c-3524-4031-98eb-03d3435172e6")
 		)
 		(fp_line
-			(start 14.2875 9.525)
-			(end 14.2875 -9.525)
+			(start 11.90625 9.525)
+			(end 11.90625 -9.525)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -19525,6 +18204,14 @@
 		(path "/10482084-a545-4aa4-8b75-11043176cfae/d5ef5b2b-3d9b-418e-b231-a2e44a337247")
 		(sheetname "/power/")
 		(sheetfile "usb.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "SH" "B1" "B12" "A1" "A12" "A9" "B4" "B9" "A4" "A5" "B5" "A7" "B7"
+					"A6" "B6" "A8" "B8"
+				)
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -19853,7 +18540,7 @@
 			)
 		)
 	)
-	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+	(footprint "My_Footprints:SW_Hotswap_Kailh_MX_1.00u"
 		(layer "F.Cu")
 		(uuid "633adeea-7389-43f2-b03b-bb572e7cdd4c")
 		(at 190.5 109.5375)
@@ -19916,88 +18603,6 @@
 		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -7.1 -7.1)
-			(end -7.1 7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "ba985445-c217-4829-b501-e834f64e80f3")
-		)
-		(fp_line
-			(start -7.1 7.1)
-			(end 7.1 7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "ab3f459d-e04b-440a-b032-76f02b745999")
-		)
-		(fp_line
-			(start 7.1 -7.1)
-			(end -7.1 -7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "cfe4d00b-000a-4088-86e8-c92d1c23aa3e")
-		)
-		(fp_line
-			(start 7.1 7.1)
-			(end 7.1 -7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "b293a699-f391-4106-9f9e-91e771f9c5e0")
-		)
-		(fp_line
-			(start -4.1 -6.9)
-			(end 1 -6.9)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "78f2e747-065e-463e-85e6-39ec2cd291e9")
-		)
-		(fp_line
-			(start -0.2 -2.7)
-			(end 4.9 -2.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "ca45c8b8-c213-4fed-96e9-a54650076a4c")
-		)
-		(fp_arc
-			(start -6.1 -4.9)
-			(mid -5.514214 -6.314214)
-			(end -4.1 -6.9)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "abf5a982-5a03-4811-a24d-6c3275967166")
-		)
-		(fp_arc
-			(start -2.2 -0.7)
-			(mid -1.614214 -2.114214)
-			(end -0.2 -2.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "d97654c9-99fa-4f37-a7fa-827f3c128332")
-		)
 		(fp_line
 			(start -9.525 -9.525)
 			(end -9.525 9.525)
@@ -20539,7 +19144,7 @@
 			)
 		)
 	)
-	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+	(footprint "My_Footprints:SW_Hotswap_Kailh_MX_1.00u"
 		(layer "F.Cu")
 		(uuid "65b98187-c51c-4d2c-afb4-738d072f7997")
 		(at 195.262 166.687)
@@ -20602,88 +19207,6 @@
 		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -7.1 -7.1)
-			(end -7.1 7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "5ab33b71-f26c-4f4a-bdbc-5d55bfaf62b1")
-		)
-		(fp_line
-			(start -7.1 7.1)
-			(end 7.1 7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "f32e5e61-eb2a-4361-84c0-dca863e5e0b3")
-		)
-		(fp_line
-			(start 7.1 -7.1)
-			(end -7.1 -7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "c7b50a5f-0955-4718-a0ea-dadfc0ff233b")
-		)
-		(fp_line
-			(start 7.1 7.1)
-			(end 7.1 -7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "2bbe9219-bd36-40cb-8d9d-7033bce8dd90")
-		)
-		(fp_line
-			(start -4.1 -6.9)
-			(end 1 -6.9)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "3b2ac25b-216c-4b35-9f47-2e8c4339cdce")
-		)
-		(fp_line
-			(start -0.2 -2.7)
-			(end 4.9 -2.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "4e524dbb-ccf3-4327-a370-0a5d6bc25b00")
-		)
-		(fp_arc
-			(start -6.1 -4.9)
-			(mid -5.514214 -6.314214)
-			(end -4.1 -6.9)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "d5ea8870-0073-49da-b3d7-3f52ebc6617b")
-		)
-		(fp_arc
-			(start -2.2 -0.7)
-			(mid -1.614214 -2.114214)
-			(end -0.2 -2.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "4976e513-2193-446e-ac3b-9e70214147c3")
-		)
 		(fp_line
 			(start -9.525 -9.525)
 			(end -9.525 9.525)
@@ -21284,96 +19807,8 @@
 		(path "/56736464-eab6-4548-8392-dbeb66d93f8c/fea4d6a9-ac8b-4857-bc7e-fe09ddda7974")
 		(sheetname "/key matrix/")
 		(sheetfile "key_matrix.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "2" "1")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -7.1 -7.1)
-			(end -7.1 7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "db729045-f7a0-4933-93bc-9c052456a823")
-		)
-		(fp_line
-			(start -7.1 7.1)
-			(end 7.1 7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "e49846e4-b040-4dc8-bc95-29504b940736")
-		)
-		(fp_line
-			(start 7.1 -7.1)
-			(end -7.1 -7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "a828519a-e883-4b35-967d-edbdfed060cb")
-		)
-		(fp_line
-			(start 7.1 7.1)
-			(end 7.1 -7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "025c91be-6bc6-4165-acae-16f48fd741ec")
-		)
-		(fp_line
-			(start -4.1 -6.9)
-			(end 1 -6.9)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "4c8c6c23-9cb0-4835-9ef4-5e30bb21bdae")
-		)
-		(fp_line
-			(start -0.2 -2.7)
-			(end 4.9 -2.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "615afa23-3c43-42e6-9a06-9f8c41651305")
-		)
-		(fp_arc
-			(start -6.1 -4.9)
-			(mid -5.514214 -6.314214)
-			(end -4.1 -6.9)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "c08392e0-acfc-48af-8fd5-1afb73a17185")
-		)
-		(fp_arc
-			(start -2.2 -0.7)
-			(mid -1.614214 -2.114214)
-			(end -0.2 -2.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "da906ce3-2a10-4962-bab6-efd5a60c54cc")
-		)
 		(fp_line
 			(start -16.66875 -19.05)
 			(end -16.66875 0)
@@ -22052,7 +20487,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+	(footprint "My_Footprints:SW_Hotswap_Kailh_MX_1.00u"
 		(layer "F.Cu")
 		(uuid "67bd855f-cace-4d81-8ecf-51afd9c410cd")
 		(at 128.5875 147.6375)
@@ -22115,88 +20550,6 @@
 		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -7.1 -7.1)
-			(end -7.1 7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "3ee6181c-c938-4183-a50b-948042eda8c5")
-		)
-		(fp_line
-			(start -7.1 7.1)
-			(end 7.1 7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "b650af8a-5be0-482b-9574-813a3a2d40c3")
-		)
-		(fp_line
-			(start 7.1 -7.1)
-			(end -7.1 -7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "a7f0efe3-d0c5-497f-9ef2-7a68790f5900")
-		)
-		(fp_line
-			(start 7.1 7.1)
-			(end 7.1 -7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "41078003-66e4-44f7-8d75-84a3ca5d3a2b")
-		)
-		(fp_line
-			(start -4.1 -6.9)
-			(end 1 -6.9)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "19c2f5b8-a600-4338-b40a-3bf445c89eba")
-		)
-		(fp_line
-			(start -0.2 -2.7)
-			(end 4.9 -2.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "0d251f7c-980f-4a47-a500-efc3ec9021dd")
-		)
-		(fp_arc
-			(start -6.1 -4.9)
-			(mid -5.514214 -6.314214)
-			(end -4.1 -6.9)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "cadc7586-c7de-44c1-829e-b29d7dd86ca2")
-		)
-		(fp_arc
-			(start -2.2 -0.7)
-			(mid -1.614214 -2.114214)
-			(end -0.2 -2.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "d7a99430-8035-4d17-b3a9-c439ee292b9b")
-		)
 		(fp_line
 			(start -9.525 -9.525)
 			(end -9.525 9.525)
@@ -22738,7 +21091,7 @@
 			)
 		)
 	)
-	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+	(footprint "My_Footprints:SW_Hotswap_Kailh_MX_1.00u"
 		(layer "F.Cu")
 		(uuid "6ac19259-9ccf-4b62-a476-da50203c9da9")
 		(at 247.65 185.737)
@@ -22801,88 +21154,6 @@
 		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -7.1 -7.1)
-			(end -7.1 7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "bcfa760e-5333-4ff8-922b-47045355b047")
-		)
-		(fp_line
-			(start -7.1 7.1)
-			(end 7.1 7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "51b42324-682c-47ae-b16c-fc77976b4f5c")
-		)
-		(fp_line
-			(start 7.1 -7.1)
-			(end -7.1 -7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "2916823d-82ff-4711-9455-5d5dceb1b409")
-		)
-		(fp_line
-			(start 7.1 7.1)
-			(end 7.1 -7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "dc46f4c1-87c3-42ce-a851-09dbb4a5b9f1")
-		)
-		(fp_line
-			(start -4.1 -6.9)
-			(end 1 -6.9)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "b35c4c9a-3724-4ebf-b734-c421f3eec969")
-		)
-		(fp_line
-			(start -0.2 -2.7)
-			(end 4.9 -2.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "87706db2-0491-42dc-8de5-877da88141b6")
-		)
-		(fp_arc
-			(start -6.1 -4.9)
-			(mid -5.514214 -6.314214)
-			(end -4.1 -6.9)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "48b0f3ac-910d-4305-8972-5df7c6baed1c")
-		)
-		(fp_arc
-			(start -2.2 -0.7)
-			(mid -1.614214 -2.114214)
-			(end -0.2 -2.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "d3d4a46d-5e98-4d73-bdb3-142577bc4abc")
-		)
 		(fp_line
 			(start -9.525 -9.525)
 			(end -9.525 9.525)
@@ -23424,7 +21695,7 @@
 			)
 		)
 	)
-	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+	(footprint "My_Footprints:SW_Hotswap_Kailh_MX_1.00u"
 		(layer "F.Cu")
 		(uuid "6df5f530-b590-4e31-bf2e-2ce275aee686")
 		(at 90.4875 147.6375)
@@ -23487,88 +21758,6 @@
 		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -7.1 -7.1)
-			(end -7.1 7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "c933ca1f-b8af-4a98-8f14-ff17116d293e")
-		)
-		(fp_line
-			(start -7.1 7.1)
-			(end 7.1 7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "7a3df26c-5bdb-4a7d-90a9-d6f2fc5cf644")
-		)
-		(fp_line
-			(start 7.1 -7.1)
-			(end -7.1 -7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "ec012fd3-3fe0-424c-8077-2d78de6f5089")
-		)
-		(fp_line
-			(start 7.1 7.1)
-			(end 7.1 -7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "75d5705e-475f-44f2-901a-7ba68cc6159c")
-		)
-		(fp_line
-			(start -4.1 -6.9)
-			(end 1 -6.9)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "0c09cb00-e1be-4080-a5ae-290cdc405d76")
-		)
-		(fp_line
-			(start -0.2 -2.7)
-			(end 4.9 -2.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "2d0d36ed-b6a2-423c-baa7-23ab5cd10453")
-		)
-		(fp_arc
-			(start -6.1 -4.9)
-			(mid -5.514214 -6.314214)
-			(end -4.1 -6.9)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "40977492-3371-4d2b-b120-f71709dfc6f1")
-		)
-		(fp_arc
-			(start -2.2 -0.7)
-			(mid -1.614214 -2.114214)
-			(end -0.2 -2.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "ed8302b8-d45d-480b-8abd-49f9c456a104")
-		)
 		(fp_line
 			(start -9.525 -9.525)
 			(end -9.525 9.525)
@@ -24269,7 +22458,7 @@
 			)
 		)
 	)
-	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+	(footprint "My_Footprints:SW_Hotswap_Kailh_MX_1.00u"
 		(layer "F.Cu")
 		(uuid "710274fe-afcb-47df-8ede-a6ccf294d407")
 		(at 285.75 109.5375)
@@ -24332,88 +22521,6 @@
 		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -7.1 -7.1)
-			(end -7.1 7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "f97bbe2f-7867-43dc-a464-a684f40d9eaa")
-		)
-		(fp_line
-			(start -7.1 7.1)
-			(end 7.1 7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "93105fea-97b4-44c9-8aab-14a7a848ab8b")
-		)
-		(fp_line
-			(start 7.1 -7.1)
-			(end -7.1 -7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "2e7a59b4-4a54-4d8d-975c-41046f681c06")
-		)
-		(fp_line
-			(start 7.1 7.1)
-			(end 7.1 -7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "a5666553-21f8-48ca-aff8-b24a2442df14")
-		)
-		(fp_line
-			(start -4.1 -6.9)
-			(end 1 -6.9)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "ff1a59b9-8eae-4e31-8e1a-2542c6d79514")
-		)
-		(fp_line
-			(start -0.2 -2.7)
-			(end 4.9 -2.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "77658807-20cb-41b3-a1dc-ab0d64262acf")
-		)
-		(fp_arc
-			(start -6.1 -4.9)
-			(mid -5.514214 -6.314214)
-			(end -4.1 -6.9)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "404a4740-631f-4dab-91a9-0cab9c83cbcd")
-		)
-		(fp_arc
-			(start -2.2 -0.7)
-			(mid -1.614214 -2.114214)
-			(end -0.2 -2.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "f59002af-3b87-4a8e-8154-0635404d87ea")
-		)
 		(fp_line
 			(start -9.525 -9.525)
 			(end -9.525 9.525)
@@ -24955,7 +23062,7 @@
 			)
 		)
 	)
-	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+	(footprint "My_Footprints:SW_Hotswap_Kailh_MX_1.00u"
 		(layer "F.Cu")
 		(uuid "715e1d1f-84fa-4dbf-a89f-28f2f1ee7404")
 		(at 266.7 185.737)
@@ -25018,88 +23125,6 @@
 		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -7.1 -7.1)
-			(end -7.1 7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "20394461-e1d5-46bd-9dbf-09a89f413bf9")
-		)
-		(fp_line
-			(start -7.1 7.1)
-			(end 7.1 7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "028750af-11ac-4162-870c-7cf66a94198d")
-		)
-		(fp_line
-			(start 7.1 -7.1)
-			(end -7.1 -7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "3b8f1514-bf12-44d1-a50c-0033132d1c0c")
-		)
-		(fp_line
-			(start 7.1 7.1)
-			(end 7.1 -7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "3c07e95f-2a5a-4bc8-b198-902519c292c7")
-		)
-		(fp_line
-			(start -4.1 -6.9)
-			(end 1 -6.9)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "df9a65c3-bdce-4380-bcf1-22984669b25e")
-		)
-		(fp_line
-			(start -0.2 -2.7)
-			(end 4.9 -2.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "d1c17867-1a45-436c-adb3-fcd8eed6b6ef")
-		)
-		(fp_arc
-			(start -6.1 -4.9)
-			(mid -5.514214 -6.314214)
-			(end -4.1 -6.9)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "82bca4c2-6e63-44e1-8a2b-291af10d9d08")
-		)
-		(fp_arc
-			(start -2.2 -0.7)
-			(mid -1.614214 -2.114214)
-			(end -0.2 -2.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "c614f106-22fe-4329-889d-edccbd7fd76b")
-		)
 		(fp_line
 			(start -9.525 -9.525)
 			(end -9.525 9.525)
@@ -25641,7 +23666,7 @@
 			)
 		)
 	)
-	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+	(footprint "My_Footprints:SW_Hotswap_Kailh_MX_1.00u"
 		(layer "F.Cu")
 		(uuid "71dc503a-af09-4437-b86f-cb4aeb6cf1bf")
 		(at 280.9875 147.6375)
@@ -25704,88 +23729,6 @@
 		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -7.1 -7.1)
-			(end -7.1 7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "11bf45c9-7973-4372-b23a-6d776a1571f8")
-		)
-		(fp_line
-			(start -7.1 7.1)
-			(end 7.1 7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "71fd138a-dc14-4894-9cd4-8a9a704c9ac3")
-		)
-		(fp_line
-			(start 7.1 -7.1)
-			(end -7.1 -7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "ac57b52c-ebc4-4622-93db-780648dd98f7")
-		)
-		(fp_line
-			(start 7.1 7.1)
-			(end 7.1 -7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "3bf516dd-0811-43e5-bb0b-1d610c514b86")
-		)
-		(fp_line
-			(start -4.1 -6.9)
-			(end 1 -6.9)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "46f52b2e-9d0d-4931-90df-2619be021445")
-		)
-		(fp_line
-			(start -0.2 -2.7)
-			(end 4.9 -2.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "c4b1b4e1-3b23-4dd6-bb6e-573e908f868a")
-		)
-		(fp_arc
-			(start -6.1 -4.9)
-			(mid -5.514214 -6.314214)
-			(end -4.1 -6.9)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "bed5bf10-95f4-4ec1-b3fb-57c6f2cff89e")
-		)
-		(fp_arc
-			(start -2.2 -0.7)
-			(mid -1.614214 -2.114214)
-			(end -0.2 -2.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "4c7d6b5d-8d13-4ac0-90de-f91ff1e880ad")
-		)
 		(fp_line
 			(start -9.525 -9.525)
 			(end -9.525 9.525)
@@ -26327,7 +24270,7 @@
 			)
 		)
 	)
-	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+	(footprint "My_Footprints:SW_Hotswap_Kailh_MX_1.00u"
 		(layer "F.Cu")
 		(uuid "762fad0c-0270-4337-b1f6-2ff67223e01b")
 		(at 57.15 109.5375)
@@ -26390,88 +24333,6 @@
 		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -7.1 -7.1)
-			(end -7.1 7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "3dbc2493-0f10-4fc5-9f51-529fedc9f8bf")
-		)
-		(fp_line
-			(start -7.1 7.1)
-			(end 7.1 7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "e88f0b84-bdac-45d6-b47a-34e89cc61ef6")
-		)
-		(fp_line
-			(start 7.1 -7.1)
-			(end -7.1 -7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "f0986ef1-3d96-4c0b-a628-9c07e8671a3d")
-		)
-		(fp_line
-			(start 7.1 7.1)
-			(end 7.1 -7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "777bec63-4c61-47a2-9992-045a1cd55cbf")
-		)
-		(fp_line
-			(start -4.1 -6.9)
-			(end 1 -6.9)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "7e5bcdc8-c2a9-428c-95c5-a4a7c7218f9c")
-		)
-		(fp_line
-			(start -0.2 -2.7)
-			(end 4.9 -2.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "fdebc605-bf58-434a-bd75-2235c4e72e03")
-		)
-		(fp_arc
-			(start -6.1 -4.9)
-			(mid -5.514214 -6.314214)
-			(end -4.1 -6.9)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "441dad9f-3235-4a39-8434-0ab18c240e38")
-		)
-		(fp_arc
-			(start -2.2 -0.7)
-			(mid -1.614214 -2.114214)
-			(end -0.2 -2.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "2aae71b5-0d5c-4122-bc58-d7cf63e6f3fa")
-		)
 		(fp_line
 			(start -9.525 -9.525)
 			(end -9.525 9.525)
@@ -27013,7 +24874,7 @@
 			)
 		)
 	)
-	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+	(footprint "My_Footprints:SW_Hotswap_Kailh_MX_1.00u"
 		(layer "F.Cu")
 		(uuid "774c2aae-1e62-4ed1-952a-b8b4c17c8797")
 		(at 209.55 109.5375)
@@ -27076,88 +24937,6 @@
 		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -7.1 -7.1)
-			(end -7.1 7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "8fa3d364-4b2c-460a-b4c0-9664e97c3502")
-		)
-		(fp_line
-			(start -7.1 7.1)
-			(end 7.1 7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "23eb175b-16c7-4d06-9882-5ab0233c532a")
-		)
-		(fp_line
-			(start 7.1 -7.1)
-			(end -7.1 -7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "9baba868-3f0c-4116-a19c-95d1f21aaa85")
-		)
-		(fp_line
-			(start 7.1 7.1)
-			(end 7.1 -7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "a695ba69-3907-43db-8153-4aefec19e259")
-		)
-		(fp_line
-			(start -4.1 -6.9)
-			(end 1 -6.9)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "8790432c-b1e1-4ca3-9274-08aa1b7e1a5b")
-		)
-		(fp_line
-			(start -0.2 -2.7)
-			(end 4.9 -2.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "7758d026-3a76-4db3-951b-5e9f6eff0894")
-		)
-		(fp_arc
-			(start -6.1 -4.9)
-			(mid -5.514214 -6.314214)
-			(end -4.1 -6.9)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "493b2069-1787-4881-a5c5-2c7999eb43d4")
-		)
-		(fp_arc
-			(start -2.2 -0.7)
-			(mid -1.614214 -2.114214)
-			(end -0.2 -2.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "15238d34-8800-4cf9-900e-7cc538a373d8")
-		)
 		(fp_line
 			(start -9.525 -9.525)
 			(end -9.525 9.525)
@@ -27699,7 +25478,7 @@
 			)
 		)
 	)
-	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+	(footprint "My_Footprints:SW_Hotswap_Kailh_MX_1.00u"
 		(layer "F.Cu")
 		(uuid "78e84f8d-921f-48f8-a181-04960c578a30")
 		(at 176.212 166.687)
@@ -27762,88 +25541,6 @@
 		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -7.1 -7.1)
-			(end -7.1 7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "fe9a3439-9b94-4bd0-92ee-5ee6495de27a")
-		)
-		(fp_line
-			(start -7.1 7.1)
-			(end 7.1 7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "36629152-90cc-431e-8d9f-01168dee3aec")
-		)
-		(fp_line
-			(start 7.1 -7.1)
-			(end -7.1 -7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "44c3bf5e-b283-4426-adc1-e7c28c833722")
-		)
-		(fp_line
-			(start 7.1 7.1)
-			(end 7.1 -7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "5e716fb9-ea1c-477a-aafa-79e225ac43fc")
-		)
-		(fp_line
-			(start -4.1 -6.9)
-			(end 1 -6.9)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "64f38125-aed7-4512-95e8-b1d41f9e1f4d")
-		)
-		(fp_line
-			(start -0.2 -2.7)
-			(end 4.9 -2.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "f28d17c7-e1a0-4d16-8fcf-bdbc605b55ab")
-		)
-		(fp_arc
-			(start -6.1 -4.9)
-			(mid -5.514214 -6.314214)
-			(end -4.1 -6.9)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "9f8df82a-fafd-4710-8b06-bb187e555928")
-		)
-		(fp_arc
-			(start -2.2 -0.7)
-			(mid -1.614214 -2.114214)
-			(end -0.2 -2.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "f9cafa5b-0ef2-44ee-ab64-4ab69b38f11c")
-		)
 		(fp_line
 			(start -9.525 -9.525)
 			(end -9.525 9.525)
@@ -28385,7 +26082,7 @@
 			)
 		)
 	)
-	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+	(footprint "My_Footprints:SW_Hotswap_Kailh_MX_1.00u"
 		(layer "F.Cu")
 		(uuid "7fc1f07e-15f1-437c-8683-ac1d36c15693")
 		(at 252.412 166.687)
@@ -28448,88 +26145,6 @@
 		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -7.1 -7.1)
-			(end -7.1 7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "94a025d8-c3f1-47f5-9dd5-be73781b2df9")
-		)
-		(fp_line
-			(start -7.1 7.1)
-			(end 7.1 7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "40cf5e07-6a2b-477d-a6d4-88f64093c452")
-		)
-		(fp_line
-			(start 7.1 -7.1)
-			(end -7.1 -7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "0c9ca27a-1d41-4266-807c-7cb72aebb7ef")
-		)
-		(fp_line
-			(start 7.1 7.1)
-			(end 7.1 -7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "716c0e28-d6f0-4bee-b5de-e68e28df650f")
-		)
-		(fp_line
-			(start -4.1 -6.9)
-			(end 1 -6.9)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "2448a76b-01a8-4606-8ed3-3918873eae5b")
-		)
-		(fp_line
-			(start -0.2 -2.7)
-			(end 4.9 -2.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "fd4acacf-292c-4e43-ada9-7c2b202937d7")
-		)
-		(fp_arc
-			(start -6.1 -4.9)
-			(mid -5.514214 -6.314214)
-			(end -4.1 -6.9)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "14b98691-0b9f-46cf-b65e-2ef939de3cf0")
-		)
-		(fp_arc
-			(start -2.2 -0.7)
-			(mid -1.614214 -2.114214)
-			(end -0.2 -2.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "81e53482-9e5c-4ed0-8777-0521eaec99c1")
-		)
 		(fp_line
 			(start -9.525 -9.525)
 			(end -9.525 9.525)
@@ -29131,6 +26746,12 @@
 		(path "/b46d3cf1-ddcc-4f9c-96ac-50b88d3397a0")
 		(sheetname "/")
 		(sheetfile "keyboard.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -29495,7 +27116,7 @@
 			)
 		)
 	)
-	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+	(footprint "My_Footprints:SW_Hotswap_Kailh_MX_1.00u"
 		(layer "F.Cu")
 		(uuid "8081ebce-26a9-4fd5-8edd-9eb7b478f76f")
 		(at 238.125 128.5875)
@@ -29558,88 +27179,6 @@
 		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -7.1 -7.1)
-			(end -7.1 7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "c3ce4ad1-1493-482f-9cf5-c24c4be3d22e")
-		)
-		(fp_line
-			(start -7.1 7.1)
-			(end 7.1 7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "ab7c18f5-3d05-45a8-88b6-75dab209eab7")
-		)
-		(fp_line
-			(start 7.1 -7.1)
-			(end -7.1 -7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "80e1a110-d58d-4c1c-9b3e-7a9c58d7e459")
-		)
-		(fp_line
-			(start 7.1 7.1)
-			(end 7.1 -7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "aac5aac9-718a-41a0-a09e-5c4b7d218119")
-		)
-		(fp_line
-			(start -4.1 -6.9)
-			(end 1 -6.9)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "7cf116bd-d812-4602-a02a-eba99820f54c")
-		)
-		(fp_line
-			(start -0.2 -2.7)
-			(end 4.9 -2.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "bdf36048-6b19-420e-a080-c61c248c6d25")
-		)
-		(fp_arc
-			(start -6.1 -4.9)
-			(mid -5.514214 -6.314214)
-			(end -4.1 -6.9)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "b4077e3b-46aa-44c4-8a51-fd24cff93961")
-		)
-		(fp_arc
-			(start -2.2 -0.7)
-			(mid -1.614214 -2.114214)
-			(end -0.2 -2.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "9326ff03-66a5-429c-a977-17bb91598496")
-		)
 		(fp_line
 			(start -9.525 -9.525)
 			(end -9.525 9.525)
@@ -30400,7 +27939,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+	(footprint "My_Footprints:SW_Hotswap_Kailh_MX_1.00u"
 		(layer "F.Cu")
 		(uuid "8df3d052-75e3-4b78-8599-c2d48dce85f7")
 		(at 295.275 128.5875)
@@ -30463,88 +28002,6 @@
 		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -7.1 -7.1)
-			(end -7.1 7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "8c41949e-c172-47e4-92e7-c70dd4678ac3")
-		)
-		(fp_line
-			(start -7.1 7.1)
-			(end 7.1 7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "f5caed15-c1ab-4e85-89d1-731078b33dcd")
-		)
-		(fp_line
-			(start 7.1 -7.1)
-			(end -7.1 -7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "808d90a1-19b5-41c1-80e1-6d2374db9239")
-		)
-		(fp_line
-			(start 7.1 7.1)
-			(end 7.1 -7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "687d1bb8-1216-401e-9866-1d72438861f8")
-		)
-		(fp_line
-			(start -4.1 -6.9)
-			(end 1 -6.9)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "7cfc25c1-2d6c-467c-9ada-bf58e56189d7")
-		)
-		(fp_line
-			(start -0.2 -2.7)
-			(end 4.9 -2.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "d634b3ee-ed01-41f7-8c18-7a9919ffea29")
-		)
-		(fp_arc
-			(start -6.1 -4.9)
-			(mid -5.514214 -6.314214)
-			(end -4.1 -6.9)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "e5a9be1f-464a-4307-9d7b-bd60a87c3d8f")
-		)
-		(fp_arc
-			(start -2.2 -0.7)
-			(mid -1.614214 -2.114214)
-			(end -0.2 -2.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "ea6d7bf5-375d-4f09-8284-32f3dae1ae15")
-		)
 		(fp_line
 			(start -9.525 -9.525)
 			(end -9.525 9.525)
@@ -31310,7 +28767,7 @@
 			)
 		)
 	)
-	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+	(footprint "My_Footprints:SW_Hotswap_Kailh_MX_1.00u"
 		(layer "F.Cu")
 		(uuid "91e3607d-ab65-4495-8028-c35e4d02fa90")
 		(at 323.85 166.687)
@@ -31373,88 +28830,6 @@
 		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -7.1 -7.1)
-			(end -7.1 7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "be0752d8-bbef-42cf-91e7-6f9071116d5d")
-		)
-		(fp_line
-			(start -7.1 7.1)
-			(end 7.1 7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "0c4b7485-6b1a-427a-8b81-888c967890c0")
-		)
-		(fp_line
-			(start 7.1 -7.1)
-			(end -7.1 -7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "55a62e36-1280-42ce-95ae-00867b339702")
-		)
-		(fp_line
-			(start 7.1 7.1)
-			(end 7.1 -7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "ebe36809-5bff-4565-9df8-967febf7322b")
-		)
-		(fp_line
-			(start -4.1 -6.9)
-			(end 1 -6.9)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "404f699b-ff47-4f9c-a767-9ec38652c596")
-		)
-		(fp_line
-			(start -0.2 -2.7)
-			(end 4.9 -2.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "be895345-0bd1-41c3-9d0e-6cb127a24a68")
-		)
-		(fp_arc
-			(start -6.1 -4.9)
-			(mid -5.514214 -6.314214)
-			(end -4.1 -6.9)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "0bbaae8d-b4e7-4544-bcc2-9cb46f17ba35")
-		)
-		(fp_arc
-			(start -2.2 -0.7)
-			(mid -1.614214 -2.114214)
-			(end -0.2 -2.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "bf4dfc89-f224-4fb9-9b1c-af4c3d8aceed")
-		)
 		(fp_line
 			(start -9.525 -9.525)
 			(end -9.525 9.525)
@@ -31996,7 +29371,7 @@
 			)
 		)
 	)
-	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+	(footprint "My_Footprints:SW_Hotswap_Kailh_MX_1.00u"
 		(layer "F.Cu")
 		(uuid "92a355ff-6d73-4d42-bc61-0c159b51c146")
 		(at 304.8 185.737)
@@ -32059,88 +29434,6 @@
 		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -7.1 -7.1)
-			(end -7.1 7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "dbc36dae-2128-4c67-9298-646eefdb05c6")
-		)
-		(fp_line
-			(start -7.1 7.1)
-			(end 7.1 7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "d841c0ed-df9d-4376-953c-5101e83ae397")
-		)
-		(fp_line
-			(start 7.1 -7.1)
-			(end -7.1 -7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "e546ac74-b676-4777-aef5-0b873d9c4bb8")
-		)
-		(fp_line
-			(start 7.1 7.1)
-			(end 7.1 -7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "1727f13f-c853-4dc6-9651-9ba85275ffa2")
-		)
-		(fp_line
-			(start -4.1 -6.9)
-			(end 1 -6.9)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "596e6fab-97f9-406a-ac3f-78d9d4578dc8")
-		)
-		(fp_line
-			(start -0.2 -2.7)
-			(end 4.9 -2.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "86aee248-c5da-4533-9f40-62fda1d0edc9")
-		)
-		(fp_arc
-			(start -6.1 -4.9)
-			(mid -5.514214 -6.314214)
-			(end -4.1 -6.9)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "c5d383e1-caa9-4613-bc63-e588ab5c88eb")
-		)
-		(fp_arc
-			(start -2.2 -0.7)
-			(mid -1.614214 -2.114214)
-			(end -0.2 -2.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "9cf16400-2b51-419b-9b79-38abe09af4ff")
-		)
 		(fp_line
 			(start -9.525 -9.525)
 			(end -9.525 9.525)
@@ -32841,7 +30134,7 @@
 			)
 		)
 	)
-	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+	(footprint "My_Footprints:SW_Hotswap_Kailh_MX_1.00u"
 		(layer "F.Cu")
 		(uuid "981c3953-62c6-4e22-a6be-9192ea998553")
 		(at 266.7 109.5375)
@@ -32904,88 +30197,6 @@
 		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -7.1 -7.1)
-			(end -7.1 7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "bd0aea11-3fbe-405d-b46e-c5dda6857c9a")
-		)
-		(fp_line
-			(start -7.1 7.1)
-			(end 7.1 7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "08a6579f-2866-4611-b498-d11d27daec2e")
-		)
-		(fp_line
-			(start 7.1 -7.1)
-			(end -7.1 -7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "328b3797-48f3-4b24-b80f-364858dc4926")
-		)
-		(fp_line
-			(start 7.1 7.1)
-			(end 7.1 -7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "dfda00de-51dd-4926-8c7f-c45f8770c88e")
-		)
-		(fp_line
-			(start -4.1 -6.9)
-			(end 1 -6.9)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "5a48099c-b53b-4aa4-8811-e6e99768af98")
-		)
-		(fp_line
-			(start -0.2 -2.7)
-			(end 4.9 -2.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "eef9f08c-f3cc-4a23-b668-14fd129dedeb")
-		)
-		(fp_arc
-			(start -6.1 -4.9)
-			(mid -5.514214 -6.314214)
-			(end -4.1 -6.9)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "2da6c252-ca44-4052-a61a-9cc6c9b83420")
-		)
-		(fp_arc
-			(start -2.2 -0.7)
-			(mid -1.614214 -2.114214)
-			(end -0.2 -2.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "d9549d24-4b92-4e18-8f7c-3c848dabb68b")
-		)
 		(fp_line
 			(start -9.525 -9.525)
 			(end -9.525 9.525)
@@ -33746,7 +30957,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+	(footprint "My_Footprints:SW_Hotswap_Kailh_MX_1.00u"
 		(layer "F.Cu")
 		(uuid "9aad97e9-0619-47fa-976a-bf89ddad85c9")
 		(at 166.6875 147.6375)
@@ -33809,88 +31020,6 @@
 		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -7.1 -7.1)
-			(end -7.1 7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "54333999-8b40-4b11-9bcd-1dbf8d2b331a")
-		)
-		(fp_line
-			(start -7.1 7.1)
-			(end 7.1 7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "297e12aa-bb17-4db7-93a0-b1b9346af94d")
-		)
-		(fp_line
-			(start 7.1 -7.1)
-			(end -7.1 -7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "0c8d919a-64c7-46da-ac0c-a300a22617dd")
-		)
-		(fp_line
-			(start 7.1 7.1)
-			(end 7.1 -7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "117f022c-2c01-4430-8c4e-f3cca8ff6d64")
-		)
-		(fp_line
-			(start -4.1 -6.9)
-			(end 1 -6.9)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "387470a6-e377-42fa-83fc-3434650fe448")
-		)
-		(fp_line
-			(start -0.2 -2.7)
-			(end 4.9 -2.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "2832af02-3f6a-4489-8bde-60f549983778")
-		)
-		(fp_arc
-			(start -6.1 -4.9)
-			(mid -5.514214 -6.314214)
-			(end -4.1 -6.9)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "dc9b5f53-ed7f-4c5c-9b2e-0e6222186625")
-		)
-		(fp_arc
-			(start -2.2 -0.7)
-			(mid -1.614214 -2.114214)
-			(end -0.2 -2.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "527ce37c-9d6c-4f06-8953-fc7b0b769f12")
-		)
 		(fp_line
 			(start -9.525 -9.525)
 			(end -9.525 9.525)
@@ -34432,7 +31561,7 @@
 			)
 		)
 	)
-	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+	(footprint "My_Footprints:SW_Hotswap_Kailh_MX_1.00u"
 		(layer "F.Cu")
 		(uuid "9bfaa075-2315-44dc-a4d2-16d6c78b0b80")
 		(at 171.45 109.5375)
@@ -34495,88 +31624,6 @@
 		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -7.1 -7.1)
-			(end -7.1 7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "22e4d90c-abfe-4d84-9c3b-311067224711")
-		)
-		(fp_line
-			(start -7.1 7.1)
-			(end 7.1 7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "7b683808-8bab-4e94-8217-ff5993221a02")
-		)
-		(fp_line
-			(start 7.1 -7.1)
-			(end -7.1 -7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "c8304879-f45f-418c-b2c8-fa961d8c498b")
-		)
-		(fp_line
-			(start 7.1 7.1)
-			(end 7.1 -7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "e621d90b-0d80-42e4-a2bb-59493e5658f9")
-		)
-		(fp_line
-			(start -4.1 -6.9)
-			(end 1 -6.9)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "b8936373-39a0-46c9-8b5c-625853124e25")
-		)
-		(fp_line
-			(start -0.2 -2.7)
-			(end 4.9 -2.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "4101158b-76d1-4fd7-baad-5aa8f13af1e5")
-		)
-		(fp_arc
-			(start -6.1 -4.9)
-			(mid -5.514214 -6.314214)
-			(end -4.1 -6.9)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "e402543e-05e0-43e9-bb75-e347ddc6c22e")
-		)
-		(fp_arc
-			(start -2.2 -0.7)
-			(mid -1.614214 -2.114214)
-			(end -0.2 -2.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "ada36c25-f1ab-484a-b7ee-e69adce9b48a")
-		)
 		(fp_line
 			(start -9.525 -9.525)
 			(end -9.525 9.525)
@@ -35118,7 +32165,7 @@
 			)
 		)
 	)
-	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+	(footprint "My_Footprints:SW_Hotswap_Kailh_MX_1.00u"
 		(layer "F.Cu")
 		(uuid "9e9978e8-6737-4b54-a704-852545e9a206")
 		(at 109.5375 147.6375)
@@ -35181,88 +32228,6 @@
 		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -7.1 -7.1)
-			(end -7.1 7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "68ae9157-dcb6-4a7b-80f3-c27940eb1e41")
-		)
-		(fp_line
-			(start -7.1 7.1)
-			(end 7.1 7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "79b08337-6912-41a6-9ec8-207ca3affa68")
-		)
-		(fp_line
-			(start 7.1 -7.1)
-			(end -7.1 -7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "048c1b3c-52da-4c76-a527-325e2071c174")
-		)
-		(fp_line
-			(start 7.1 7.1)
-			(end 7.1 -7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "f0be7089-7c4d-4335-8f22-25f18a165c2e")
-		)
-		(fp_line
-			(start -4.1 -6.9)
-			(end 1 -6.9)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "97b18295-c23c-4046-aece-4ca793db7d4d")
-		)
-		(fp_line
-			(start -0.2 -2.7)
-			(end 4.9 -2.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "a3f0caf3-a796-4129-a96a-1f9476ac5c82")
-		)
-		(fp_arc
-			(start -6.1 -4.9)
-			(mid -5.514214 -6.314214)
-			(end -4.1 -6.9)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "4f7a3e78-3693-40e6-80dd-8d3279a03e37")
-		)
-		(fp_arc
-			(start -2.2 -0.7)
-			(mid -1.614214 -2.114214)
-			(end -0.2 -2.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "adb09b70-9407-4eb7-a9e5-d1a0a059e5d0")
-		)
 		(fp_line
 			(start -9.525 -9.525)
 			(end -9.525 9.525)
@@ -36275,7 +33240,7 @@
 			)
 		)
 	)
-	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.25u"
+	(footprint "My_Footprints:SW_Hotswap_Kailh_MX_1.25u"
 		(layer "F.Cu")
 		(uuid "a5ebd90c-b7c3-40db-9f04-f4b9473e4e35")
 		(at 59.5315 185.737)
@@ -36338,88 +33303,6 @@
 		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -7.1 -7.1)
-			(end -7.1 7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "b1e1fd7b-2eb8-46df-b8d7-e36624d34702")
-		)
-		(fp_line
-			(start -7.1 7.1)
-			(end 7.1 7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "0cfe3446-1b4b-4e53-97a7-d4880ff8f39e")
-		)
-		(fp_line
-			(start 7.1 -7.1)
-			(end -7.1 -7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "6a5e381d-b958-48ac-bb74-4e019618284b")
-		)
-		(fp_line
-			(start 7.1 7.1)
-			(end 7.1 -7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "b8178710-3e66-46e1-8021-62ea5f988e13")
-		)
-		(fp_line
-			(start -4.1 -6.9)
-			(end 1 -6.9)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "a3b69289-44b0-4aae-b166-464694fd41de")
-		)
-		(fp_line
-			(start -0.2 -2.7)
-			(end 4.9 -2.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "1661a705-f7e4-4d25-9d32-a6d4fa1450b3")
-		)
-		(fp_arc
-			(start -6.1 -4.9)
-			(mid -5.514214 -6.314214)
-			(end -4.1 -6.9)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "2e03022e-550e-4a80-a395-a59233f11076")
-		)
-		(fp_arc
-			(start -2.2 -0.7)
-			(mid -1.614214 -2.114214)
-			(end -0.2 -2.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "7b304ad6-232a-44e0-a2c7-b2cb9f8ab795")
-		)
 		(fp_line
 			(start -11.90625 -9.525)
 			(end -11.90625 9.525)
@@ -36961,7 +33844,7 @@
 			)
 		)
 	)
-	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+	(footprint "My_Footprints:SW_Hotswap_Kailh_MX_1.00u"
 		(layer "F.Cu")
 		(uuid "a7f142b8-f30c-41f1-b764-bb18e9a6455f")
 		(at 323.85 185.737)
@@ -37024,88 +33907,6 @@
 		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -7.1 -7.1)
-			(end -7.1 7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "e196d900-f11b-4a87-9926-bdf61d3b028f")
-		)
-		(fp_line
-			(start -7.1 7.1)
-			(end 7.1 7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "c63a86aa-1339-498e-8d36-0463f4bb2d24")
-		)
-		(fp_line
-			(start 7.1 -7.1)
-			(end -7.1 -7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "a0803046-df23-4c4e-bb4f-1f304b71ee4f")
-		)
-		(fp_line
-			(start 7.1 7.1)
-			(end 7.1 -7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "7a6fb958-4284-4765-869c-cf710aedc2db")
-		)
-		(fp_line
-			(start -4.1 -6.9)
-			(end 1 -6.9)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "9e70b5bb-696a-4469-9c05-32519812ccbf")
-		)
-		(fp_line
-			(start -0.2 -2.7)
-			(end 4.9 -2.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "856c5a40-92d4-44e5-9559-35580880c266")
-		)
-		(fp_arc
-			(start -6.1 -4.9)
-			(mid -5.514214 -6.314214)
-			(end -4.1 -6.9)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "77c59211-5528-4800-9261-c11af72e4e7e")
-		)
-		(fp_arc
-			(start -2.2 -0.7)
-			(mid -1.614214 -2.114214)
-			(end -0.2 -2.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "c016536e-70a5-412d-bdae-2368c2590386")
-		)
 		(fp_line
 			(start -9.525 -9.525)
 			(end -9.525 9.525)
@@ -38085,7 +34886,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+	(footprint "My_Footprints:SW_Hotswap_Kailh_MX_1.00u"
 		(layer "F.Cu")
 		(uuid "ab2822a6-3001-434a-b971-461a0f02da68")
 		(at 114.3 109.5375)
@@ -38148,88 +34949,6 @@
 		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -7.1 -7.1)
-			(end -7.1 7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "c02a6329-8e2f-4867-83f5-f10b4af79887")
-		)
-		(fp_line
-			(start -7.1 7.1)
-			(end 7.1 7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "95366210-b75c-4f22-bf37-ddacfd3c1184")
-		)
-		(fp_line
-			(start 7.1 -7.1)
-			(end -7.1 -7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "7994d315-b14a-42d2-ae82-23bbd127a39f")
-		)
-		(fp_line
-			(start 7.1 7.1)
-			(end 7.1 -7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "adb9ed61-2114-4cdb-ac84-f4a04a5b6211")
-		)
-		(fp_line
-			(start -4.1 -6.9)
-			(end 1 -6.9)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "6a12c479-0d14-4d28-98b5-538e9c85f19e")
-		)
-		(fp_line
-			(start -0.2 -2.7)
-			(end 4.9 -2.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "946de2f4-b482-4b38-9d9b-02603c6de2be")
-		)
-		(fp_arc
-			(start -6.1 -4.9)
-			(mid -5.514214 -6.314214)
-			(end -4.1 -6.9)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "025754d4-9976-4a71-a435-47584629066e")
-		)
-		(fp_arc
-			(start -2.2 -0.7)
-			(mid -1.614214 -2.114214)
-			(end -0.2 -2.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "7399e1da-f09c-4094-af06-9f18a141d60c")
-		)
 		(fp_line
 			(start -9.525 -9.525)
 			(end -9.525 9.525)
@@ -38771,7 +35490,7 @@
 			)
 		)
 	)
-	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+	(footprint "My_Footprints:SW_Hotswap_Kailh_MX_1.00u"
 		(layer "F.Cu")
 		(uuid "ac3d93f4-74a5-46d9-a96e-b26188610c34")
 		(at 219.075 128.5875)
@@ -38834,88 +35553,6 @@
 		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -7.1 -7.1)
-			(end -7.1 7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "256be0fe-79b3-41a6-8807-d445abac3f9f")
-		)
-		(fp_line
-			(start -7.1 7.1)
-			(end 7.1 7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "95328ab5-bd86-4888-823b-db41e9ca72d0")
-		)
-		(fp_line
-			(start 7.1 -7.1)
-			(end -7.1 -7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "bb2b793f-090e-4a63-88ff-e8b4cc686853")
-		)
-		(fp_line
-			(start 7.1 7.1)
-			(end 7.1 -7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "2cdbd30b-72c7-4daf-b823-701751720408")
-		)
-		(fp_line
-			(start -4.1 -6.9)
-			(end 1 -6.9)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "974a81b1-5078-4953-9869-3704f8546536")
-		)
-		(fp_line
-			(start -0.2 -2.7)
-			(end 4.9 -2.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "acd17ca7-15d0-409f-9d66-f7ad940cc60d")
-		)
-		(fp_arc
-			(start -6.1 -4.9)
-			(mid -5.514214 -6.314214)
-			(end -4.1 -6.9)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "85b68178-a883-4619-a246-425f286760a5")
-		)
-		(fp_arc
-			(start -2.2 -0.7)
-			(mid -1.614214 -2.114214)
-			(end -0.2 -2.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "43cb7d3c-a41c-4120-9452-578e4d9d6a49")
-		)
 		(fp_line
 			(start -9.525 -9.525)
 			(end -9.525 9.525)
@@ -39457,7 +36094,7 @@
 			)
 		)
 	)
-	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+	(footprint "My_Footprints:SW_Hotswap_Kailh_MX_1.00u"
 		(layer "F.Cu")
 		(uuid "ad29278f-bcc4-4a00-9a38-4645c4abfa2c")
 		(at 95.25 109.5375)
@@ -39520,88 +36157,6 @@
 		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -7.1 -7.1)
-			(end -7.1 7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "5536ef92-ac01-4143-93be-ffad997a2965")
-		)
-		(fp_line
-			(start -7.1 7.1)
-			(end 7.1 7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "239361d7-f216-4bd6-8756-d79af380f394")
-		)
-		(fp_line
-			(start 7.1 -7.1)
-			(end -7.1 -7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "48a86b08-f35c-4e23-8cc9-4c60b895686e")
-		)
-		(fp_line
-			(start 7.1 7.1)
-			(end 7.1 -7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "ea97821b-afc5-4d0c-95c5-cbf79fed1745")
-		)
-		(fp_line
-			(start -4.1 -6.9)
-			(end 1 -6.9)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "7782319b-1008-4659-8767-42dc0dccc74b")
-		)
-		(fp_line
-			(start -0.2 -2.7)
-			(end 4.9 -2.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "5f652362-f3c3-45ab-921a-d0ec6bdddb87")
-		)
-		(fp_arc
-			(start -6.1 -4.9)
-			(mid -5.514214 -6.314214)
-			(end -4.1 -6.9)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "967f4445-94e8-431f-8097-32d232387436")
-		)
-		(fp_arc
-			(start -2.2 -0.7)
-			(mid -1.614214 -2.114214)
-			(end -0.2 -2.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "4d6ddec1-2e70-4d69-b51d-55b81a9b1133")
-		)
 		(fp_line
 			(start -9.525 -9.525)
 			(end -9.525 9.525)
@@ -41177,96 +37732,8 @@
 		(path "/56736464-eab6-4548-8392-dbeb66d93f8c/e6edc6a0-9385-49f9-bcea-3737f09cbf6f")
 		(sheetname "/key matrix/")
 		(sheetfile "key_matrix.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "2" "1")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -7.1 -7.1)
-			(end -7.1 7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "2d630f01-d904-4549-96a7-638809dfd847")
-		)
-		(fp_line
-			(start -7.1 7.1)
-			(end 7.1 7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "f4bdc8cb-678e-4e9d-a455-1bdbc343d7a1")
-		)
-		(fp_line
-			(start 7.1 -7.1)
-			(end -7.1 -7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "3451aef3-0450-4c3f-a252-323febca15f9")
-		)
-		(fp_line
-			(start 7.1 7.1)
-			(end 7.1 -7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "cc12e0a8-14f7-4e8a-9b53-f0e8fd17ae4c")
-		)
-		(fp_line
-			(start -4.1 -6.9)
-			(end 1 -6.9)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "35b6a8a8-b3cc-4e4b-be0e-d30f018a7cbf")
-		)
-		(fp_line
-			(start -0.2 -2.7)
-			(end 4.9 -2.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "5dc303a0-6b30-4319-9305-7134133bffca")
-		)
-		(fp_arc
-			(start -6.1 -4.9)
-			(mid -5.514214 -6.314214)
-			(end -4.1 -6.9)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "9bbe2d34-0ce7-4bfd-bfe8-7776e3a24e50")
-		)
-		(fp_arc
-			(start -2.2 -0.7)
-			(mid -1.614214 -2.114214)
-			(end -0.2 -2.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "14ed4894-511b-48c5-a22e-184e3482ff68")
-		)
 		(fp_line
 			(start -59.53125 -9.525)
 			(end -59.53125 9.525)
@@ -42144,7 +38611,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.75u"
+	(footprint "My_Footprints:SW_Hotswap_Kailh_MX_1.75u"
 		(layer "F.Cu")
 		(uuid "bd5f443a-74b7-4005-9130-5ec53d760151")
 		(at 297.65625 166.687)
@@ -42207,88 +38674,6 @@
 		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -7.1 -7.1)
-			(end -7.1 7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "070271a6-55a8-4c86-9737-1c34b912ec7f")
-		)
-		(fp_line
-			(start -7.1 7.1)
-			(end 7.1 7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "28e6466a-8db2-4765-ab48-8598776d1190")
-		)
-		(fp_line
-			(start 7.1 -7.1)
-			(end -7.1 -7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "7aa83ef3-dfd8-4381-9827-e3ddbe549bb6")
-		)
-		(fp_line
-			(start 7.1 7.1)
-			(end 7.1 -7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "9deca448-867e-461c-8b28-4a0a45c8c892")
-		)
-		(fp_line
-			(start -4.1 -6.9)
-			(end 1 -6.9)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "c609f001-6ea1-496c-9130-2c4a0123af8a")
-		)
-		(fp_line
-			(start -0.2 -2.7)
-			(end 4.9 -2.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "a55c3870-dfe7-440c-919d-3a55212a0c41")
-		)
-		(fp_arc
-			(start -6.1 -4.9)
-			(mid -5.514214 -6.314214)
-			(end -4.1 -6.9)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "67203758-4808-4d36-8407-ee1c1bc7c548")
-		)
-		(fp_arc
-			(start -2.2 -0.7)
-			(mid -1.614214 -2.114214)
-			(end -0.2 -2.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "1dfc1e9a-2068-4bfe-adae-53c2296d0fd2")
-		)
 		(fp_line
 			(start -16.66875 -9.525)
 			(end -16.66875 9.525)
@@ -43242,7 +39627,7 @@
 			)
 		)
 	)
-	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+	(footprint "My_Footprints:SW_Hotswap_Kailh_MX_1.00u"
 		(layer "F.Cu")
 		(uuid "c33f16a2-a0c9-4ff4-a938-2b8d9ce278ec")
 		(at 147.6375 147.6375)
@@ -43305,88 +39690,6 @@
 		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -7.1 -7.1)
-			(end -7.1 7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "c6396658-9469-4367-95de-be1c58c9f4bd")
-		)
-		(fp_line
-			(start -7.1 7.1)
-			(end 7.1 7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "a7c2a2b9-d37c-4895-9c93-4b4dd98ee5cb")
-		)
-		(fp_line
-			(start 7.1 -7.1)
-			(end -7.1 -7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "acd3de6b-f2bc-4140-9e1d-a789dc8cfadf")
-		)
-		(fp_line
-			(start 7.1 7.1)
-			(end 7.1 -7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "f97a3a8e-8171-4b19-9333-240595fcafcd")
-		)
-		(fp_line
-			(start -4.1 -6.9)
-			(end 1 -6.9)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "ebf0ba52-a4d1-4749-98b4-4417c1517ec2")
-		)
-		(fp_line
-			(start -0.2 -2.7)
-			(end 4.9 -2.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "34f70ef0-80c6-43e9-9369-699c28409b42")
-		)
-		(fp_arc
-			(start -6.1 -4.9)
-			(mid -5.514214 -6.314214)
-			(end -4.1 -6.9)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "ef9e7b82-c964-4c2f-87ae-2f523283b20d")
-		)
-		(fp_arc
-			(start -2.2 -0.7)
-			(mid -1.614214 -2.114214)
-			(end -0.2 -2.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "ee1fdad0-b829-4e73-a89f-2227b7cb9066")
-		)
 		(fp_line
 			(start -9.525 -9.525)
 			(end -9.525 9.525)
@@ -43928,7 +40231,7 @@
 			)
 		)
 	)
-	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+	(footprint "My_Footprints:SW_Hotswap_Kailh_MX_1.00u"
 		(layer "F.Cu")
 		(uuid "c87f72fe-7bda-4839-9501-a6631a9e26f8")
 		(at 247.65 109.5375)
@@ -43991,88 +40294,6 @@
 		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -7.1 -7.1)
-			(end -7.1 7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "1ef6708c-22d5-4bd9-86ba-badca9346e32")
-		)
-		(fp_line
-			(start -7.1 7.1)
-			(end 7.1 7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "1c40fdf9-9afb-4ef0-bb55-2c7d14c6be9e")
-		)
-		(fp_line
-			(start 7.1 -7.1)
-			(end -7.1 -7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "e82e1844-2474-4b6f-bcd6-78efc73e29d8")
-		)
-		(fp_line
-			(start 7.1 7.1)
-			(end 7.1 -7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "561196d6-c8f8-4cbc-8bab-57f348d416f8")
-		)
-		(fp_line
-			(start -4.1 -6.9)
-			(end 1 -6.9)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "5374491f-5dd2-4fb6-99a2-159350106394")
-		)
-		(fp_line
-			(start -0.2 -2.7)
-			(end 4.9 -2.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "eb628753-a944-42b4-a1a6-a6200cb96d29")
-		)
-		(fp_arc
-			(start -6.1 -4.9)
-			(mid -5.514214 -6.314214)
-			(end -4.1 -6.9)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "f9827017-44fe-49c6-b9a2-e2cd4827a1b7")
-		)
-		(fp_arc
-			(start -2.2 -0.7)
-			(mid -1.614214 -2.114214)
-			(end -0.2 -2.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "cd8658c9-6e5b-4548-906e-b6305c4db57e")
-		)
 		(fp_line
 			(start -9.525 -9.525)
 			(end -9.525 9.525)
@@ -44614,7 +40835,7 @@
 			)
 		)
 	)
-	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+	(footprint "My_Footprints:SW_Hotswap_Kailh_MX_1.00u"
 		(layer "F.Cu")
 		(uuid "c984569b-0100-4293-93f3-a7e650787211")
 		(at 233.362 166.687)
@@ -44677,88 +40898,6 @@
 		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -7.1 -7.1)
-			(end -7.1 7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "838d3fcc-eac8-4052-8777-7bb90cdb0501")
-		)
-		(fp_line
-			(start -7.1 7.1)
-			(end 7.1 7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "ae44eeb2-7d6f-4929-a5a9-ee7519d53a28")
-		)
-		(fp_line
-			(start 7.1 -7.1)
-			(end -7.1 -7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "fedc737b-8090-42ec-a998-5fb8f9ad44e0")
-		)
-		(fp_line
-			(start 7.1 7.1)
-			(end 7.1 -7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "3faf4cb2-a71d-4665-a580-e3b0b9f3688a")
-		)
-		(fp_line
-			(start -4.1 -6.9)
-			(end 1 -6.9)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "3423ac8e-6eb9-41ba-a38d-2736d3a0535b")
-		)
-		(fp_line
-			(start -0.2 -2.7)
-			(end 4.9 -2.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "1025bb68-4a69-43df-a0ea-a52c75b95ac9")
-		)
-		(fp_arc
-			(start -6.1 -4.9)
-			(mid -5.514214 -6.314214)
-			(end -4.1 -6.9)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "af5dc0bc-39c4-4319-8b75-424226ad4bdc")
-		)
-		(fp_arc
-			(start -2.2 -0.7)
-			(mid -1.614214 -2.114214)
-			(end -0.2 -2.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "72fd74a0-b92d-4ecc-9b48-6b1c7cc2d88b")
-		)
 		(fp_line
 			(start -9.525 -9.525)
 			(end -9.525 9.525)
@@ -45300,7 +41439,7 @@
 			)
 		)
 	)
-	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+	(footprint "My_Footprints:SW_Hotswap_Kailh_MX_1.00u"
 		(layer "F.Cu")
 		(uuid "cc090e54-1cf4-4484-9308-fbc30a1be09a")
 		(at 257.175 128.5875)
@@ -45363,88 +41502,6 @@
 		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -7.1 -7.1)
-			(end -7.1 7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "966c6349-96db-452b-a54b-42f44d9c7ae2")
-		)
-		(fp_line
-			(start -7.1 7.1)
-			(end 7.1 7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "67cd7107-928d-4bbe-91bd-cdb38774d8d5")
-		)
-		(fp_line
-			(start 7.1 -7.1)
-			(end -7.1 -7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "5cac5deb-a73a-43c9-919e-10aaeeefb7d4")
-		)
-		(fp_line
-			(start 7.1 7.1)
-			(end 7.1 -7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "dfce8406-8b1d-4b2e-8a56-aa05fa13c1d9")
-		)
-		(fp_line
-			(start -4.1 -6.9)
-			(end 1 -6.9)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "f7cb215d-685b-41f3-9ded-2f4ae587e895")
-		)
-		(fp_line
-			(start -0.2 -2.7)
-			(end 4.9 -2.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "4ca3ee91-7f62-445b-b718-c51ec30d4eff")
-		)
-		(fp_arc
-			(start -6.1 -4.9)
-			(mid -5.514214 -6.314214)
-			(end -4.1 -6.9)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "a1ad9012-10b2-4ed6-aea4-ffc14ed73d4a")
-		)
-		(fp_arc
-			(start -2.2 -0.7)
-			(mid -1.614214 -2.114214)
-			(end -0.2 -2.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "b774c9ee-e261-4421-a139-4a4b4753cf85")
-		)
 		(fp_line
 			(start -9.525 -9.525)
 			(end -9.525 9.525)
@@ -45986,7 +42043,7 @@
 			)
 		)
 	)
-	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+	(footprint "My_Footprints:SW_Hotswap_Kailh_MX_1.00u"
 		(layer "F.Cu")
 		(uuid "cc948960-3ac4-4f01-aa17-687ec54bf20b")
 		(at 342.9 128.5875)
@@ -46049,88 +42106,6 @@
 		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -7.1 -7.1)
-			(end -7.1 7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "6b04b9df-a2fd-48bc-ba90-78dc9652d9e5")
-		)
-		(fp_line
-			(start -7.1 7.1)
-			(end 7.1 7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "d107a40b-2d5c-4447-9029-5c17c3a1a925")
-		)
-		(fp_line
-			(start 7.1 -7.1)
-			(end -7.1 -7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "924fac91-1a24-45b4-bbc2-63bd34f3585e")
-		)
-		(fp_line
-			(start 7.1 7.1)
-			(end 7.1 -7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "5574c9b4-8654-44a1-a2ff-6a69defb53dc")
-		)
-		(fp_line
-			(start -4.1 -6.9)
-			(end 1 -6.9)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "71141bf9-1414-471b-b436-6de3b3e9841a")
-		)
-		(fp_line
-			(start -0.2 -2.7)
-			(end 4.9 -2.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "796f1b35-a9b7-4230-8575-32e3c2c35bce")
-		)
-		(fp_arc
-			(start -6.1 -4.9)
-			(mid -5.514214 -6.314214)
-			(end -4.1 -6.9)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "a07d26f9-99a2-48b7-bcd1-0eb8ba4037bb")
-		)
-		(fp_arc
-			(start -2.2 -0.7)
-			(mid -1.614214 -2.114214)
-			(end -0.2 -2.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "8153d6b8-fcff-4f1e-ad67-eb388143e2aa")
-		)
 		(fp_line
 			(start -9.525 -9.525)
 			(end -9.525 9.525)
@@ -46672,7 +42647,7 @@
 			)
 		)
 	)
-	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+	(footprint "My_Footprints:SW_Hotswap_Kailh_MX_1.00u"
 		(layer "F.Cu")
 		(uuid "d1fcd4ba-9f05-4f48-ae74-ad399d7cdee4")
 		(at 276.225 128.5875)
@@ -46735,88 +42710,6 @@
 		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -7.1 -7.1)
-			(end -7.1 7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "409f3272-0f87-4bcc-a103-c9ffe6abe962")
-		)
-		(fp_line
-			(start -7.1 7.1)
-			(end 7.1 7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "2239f296-bd3e-441c-93b8-32b4c0cb49bd")
-		)
-		(fp_line
-			(start 7.1 -7.1)
-			(end -7.1 -7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "31390d2b-e4f3-47a3-abb9-2bcad0f5165e")
-		)
-		(fp_line
-			(start 7.1 7.1)
-			(end 7.1 -7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "7700ce07-700f-4854-ae3f-4aea856a276d")
-		)
-		(fp_line
-			(start -4.1 -6.9)
-			(end 1 -6.9)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "ae7a2aea-c12e-49ae-9dcc-78b7cb7c6273")
-		)
-		(fp_line
-			(start -0.2 -2.7)
-			(end 4.9 -2.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "e86036af-bed2-4d66-975e-677bc9e80888")
-		)
-		(fp_arc
-			(start -6.1 -4.9)
-			(mid -5.514214 -6.314214)
-			(end -4.1 -6.9)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "1ee45b58-278f-431d-b45f-0f58f82782fc")
-		)
-		(fp_arc
-			(start -2.2 -0.7)
-			(mid -1.614214 -2.114214)
-			(end -0.2 -2.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "6e87c67d-151e-49f4-965a-3df3ab72da4e")
-		)
 		(fp_line
 			(start -9.525 -9.525)
 			(end -9.525 9.525)
@@ -47358,7 +43251,7 @@
 			)
 		)
 	)
-	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+	(footprint "My_Footprints:SW_Hotswap_Kailh_MX_1.00u"
 		(layer "F.Cu")
 		(uuid "d5661283-6764-4fc3-af10-47ab304b90a2")
 		(at 152.4 109.5375)
@@ -47421,88 +43314,6 @@
 		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -7.1 -7.1)
-			(end -7.1 7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "95b01ef5-4b0d-493d-bed5-e28f023e3a84")
-		)
-		(fp_line
-			(start -7.1 7.1)
-			(end 7.1 7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "1c28db87-2a5f-4f86-8635-075a5d4c8e43")
-		)
-		(fp_line
-			(start 7.1 -7.1)
-			(end -7.1 -7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "ed798ee3-37b7-4e8c-b6c9-cac0d3b620a3")
-		)
-		(fp_line
-			(start 7.1 7.1)
-			(end 7.1 -7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "c413d391-4620-47b0-9240-64a796e3d4fe")
-		)
-		(fp_line
-			(start -4.1 -6.9)
-			(end 1 -6.9)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "1a1141d1-8d69-40f9-879a-3b80e94a6627")
-		)
-		(fp_line
-			(start -0.2 -2.7)
-			(end 4.9 -2.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "1f526a31-fc31-43a2-87ca-f2f0f5815cb6")
-		)
-		(fp_arc
-			(start -6.1 -4.9)
-			(mid -5.514214 -6.314214)
-			(end -4.1 -6.9)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "99b70642-f948-424a-8944-bdffbc728b67")
-		)
-		(fp_arc
-			(start -2.2 -0.7)
-			(mid -1.614214 -2.114214)
-			(end -0.2 -2.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "3467d8ed-5a9c-4797-8f45-6a2802ad2317")
-		)
 		(fp_line
 			(start -9.525 -9.525)
 			(end -9.525 9.525)
@@ -48044,7 +43855,7 @@
 			)
 		)
 	)
-	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+	(footprint "My_Footprints:SW_Hotswap_Kailh_MX_1.00u"
 		(layer "F.Cu")
 		(uuid "d6a6bec3-f510-4632-ad9e-6991c300ad00")
 		(at 271.462 166.687)
@@ -48107,88 +43918,6 @@
 		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -7.1 -7.1)
-			(end -7.1 7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "f4120bcb-6c53-4db8-82d5-9301c1e55e6c")
-		)
-		(fp_line
-			(start -7.1 7.1)
-			(end 7.1 7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "e03ecfb5-db17-4d42-a6fb-c55140f7441e")
-		)
-		(fp_line
-			(start 7.1 -7.1)
-			(end -7.1 -7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "7d1cb281-20d4-4e86-9be9-0dcb26c8b8ba")
-		)
-		(fp_line
-			(start 7.1 7.1)
-			(end 7.1 -7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "f76dcead-e3e9-471d-b78a-425570fdd058")
-		)
-		(fp_line
-			(start -4.1 -6.9)
-			(end 1 -6.9)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "2e49f327-cc70-45ac-b1e0-a9bfeb9f1c34")
-		)
-		(fp_line
-			(start -0.2 -2.7)
-			(end 4.9 -2.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "8be499a6-6ac6-4199-847f-1809f46845b9")
-		)
-		(fp_arc
-			(start -6.1 -4.9)
-			(mid -5.514214 -6.314214)
-			(end -4.1 -6.9)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "8cc865f1-7e72-43e6-b12a-3e69c8be6107")
-		)
-		(fp_arc
-			(start -2.2 -0.7)
-			(mid -1.614214 -2.114214)
-			(end -0.2 -2.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "f2cf4606-b287-4f74-ba4b-399e2f94cbed")
-		)
 		(fp_line
 			(start -9.525 -9.525)
 			(end -9.525 9.525)
@@ -48730,7 +44459,7 @@
 			)
 		)
 	)
-	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+	(footprint "My_Footprints:SW_Hotswap_Kailh_MX_1.00u"
 		(layer "F.Cu")
 		(uuid "d8bb0d0d-41e5-4ef0-b433-40a22d6133e3")
 		(at 119.062 166.687)
@@ -48793,88 +44522,6 @@
 		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -7.1 -7.1)
-			(end -7.1 7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "ed7ccb37-b9da-4cb4-810b-e7e2f857b40c")
-		)
-		(fp_line
-			(start -7.1 7.1)
-			(end 7.1 7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "cde357c5-e518-4706-b334-807b3892c24e")
-		)
-		(fp_line
-			(start 7.1 -7.1)
-			(end -7.1 -7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "38ac6cf1-0cea-48dd-b91b-9e0441afc151")
-		)
-		(fp_line
-			(start 7.1 7.1)
-			(end 7.1 -7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "12d1a692-dd48-4807-a051-0abad7a31598")
-		)
-		(fp_line
-			(start -4.1 -6.9)
-			(end 1 -6.9)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "47db7c39-d14a-4e4b-8e29-bcdd0dd6df51")
-		)
-		(fp_line
-			(start -0.2 -2.7)
-			(end 4.9 -2.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "f5b3627d-0d2d-4512-bb42-4925ed13cff6")
-		)
-		(fp_arc
-			(start -6.1 -4.9)
-			(mid -5.514214 -6.314214)
-			(end -4.1 -6.9)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "acdb77fa-61a8-473c-8b77-e949bfbaab99")
-		)
-		(fp_arc
-			(start -2.2 -0.7)
-			(mid -1.614214 -2.114214)
-			(end -0.2 -2.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "90d372dd-8ee1-46fe-aebd-75691f882407")
-		)
 		(fp_line
 			(start -9.525 -9.525)
 			(end -9.525 9.525)
@@ -49575,7 +45222,7 @@
 			)
 		)
 	)
-	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+	(footprint "My_Footprints:SW_Hotswap_Kailh_MX_1.00u"
 		(layer "F.Cu")
 		(uuid "db0c629e-f4eb-4a5a-be7c-7946ee9df3b4")
 		(at 123.825 128.5875)
@@ -49638,88 +45285,6 @@
 		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -7.1 -7.1)
-			(end -7.1 7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "98745bb7-92b6-49f0-bf24-e1a070d3870e")
-		)
-		(fp_line
-			(start -7.1 7.1)
-			(end 7.1 7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "9b520093-e3e1-48f7-b002-342500c8d36b")
-		)
-		(fp_line
-			(start 7.1 -7.1)
-			(end -7.1 -7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "34ee8d49-056d-47f9-b9e3-a586fd0355f0")
-		)
-		(fp_line
-			(start 7.1 7.1)
-			(end 7.1 -7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "036c235a-ea4d-4d6b-bc2b-a427eb62a490")
-		)
-		(fp_line
-			(start -4.1 -6.9)
-			(end 1 -6.9)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "19c2acd8-e57c-4806-9108-3704cc6416fc")
-		)
-		(fp_line
-			(start -0.2 -2.7)
-			(end 4.9 -2.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "fcd8b59d-84b1-4a5e-907d-62d5c1ed8796")
-		)
-		(fp_arc
-			(start -6.1 -4.9)
-			(mid -5.514214 -6.314214)
-			(end -4.1 -6.9)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "9f7cefd8-2832-432f-8805-ab3947174f38")
-		)
-		(fp_arc
-			(start -2.2 -0.7)
-			(mid -1.614214 -2.114214)
-			(end -0.2 -2.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "41a36d23-43ad-4744-91cd-68b9e47551e1")
-		)
 		(fp_line
 			(start -9.525 -9.525)
 			(end -9.525 9.525)
@@ -50480,7 +46045,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+	(footprint "My_Footprints:SW_Hotswap_Kailh_MX_1.00u"
 		(layer "F.Cu")
 		(uuid "dcbdbf7b-481b-47a0-a6aa-8bf1130f52e1")
 		(at 214.312 166.687)
@@ -50543,88 +46108,6 @@
 		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -7.1 -7.1)
-			(end -7.1 7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "2f63bc2b-6890-4e92-b1f1-473608b6ad59")
-		)
-		(fp_line
-			(start -7.1 7.1)
-			(end 7.1 7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "a410231b-d051-4b93-be91-c46915dc23c5")
-		)
-		(fp_line
-			(start 7.1 -7.1)
-			(end -7.1 -7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "609bc958-e082-4bae-82dd-b4a581a57915")
-		)
-		(fp_line
-			(start 7.1 7.1)
-			(end 7.1 -7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "d9ab8181-6a6e-4c90-bd41-c14c8c40770e")
-		)
-		(fp_line
-			(start -4.1 -6.9)
-			(end 1 -6.9)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "1113091f-d8ea-4395-801e-7576fc80dc74")
-		)
-		(fp_line
-			(start -0.2 -2.7)
-			(end 4.9 -2.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "3a776b1f-5429-4c06-abf8-c01f8a7cd900")
-		)
-		(fp_arc
-			(start -6.1 -4.9)
-			(mid -5.514214 -6.314214)
-			(end -4.1 -6.9)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "ee072662-c63d-4147-90ee-cd42be199843")
-		)
-		(fp_arc
-			(start -2.2 -0.7)
-			(mid -1.614214 -2.114214)
-			(end -0.2 -2.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "f0b7a784-4a08-44a3-bff1-2b836d4c63f8")
-		)
 		(fp_line
 			(start -9.525 -9.525)
 			(end -9.525 9.525)
@@ -51166,7 +46649,7 @@
 			)
 		)
 	)
-	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+	(footprint "My_Footprints:SW_Hotswap_Kailh_MX_1.00u"
 		(layer "F.Cu")
 		(uuid "dccb4408-0635-4eb8-a711-0132b6822901")
 		(at 223.8375 147.6375)
@@ -51229,88 +46712,6 @@
 		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -7.1 -7.1)
-			(end -7.1 7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "c7e80a07-ebe7-47b0-83ae-7f0ef0e3d75c")
-		)
-		(fp_line
-			(start -7.1 7.1)
-			(end 7.1 7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "f1bd2cae-adb7-4061-a795-02aa5778db8a")
-		)
-		(fp_line
-			(start 7.1 -7.1)
-			(end -7.1 -7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "8c706eea-3f8d-41f8-8ade-e9f412798fd2")
-		)
-		(fp_line
-			(start 7.1 7.1)
-			(end 7.1 -7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "8b05fc9d-2c74-40ba-9e56-d5153ba200d0")
-		)
-		(fp_line
-			(start -4.1 -6.9)
-			(end 1 -6.9)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "d6754d25-1656-4eb6-a1c3-76b7b75fb824")
-		)
-		(fp_line
-			(start -0.2 -2.7)
-			(end 4.9 -2.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "c00f8acb-9197-4404-83d2-02b5796bb737")
-		)
-		(fp_arc
-			(start -6.1 -4.9)
-			(mid -5.514214 -6.314214)
-			(end -4.1 -6.9)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "0f3a8266-7d8f-4306-8fa2-69bf11263c3b")
-		)
-		(fp_arc
-			(start -2.2 -0.7)
-			(mid -1.614214 -2.114214)
-			(end -0.2 -2.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "499fc848-fadf-4c95-859f-4c97a15ca251")
-		)
 		(fp_line
 			(start -9.525 -9.525)
 			(end -9.525 9.525)
@@ -51852,7 +47253,7 @@
 			)
 		)
 	)
-	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+	(footprint "My_Footprints:SW_Hotswap_Kailh_MX_1.00u"
 		(layer "F.Cu")
 		(uuid "ddb90c6e-2395-4b49-8544-1ba87e8efcec")
 		(at 104.775 128.5875)
@@ -51915,88 +47316,6 @@
 		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -7.1 -7.1)
-			(end -7.1 7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "1741ebb7-873b-41cc-9478-be29ca43e40c")
-		)
-		(fp_line
-			(start -7.1 7.1)
-			(end 7.1 7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "962e25d6-de28-41b6-b360-14c0ccb9e7db")
-		)
-		(fp_line
-			(start 7.1 -7.1)
-			(end -7.1 -7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "dceeb9d5-dd3f-4279-8aac-e5aa623ee0a1")
-		)
-		(fp_line
-			(start 7.1 7.1)
-			(end 7.1 -7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "9b26cb0d-47b7-492c-b0ff-357b86c53251")
-		)
-		(fp_line
-			(start -4.1 -6.9)
-			(end 1 -6.9)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "cf27b01a-918d-4411-a8c8-86c516e02850")
-		)
-		(fp_line
-			(start -0.2 -2.7)
-			(end 4.9 -2.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "deceb13c-1a29-4876-acf6-f4229903272a")
-		)
-		(fp_arc
-			(start -6.1 -4.9)
-			(mid -5.514214 -6.314214)
-			(end -4.1 -6.9)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "9ea336b2-5bdb-4bd4-b65c-f5520b7e7e8b")
-		)
-		(fp_arc
-			(start -2.2 -0.7)
-			(mid -1.614214 -2.114214)
-			(end -0.2 -2.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "620c2144-c5a3-4205-b967-47f0a84c0086")
-		)
 		(fp_line
 			(start -9.525 -9.525)
 			(end -9.525 9.525)
@@ -52538,7 +47857,7 @@
 			)
 		)
 	)
-	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.75u"
+	(footprint "My_Footprints:SW_Hotswap_Kailh_MX_1.75u"
 		(layer "F.Cu")
 		(uuid "e2a91186-8ee0-44f7-acb9-c80fe290de47")
 		(at 64.29375 147.6375)
@@ -52601,88 +47920,6 @@
 		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -7.1 -7.1)
-			(end -7.1 7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "66b2904f-c938-4583-9a67-d54e5ae17c5a")
-		)
-		(fp_line
-			(start -7.1 7.1)
-			(end 7.1 7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "4cef78ca-a7a6-41c0-b226-fbf64603f087")
-		)
-		(fp_line
-			(start 7.1 -7.1)
-			(end -7.1 -7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "e7327230-87d7-4dd5-a667-c42d50dc42f3")
-		)
-		(fp_line
-			(start 7.1 7.1)
-			(end 7.1 -7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "b5346527-ed0b-4c1f-be43-239f52a42db1")
-		)
-		(fp_line
-			(start -4.1 -6.9)
-			(end 1 -6.9)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "444c21ed-64c9-4603-8f8b-7757d2b66ecc")
-		)
-		(fp_line
-			(start -0.2 -2.7)
-			(end 4.9 -2.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "38fee0a2-0995-4665-af1c-d7ffe913c21b")
-		)
-		(fp_arc
-			(start -6.1 -4.9)
-			(mid -5.514214 -6.314214)
-			(end -4.1 -6.9)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "fc2babb2-5cd0-481d-928f-557b8f9277fa")
-		)
-		(fp_arc
-			(start -2.2 -0.7)
-			(mid -1.614214 -2.114214)
-			(end -0.2 -2.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "f4fc58bb-4225-4c73-af22-30c20db529f3")
-		)
 		(fp_line
 			(start -16.66875 -9.525)
 			(end -16.66875 9.525)
@@ -53224,14 +48461,14 @@
 			)
 		)
 	)
-	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+	(footprint "My_Footprints:SW_Hotswap_Kailh_MX_1.00u"
 		(layer "F.Cu")
 		(uuid "e2b585cd-0cf7-4168-bf0c-523d503933f6")
 		(at 228.6 109.5375)
 		(descr "Kailh keyswitch Hotswap Socket Keycap 1.00u")
 		(tags "Kailh Keyboard Keyswitch Switch Hotswap Socket Relief Cutout Keycap 1.00u")
 		(property "Reference" "K10"
-			(at 0 -7.9375 0)
+			(at 0 -8 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "e7c34a4f-0e8c-4f39-bbe7-d66fa32078fd")
@@ -53287,88 +48524,6 @@
 		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -7.1 -7.1)
-			(end -7.1 7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "a78d44ed-3df3-4fb6-90d0-9863e194bc55")
-		)
-		(fp_line
-			(start -7.1 7.1)
-			(end 7.1 7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "4ad8e4d7-e52c-4bb3-9c66-75110c614ba1")
-		)
-		(fp_line
-			(start 7.1 -7.1)
-			(end -7.1 -7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "f2a923f4-9e38-4273-8a65-cce629e4d38f")
-		)
-		(fp_line
-			(start 7.1 7.1)
-			(end 7.1 -7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "1c4980a8-0ae1-4533-afcd-5a1f126bccaf")
-		)
-		(fp_line
-			(start -4.1 -6.9)
-			(end 1 -6.9)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "dcb177df-b1ae-4313-98e1-39c0e1709eb6")
-		)
-		(fp_line
-			(start -0.2 -2.7)
-			(end 4.9 -2.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "da8a48ff-e888-44fe-b491-52658ec6b1ef")
-		)
-		(fp_arc
-			(start -6.1 -4.9)
-			(mid -5.514214 -6.314214)
-			(end -4.1 -6.9)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "bc25d66c-afb8-41f2-9815-014aa205284d")
-		)
-		(fp_arc
-			(start -2.2 -0.7)
-			(mid -1.614214 -2.114214)
-			(end -0.2 -2.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "7a148583-23dd-402b-900e-7a93b5c56142")
-		)
 		(fp_line
 			(start -9.525 -9.525)
 			(end -9.525 9.525)
@@ -53910,7 +49065,7 @@
 			)
 		)
 	)
-	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+	(footprint "My_Footprints:SW_Hotswap_Kailh_MX_1.00u"
 		(layer "F.Cu")
 		(uuid "e38ad1de-546f-4106-abe6-884456afd8f1")
 		(at 342.9 166.687)
@@ -53973,88 +49128,6 @@
 		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -7.1 -7.1)
-			(end -7.1 7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "478f8ed8-2aea-474d-bc81-706a2d933e4c")
-		)
-		(fp_line
-			(start -7.1 7.1)
-			(end 7.1 7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "19b6b210-4c82-41cb-b5d4-e0522351e56d")
-		)
-		(fp_line
-			(start 7.1 -7.1)
-			(end -7.1 -7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "e985c849-6cbc-449d-9876-6ba38a145a6c")
-		)
-		(fp_line
-			(start 7.1 7.1)
-			(end 7.1 -7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "f611658c-589d-419b-b1c5-400f8dd64319")
-		)
-		(fp_line
-			(start -4.1 -6.9)
-			(end 1 -6.9)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "58473184-c15b-4aec-9f3f-b1eb642e36bc")
-		)
-		(fp_line
-			(start -0.2 -2.7)
-			(end 4.9 -2.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "e32dfbfb-06f1-466f-9296-61c4d15fc67b")
-		)
-		(fp_arc
-			(start -6.1 -4.9)
-			(mid -5.514214 -6.314214)
-			(end -4.1 -6.9)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "e6aa8181-b7ae-4619-9a17-c9975698da54")
-		)
-		(fp_arc
-			(start -2.2 -0.7)
-			(mid -1.614214 -2.114214)
-			(end -0.2 -2.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "e2f9f6a4-7105-4799-815d-ddada015c251")
-		)
 		(fp_line
 			(start -9.525 -9.525)
 			(end -9.525 9.525)
@@ -54988,7 +50061,7 @@
 			)
 		)
 	)
-	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+	(footprint "My_Footprints:SW_Hotswap_Kailh_MX_1.00u"
 		(layer "F.Cu")
 		(uuid "f1445af4-44ad-4b90-b622-940b70dceaac")
 		(at 242.8875 147.6375)
@@ -55051,88 +50124,6 @@
 		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -7.1 -7.1)
-			(end -7.1 7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "8c52792d-a8fe-4e53-9cfb-7f64c34bf9fc")
-		)
-		(fp_line
-			(start -7.1 7.1)
-			(end 7.1 7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "48016c5a-3ab3-4395-a03d-fddb41bfde09")
-		)
-		(fp_line
-			(start 7.1 -7.1)
-			(end -7.1 -7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "d03e44e7-e1a0-46c7-b6ac-29e61d50e9ec")
-		)
-		(fp_line
-			(start 7.1 7.1)
-			(end 7.1 -7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "f1c5cbb7-f8f5-41ef-895b-98b374a50fcc")
-		)
-		(fp_line
-			(start -4.1 -6.9)
-			(end 1 -6.9)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "8325a4f8-080e-497e-a342-fdfcef8587f5")
-		)
-		(fp_line
-			(start -0.2 -2.7)
-			(end 4.9 -2.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "a062d002-7488-4323-9f0d-dea4ba904b07")
-		)
-		(fp_arc
-			(start -6.1 -4.9)
-			(mid -5.514214 -6.314214)
-			(end -4.1 -6.9)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "d3d07b94-a66f-4f1d-a42f-b69036be360c")
-		)
-		(fp_arc
-			(start -2.2 -0.7)
-			(mid -1.614214 -2.114214)
-			(end -0.2 -2.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "84e76498-ba5b-4ce5-950d-5a3e6e8a1339")
-		)
 		(fp_line
 			(start -9.525 -9.525)
 			(end -9.525 9.525)
@@ -56052,7 +51043,7 @@
 			)
 		)
 	)
-	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+	(footprint "My_Footprints:SW_Hotswap_Kailh_MX_1.00u"
 		(layer "F.Cu")
 		(uuid "f8bb1593-f279-423d-8031-6ee563cfdb3f")
 		(at 342.9 109.5375)
@@ -56115,88 +51106,6 @@
 		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -7.1 -7.1)
-			(end -7.1 7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "163b4a46-e57a-44da-a7f6-727536e39c5e")
-		)
-		(fp_line
-			(start -7.1 7.1)
-			(end 7.1 7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "91c8b064-21a2-432d-8a31-8803ee88278f")
-		)
-		(fp_line
-			(start 7.1 -7.1)
-			(end -7.1 -7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "ed8fe54c-0b7a-44f2-a993-3803b4c71333")
-		)
-		(fp_line
-			(start 7.1 7.1)
-			(end 7.1 -7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "c4116712-2798-4560-9849-b01de41d3f98")
-		)
-		(fp_line
-			(start -4.1 -6.9)
-			(end 1 -6.9)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "2bc65080-4703-49b3-bb5b-070c0e5a3fb0")
-		)
-		(fp_line
-			(start -0.2 -2.7)
-			(end 4.9 -2.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "68d1d248-8b87-485a-9506-e7a26ca72f53")
-		)
-		(fp_arc
-			(start -6.1 -4.9)
-			(mid -5.514214 -6.314214)
-			(end -4.1 -6.9)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "2b91713d-5933-4393-aa3b-5e175285f26b")
-		)
-		(fp_arc
-			(start -2.2 -0.7)
-			(mid -1.614214 -2.114214)
-			(end -0.2 -2.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "8ce2204e-0e62-4481-8212-9a4f98dbe98a")
-		)
 		(fp_line
 			(start -9.525 -9.525)
 			(end -9.525 9.525)
@@ -57056,7 +51965,7 @@
 			)
 		)
 	)
-	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+	(footprint "My_Footprints:SW_Hotswap_Kailh_MX_1.00u"
 		(layer "F.Cu")
 		(uuid "ff7ffd24-4ae5-44c3-b0b6-19f981b1eea7")
 		(at 342.9 147.6375)
@@ -57119,88 +52028,6 @@
 		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -7.1 -7.1)
-			(end -7.1 7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "989899c0-8323-482e-a062-c92e5ce616ca")
-		)
-		(fp_line
-			(start -7.1 7.1)
-			(end 7.1 7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "6acaaeb0-33c3-4895-91d9-4fa2ac292af3")
-		)
-		(fp_line
-			(start 7.1 -7.1)
-			(end -7.1 -7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "8ee54a90-b753-48c7-a59a-8f1d006c0490")
-		)
-		(fp_line
-			(start 7.1 7.1)
-			(end 7.1 -7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "5a7db70d-c117-4464-8ce9-cc9fa0c180e9")
-		)
-		(fp_line
-			(start -4.1 -6.9)
-			(end 1 -6.9)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "823125d8-167d-4a4f-a541-e1662dfee458")
-		)
-		(fp_line
-			(start -0.2 -2.7)
-			(end 4.9 -2.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "dbff3798-d56e-4cb3-8b14-d564c2b23916")
-		)
-		(fp_arc
-			(start -6.1 -4.9)
-			(mid -5.514214 -6.314214)
-			(end -4.1 -6.9)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "dc6212ea-7630-450d-9089-73b0eda5ea9a")
-		)
-		(fp_arc
-			(start -2.2 -0.7)
-			(mid -1.614214 -2.114214)
-			(end -0.2 -2.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "54d59db4-db36-4141-a602-3c6dd5eb8e16")
-		)
 		(fp_line
 			(start -9.525 -9.525)
 			(end -9.525 9.525)
