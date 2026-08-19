@@ -126,6 +126,3 @@ img = binary_erosion(img, kernel)
 # img = binary_erosion(img, kernel)
 out = Image.fromarray(img * np.uint8(255))
 out.save("out.png")
-
-out_small = out.resize((112, 132))
-out_small.save("out_small.png")
