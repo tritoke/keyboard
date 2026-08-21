@@ -189963,6 +189963,18 @@
 			(justify left bottom mirror)
 		)
 	)
+	(barcode
+		(at 231.5 88.5 0)
+		(layer "B.SilkS")
+		(size 10 10)
+		(text "https://github.com/tritoke/keyboard")
+		(text_height 1)
+		(type qr)
+		(ecc_level L)
+		(hide no)
+		(knockout no)
+		(uuid "babe68f7-efb8-4510-9b99-b9f835564d63")
+	)
 	(segment
 		(start 229 89.25)
 		(end 229.7 89.95)
