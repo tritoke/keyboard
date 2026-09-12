@@ -1,2 +1,8 @@
 Dongle programming notes:
 - https://devzone.nordicsemi.com/guides/short-range-guides/b/getting-started/posts/nrf52840-dongle-programming-tutorial
+
+NRF util download:
+- https://www.nordicsemi.com/Products/Development-tools/nRF-Util/Download#infotabs
+
+Rust programming with probe-run:
+- https://nitschinger.at/Getting-Started-with-the-nRF52840-in-Rust/
