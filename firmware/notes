@@ -6,3 +6,6 @@ NRF util download:
 
 Rust programming with probe-run:
 - https://nitschinger.at/Getting-Started-with-the-nRF52840-in-Rust/
+
+- knorling tool to program the board:
+  https://github.com/knurling-rs/nrfdfu-rs
