@@ -193796,6 +193796,17 @@
 		(size 0.55)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curved_edges no)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
 		(net "/~{RESET}")
 		(uuid "4eba0749-0940-4185-b976-67b741ea61e6")
 	)
@@ -199317,6 +199328,73 @@
 		(layer "B.Cu")
 		(net "Net-(U3-CS)")
 		(uuid "70478cb8-ae8d-4dd4-ac1a-3ea6cf65541a")
+	)
+	(zone
+		(net "/~{RESET}")
+		(layer "F.Cu")
+		(hatch none 0.1)
+		(priority 30000)
+		(attr
+			(teardrop
+				(type padvia)
+			)
+		)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0.0254)
+		(fill yes
+			(island_removal_mode 1)
+		)
+		(polygon
+			(pts
+				(xy 231.923747 91.75) (xy 231.923747 91.65) (xy 231.709953 91.608459) (xy 231.372747 91.7) (xy 231.45077 91.791541)
+			)
+		)
+		(filled_polygon
+			(layer "F.Cu")
+			(pts
+				(xy 231.894654 91.644347) (xy 231.896883 91.645018) (xy 231.910118 91.6505) (xy 231.91012 91.6505)
+				(xy 231.912047 91.6505) (xy 231.92032 91.653927) (xy 231.923747 91.6622) (xy 231.923747 91.739282)
+				(xy 231.92032 91.747555) (xy 231.913071 91.750937) (xy 231.775897 91.762985) (xy 231.770396 91.762139)
+				(xy 231.739884 91.7495) (xy 231.739882 91.7495) (xy 231.660118 91.7495) (xy 231.660115 91.7495)
+				(xy 231.589305 91.77883) (xy 231.585852 91.779676) (xy 231.456783 91.791012) (xy 231.448241 91.788322)
+				(xy 231.446855 91.786947) (xy 231.384718 91.714045) (xy 231.381959 91.705525) (xy 231.386032 91.697551)
+				(xy 231.390552 91.695166) (xy 231.70733 91.60917) (xy 231.712619 91.608977)
+			)
+		)
+	)
+	(zone
+		(net "/~{RESET}")
+		(layer "B.Cu")
+		(hatch none 0.1)
+		(priority 30000)
+		(attr
+			(teardrop
+				(type padvia)
+			)
+		)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0.0254)
+		(fill yes
+			(island_removal_mode 1)
+		)
+		(polygon
+			(pts
+				(xy 230.932104 91.3) (xy 230.932104 91.5) (xy 231.178984 91.558459) (xy 231.483104 91.4) (xy 231.45077 91.241541)
+			)
+		)
+		(filled_polygon
+			(layer "B.Cu")
+			(pts
+				(xy 231.448739 91.245217) (xy 231.452909 91.252026) (xy 231.48134 91.39136) (xy 231.479636 91.400151)
+				(xy 231.475282 91.404075) (xy 231.182846 91.556446) (xy 231.174744 91.557455) (xy 230.941108 91.502132)
+				(xy 230.933847 91.496891) (xy 230.932104 91.490747) (xy 230.932104 91.310454) (xy 230.935531 91.302181)
+				(xy 230.942491 91.298829) (xy 231.440136 91.242739)
+			)
+		)
 	)
 	(zone
 		(net "VBUS")
