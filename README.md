@@ -15,6 +15,14 @@ Progress:
 
 Revision 1 of the PCB is now complete:
 
-![A render in kicad of the front of the PCB](pcb/pcb_render_front.png)
+![A render in kicad of the front of the PCB](assets/pcb_render_front.png)
 
-![A render in kicad of the back of the PCB](pcb/pcb_render_back.png)
+![A render in kicad of the back of the PCB](assets/pcb_render_back.png)
+
+Schematic:
+
+![The top level schematic for the keybord](assets/main_schematic.png)
+
+![The keyboard matrix schematic](assets/key_matrix.png)
+
+![The schematic for the power components of the keyboard](assets/power.png)
